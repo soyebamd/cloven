@@ -68,14 +68,6 @@
     "clovent_feature_product_XTAJMh": {
       "type": "clovent-feature-product",
       "blocks": {
-        "text_8UbMbX": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title_tdWz8f": {
           "type": "title",
           "settings": {
@@ -86,6 +78,14 @@
           "type": "text",
           "settings": {
             "text": "Made With: Regenerative Tallow, Yucca, Green Tea, Calendula and Neroli Extract",
+            "text_style": "body"
+          }
+        },
+        "text_8UbMbX": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "$54",
             "text_style": "body"
           }
         },
@@ -122,9 +122,9 @@
         }
       },
       "block_order": [
-        "text_8UbMbX",
         "title_tdWz8f",
         "text_ANXewY",
+        "text_8UbMbX",
         "price_dXnXLW",
         "variant_picker_TP8tjz",
         "quantity_selector_pr9qDK",
@@ -214,6 +214,7 @@
         "buy_buttons",
         "share"
       ],
+      "disabled": true,
       "settings": {
         "product": "whipped-tallow-balm",
         "color_scheme": "scheme-e52ac7d6-3393-41bf-93f9-48f28b364730",
