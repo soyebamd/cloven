@@ -170,8 +170,8 @@
         "settings": {
           "background": "#fafaf7",
           "background_gradient": "",
-          "text": "#11151c",
-          "button": "#11151c",
+          "text": "#333333",
+          "button": "#995e43",
           "button_label": "#ffffff",
           "secondary_button_label": "#11151c",
           "shadow": "#11151c"
