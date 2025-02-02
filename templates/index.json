@@ -9,27 +9,27 @@
  */
 {
   "sections": {
-    "image_banner_FLiGdN": {
-      "type": "image-banner",
+    "cloven_image_banner_pVfg38": {
+      "type": "cloven-image-banner",
       "blocks": {
-        "heading_THNaDf": {
+        "heading_NkRfVK": {
           "type": "heading",
           "settings": {
-            "heading": "GLOW",
+            "heading": "Image banner",
             "heading_size": "h1"
           }
         },
-        "text_6A9cPU": {
+        "text_VyzYDh": {
           "type": "text",
           "settings": {
-            "text": "Crafted with powerful natural ingredients, this whipped balm soothes, hydrates and awakens your complexion; imbuing skin with vitamins and the ancestral power of tallow.",
+            "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
           }
         },
-        "buttons_6rJJje": {
+        "buttons_3BQM8k": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Cloven",
+            "button_label_1": "Button label",
             "button_link_1": "#",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -39,18 +39,18 @@
         }
       },
       "block_order": [
-        "heading_THNaDf",
-        "text_6A9cPU",
-        "buttons_6rJJje"
+        "heading_NkRfVK",
+        "text_VyzYDh",
+        "buttons_3BQM8k"
       ],
       "settings": {
         "image": "shopify://shop_images/banner-image.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-right",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -701,7 +701,7 @@
     }
   },
   "order": [
-    "image_banner_FLiGdN",
+    "cloven_image_banner_pVfg38",
     "featured-product",
     "image-banner",
     "multicolumn_QB3RDD",
