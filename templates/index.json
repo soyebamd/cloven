@@ -123,7 +123,8 @@
         "share_EHTYf8"
       ],
       "settings": {
-        "product": "whipped-tallow-balm",
+        "product": "tallow-face-balm-copy",
+        "flex_colum": true,
         "color_scheme": "",
         "secondary_background": false,
         "media_size": "small",
