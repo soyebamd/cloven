@@ -327,7 +327,9 @@
           "type": "heading",
           "settings": {
             "heading": "Glow & Tell",
-            "heading_size": "h0"
+            "heading_size": "h0",
+            "heading_2": "Talk about your brand",
+            "heading_size_2": "h1"
           }
         }
       },
@@ -437,7 +439,9 @@
           "type": "heading",
           "settings": {
             "heading": "Clean Beauty. Timeless Purity.",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "heading_2": "Talk about your brand",
+            "heading_size_2": "h1"
           }
         },
         "text_thDeew": {
@@ -745,7 +749,9 @@
           "type": "heading",
           "settings": {
             "heading": "We’re Here to Help",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "heading_2": "Talk about your brand",
+            "heading_size_2": "h1"
           }
         },
         "text_x8DJyq": {
@@ -789,6 +795,50 @@
         "padding_top": 28,
         "padding_bottom": 100
       }
+    },
+    "rich_text_WYwcUL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fJARXz": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Regenerative,</strong> ranch raised",
+            "heading_size": "h1",
+            "heading_2": "Tallow Balm",
+            "heading_size_2": "h1"
+          }
+        },
+        "text_Mz4WTt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_pRJkVx": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fJARXz",
+        "text_Mz4WTt",
+        "button_pRJkVx"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -806,6 +856,7 @@
     "image_banner_eezadb",
     "collapsible_content_VGUfeb",
     "rich_text_qbgAAV",
-    "contact_form_b4nbe7"
+    "contact_form_b4nbe7",
+    "rich_text_WYwcUL"
   ]
 }
