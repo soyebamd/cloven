@@ -68,14 +68,6 @@
     "clovent_feature_product_XTAJMh": {
       "type": "clovent-feature-product",
       "blocks": {
-        "text_8UbMbX": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title_tdWz8f": {
           "type": "title",
           "settings": {
@@ -89,8 +81,16 @@
             "text_style": "body"
           }
         },
+        "text_8UbMbX": {
+          "type": "text",
+          "settings": {
+            "text": "$54",
+            "text_style": "body"
+          }
+        },
         "price_dXnXLW": {
           "type": "price",
+          "disabled": true,
           "settings": {}
         },
         "variant_picker_TP8tjz": {
@@ -122,9 +122,9 @@
         }
       },
       "block_order": [
-        "text_8UbMbX",
         "title_tdWz8f",
         "text_ANXewY",
+        "text_8UbMbX",
         "price_dXnXLW",
         "variant_picker_TP8tjz",
         "quantity_selector_pr9qDK",
