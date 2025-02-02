@@ -76,23 +76,7 @@
     font-family: "degular-variable";
 }
 
-.border-style{
-    position:relative;
-}
 
-.border-style:before{
-    content:'';
-       max-width: 700px;
-    height: 100%;
-    border: solid 1px #e3d5cd;
-    position: absolute;
-    width: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    border-bottom: 0;
-    z-index: -1;
-    top: 130px;
-}
 
   {%- endstyle -%}
 
@@ -124,7 +108,7 @@
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
 
   <section class="cloven-product color-{{ section.settings.color_scheme }} {% if section.settings.secondary_background %}background-secondary{% else %}gradient{% endif %}">
-    <div class="page-width border-style section-{{ section.id }}-padding{% if section.settings.secondary_background %} isolate{% endif %}">
+    <div class="page-width  section-{{ section.id }}-padding{% if section.settings.secondary_background %} isolate{% endif %}">
       <div class="featured-product border-style
 
       {% if section.settings.flex_colum %}
