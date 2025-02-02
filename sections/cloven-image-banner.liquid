@@ -119,6 +119,23 @@
     <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
+
+
+        
+
+
+         {%- when 'caption' -%}
+            <p
+              class="banner__heading inline-richtext {{ block.settings.text_style }}"
+              {{ block.shopify_attributes }}
+            >
+              {{ block.settings.header_text }}
+            </p>
+
+
+
+
+
           {%- when 'heading' -%}
             <h2
               class="banner__heading inline-richtext {{ block.settings.heading_size }}"
@@ -175,6 +192,8 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+
+  
     {
       "type": "image_picker",
       "id": "image",
@@ -367,6 +386,7 @@
       "name": "t:sections.image-banner.blocks.heading.name",
       "limit": 1,
       "settings": [
+        
         {
           "type": "inline_richtext",
           "id": "heading",
@@ -400,6 +420,39 @@
           ],
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
+        }
+      ]
+    },
+     {
+      "type": "caption",
+      "name": "t:sections.image-banner.blocks.text.name",
+      "limit": 1,
+      "settings": [
+          {
+        "type": "text",
+        "id": "header_text",
+        "label": "Header Text",
+        "default": "Welcome to our store"
+      },
+        {
+          "type": "select",
+          "id": "text_style",
+          "options": [
+            {
+              "value": "body",
+              "label": "t:sections.image-banner.blocks.text.settings.text_style.options__1.label"
+            },
+            {
+              "value": "subtitle",
+              "label": "t:sections.image-banner.blocks.text.settings.text_style.options__2.label"
+            },
+            {
+              "value": "caption-with-letter-spacing",
+              "label": "t:sections.image-banner.blocks.text.settings.text_style.options__3.label"
+            }
+          ],
+          "default": "body",
+          "label": "t:sections.image-banner.blocks.text.settings.text_style.label"
         }
       ]
     },
