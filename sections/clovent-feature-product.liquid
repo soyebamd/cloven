@@ -76,6 +76,17 @@
     font-family: "degular-variable";
 }
 
+.border-style{
+    position:relative;
+}
+
+.border-style:before{
+    content:'';
+    max-width:700px;
+    height:100%;
+    border:solid 1px #e3d5cd;
+}
+
   {%- endstyle -%}
 
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
@@ -107,7 +118,7 @@
 
   <section class="cloven-product color-{{ section.settings.color_scheme }} {% if section.settings.secondary_background %}background-secondary{% else %}gradient{% endif %}">
     <div class="page-width section-{{ section.id }}-padding{% if section.settings.secondary_background %} isolate{% endif %}">
-      <div class="featured-product 
+      <div class="featured-product border-style
 
       {% if section.settings.flex_colum %}
         flex-colum
