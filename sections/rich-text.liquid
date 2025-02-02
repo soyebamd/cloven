@@ -22,7 +22,7 @@
           {%- case block.type -%}
             {%- when 'heading' -%}
               <h2
-                class="rich-text__heading rte inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="rich-text__heading rte inline-richtext {{ block.settings.heading_alignment  }}  {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
@@ -33,7 +33,7 @@
               </h2>
 
                <h2
-                class="rich-text__heading rte inline-richtext {{ block.settings.heading_size_2 }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="rich-text__heading rte inline-richtext{{ block.settings.heading_alignment_2  }}  {{ block.settings.heading_size_2 }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
@@ -234,6 +234,32 @@
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
         },
+
+
+          {
+        "_comment": "For text alignment",
+        "type": "select",
+        "id": "heading_alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__1.label"
+          },
+          {
+            "value": "center",
+            "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__2.label"
+          },
+          {
+            "value": "right",
+            "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__3.label"
+          }
+        ],
+        "default": "left",
+        "label": "t:sections.image-with-text.settings.mobile_content_alignment.label"
+      },
+
+
+      
              {
           "type": "inline_richtext",
           "id": "heading_2",
@@ -266,8 +292,30 @@
             }
           ],
           "default": "h1",
-          "label": "t:sections.all.heading_size.label"
-        }
+          "la,bel": "t:sections.all.heading_size.label"
+        },
+        {
+        "_comment": "For text alignment",
+        "type": "select",
+        "id": "heading_alignment_2",
+        "options": [
+          {
+            "value": "left",
+            "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__1.label"
+          },
+          {
+            "value": "center",
+            "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__2.label"
+          },
+          {
+            "value": "right",
+            "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__3.label"
+          }
+        ],
+        "default": "left",
+        "label": "t:sections.image-with-text.settings.mobile_content_alignment.label"
+      },
+
       ]
     },
     {
