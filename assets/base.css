@@ -250,7 +250,7 @@ body {
  /*  font-family: 'Muli', sans-serif !important; Replace 'the-seasons' with 'Muli' */
   font-family: "degular-variable";
   font-style: normal; /* Set to 'italic' if needed */
-  font-size: 14px; /* Adjust the base font size */
+  font-size: 1.5rem; /* Adjust the base font size */
   letter-spacing: 1px; /* Adjust the letter spacing as needed */
   line-height: 1.3; /* Adjust line height for readability */
 }
