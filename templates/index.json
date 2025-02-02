@@ -83,6 +83,7 @@
         },
         "text_8UbMbX": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "$54",
             "text_style": "body"
@@ -90,7 +91,6 @@
         },
         "price_dXnXLW": {
           "type": "price",
-          "disabled": true,
           "settings": {}
         },
         "variant_picker_TP8tjz": {
