@@ -12,24 +12,31 @@
     "cloven_image_banner_pVfg38": {
       "type": "cloven-image-banner",
       "blocks": {
+        "caption_Lqdjyg": {
+          "type": "caption",
+          "settings": {
+            "header_text": "ALIGHT YOUR NATURAL",
+            "text_style": "body"
+          }
+        },
         "heading_NkRfVK": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
+            "heading": "GLOW",
+            "heading_size": "hxxl"
           }
         },
         "text_VyzYDh": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Crafted with powerful natural ingredients, this whipped balm soothes, hydrates and awakens your complexion; imbuing skin with vitamins and the ancestral power of tallow.",
             "text_style": "body"
           }
         },
         "buttons_3BQM8k": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "SHOP CLOVEN",
             "button_link_1": "#",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -39,6 +46,7 @@
         }
       },
       "block_order": [
+        "caption_Lqdjyg",
         "heading_NkRfVK",
         "text_VyzYDh",
         "buttons_3BQM8k"
