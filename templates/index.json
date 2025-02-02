@@ -214,6 +214,7 @@
         "buy_buttons",
         "share"
       ],
+      "disabled": true,
       "settings": {
         "product": "whipped-tallow-balm",
         "color_scheme": "scheme-e52ac7d6-3393-41bf-93f9-48f28b364730",
