@@ -79,8 +79,8 @@
     <div class="page-width section-{{ section.id }}-padding{% if section.settings.secondary_background %} isolate{% endif %}">
       <div class="featured-product 
 
-      {% if section.settings.flex-column %}
-        {{ section.settings.flex-column }}
+      {% if section.settings.flex_colum %}
+        {{ section.settings.flex_colum }}
       {% endif %}
        
       product product--{{ section.settings.media_size }} grid grid--1-col gradient color-{{ section.settings.color_scheme }} product--{{ section.settings.media_position }}{% if section.settings.secondary_background == false %} isolate{% endif %} {% if product.media.size > 0 or section.settings.product == blank %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
@@ -1351,7 +1351,7 @@
     
  {
       "type": "checkbox",
-      "id": "flex-colum",
+      "id": "flex_colum",
        "default": true,
       "label": "Display in row"
     },
