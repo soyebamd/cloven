@@ -51,6 +51,11 @@
         margin:0 auto;
     }
 
+    .max-370{
+        max-width: 370px;
+ 
+    }
+
   {%- endstyle -%}
 
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
@@ -106,7 +111,7 @@
         <div class="product__info-wrapper grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
           <section
             id="ProductInfo-{{ section.id }}"
-            class="product__info-container"
+            class="product__info-container max-370 mx-auto"
             data-section="{{ section.id }}"
             data-url="{{ product.url }}"
           >
