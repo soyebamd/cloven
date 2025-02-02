@@ -328,8 +328,10 @@
           "settings": {
             "heading": "Glow & Tell",
             "heading_size": "h0",
+            "heading_alignment": "left",
             "heading_2": "Talk about your brand",
-            "heading_size_2": "h1"
+            "heading_size_2": "h1",
+            "heading_alignment_2": "left"
           }
         }
       },
@@ -440,8 +442,10 @@
           "settings": {
             "heading": "Clean Beauty. Timeless Purity.",
             "heading_size": "h1",
+            "heading_alignment": "left",
             "heading_2": "Talk about your brand",
-            "heading_size_2": "h1"
+            "heading_size_2": "h1",
+            "heading_alignment_2": "left"
           }
         },
         "text_thDeew": {
@@ -750,8 +754,10 @@
           "settings": {
             "heading": "We’re Here to Help",
             "heading_size": "h1",
+            "heading_alignment": "right",
             "heading_2": "Talk about your brand",
-            "heading_size_2": "h1"
+            "heading_size_2": "h1",
+            "heading_alignment_2": "left"
           }
         },
         "text_x8DJyq": {
@@ -804,8 +810,10 @@
           "settings": {
             "heading": "<strong>Regenerative,</strong> ranch raised",
             "heading_size": "h1",
+            "heading_alignment": "left",
             "heading_2": "Tallow Balm",
-            "heading_size_2": "h1"
+            "heading_size_2": "h1",
+            "heading_alignment_2": "right"
           }
         }
       },
