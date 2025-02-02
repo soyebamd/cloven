@@ -230,6 +230,33 @@
         "padding_bottom": 52
       }
     },
+    "rich_text_WYwcUL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fJARXz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Regenerative, <em>ranch raised</em>",
+            "heading_size": "h1",
+            "heading_alignment": "left",
+            "heading_2": "Tallow Balm",
+            "heading_size_2": "h1",
+            "heading_alignment_2": "right"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fJARXz"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image-banner": {
       "type": "image-banner",
       "settings": {
@@ -801,39 +828,13 @@
         "padding_top": 28,
         "padding_bottom": 100
       }
-    },
-    "rich_text_WYwcUL": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_fJARXz": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Regenerative,</strong> ranch raised",
-            "heading_size": "h1",
-            "heading_alignment": "left",
-            "heading_2": "Tallow Balm",
-            "heading_size_2": "h1",
-            "heading_alignment_2": "right"
-          }
-        }
-      },
-      "block_order": [
-        "heading_fJARXz"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "cloven_image_banner_pVfg38",
     "clovent_feature_product_XTAJMh",
     "featured-product",
+    "rich_text_WYwcUL",
     "image-banner",
     "multicolumn_QB3RDD",
     "rich-text-1",
@@ -845,7 +846,6 @@
     "image_banner_eezadb",
     "collapsible_content_VGUfeb",
     "rich_text_qbgAAV",
-    "contact_form_b4nbe7",
-    "rich_text_WYwcUL"
+    "contact_form_b4nbe7"
   ]
 }
