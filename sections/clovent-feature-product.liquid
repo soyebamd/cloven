@@ -56,7 +56,7 @@
  
     }
 
-    .price__regular{
+   .cloven-product .price__regular{
         color:rgba(var(--color-foreground), 1);
         font-size:2.2rem;
     }
@@ -90,7 +90,7 @@
 
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
 
-  <section class="color-{{ section.settings.color_scheme }} {% if section.settings.secondary_background %}background-secondary{% else %}gradient{% endif %}">
+  <section class="cloven-product color-{{ section.settings.color_scheme }} {% if section.settings.secondary_background %}background-secondary{% else %}gradient{% endif %}">
     <div class="page-width section-{{ section.id }}-padding{% if section.settings.secondary_background %} isolate{% endif %}">
       <div class="featured-product 
 
