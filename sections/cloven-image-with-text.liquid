@@ -103,7 +103,7 @@
     display: block;}
 
     .font-small, .font-small p{
-        font-size:12px;
+        font-size:11px;
     }
 
     .w-60{
@@ -184,7 +184,7 @@
                     {{ block.settings.caption | escape }}
                   </p>
                 {%- when 'text' -%}
-                  <div class="image-with-text__text .w-60 font-small rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+                  <div class="image-with-text__text w-60 font-small rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
                     {{ block.settings.text }}
                   </div>
                 {%- when 'button' -%}
