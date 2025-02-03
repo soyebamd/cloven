@@ -78,7 +78,7 @@
 
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
-            class="multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            class="multicolumn-list__item page-width-middle grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
             {{ block.shopify_attributes }}
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
@@ -144,9 +144,9 @@
                     {% endcapture %}
                     {{
                       block.settings.image
-                      | image_url: width: 700
+                      | image_url: width: 1700
                       | image_tag:
-                        widths: '50, 75, 100, 150, 200, 300, 400, 500,700',
+                        widths: '50, 75, 100, 150, 200, 300, 400, 500,700, 1700',
                         sizes: sizes,
                         class: 'multicolumn-card__image cloven-multicolumn-img'
                     }}
