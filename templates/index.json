@@ -331,7 +331,7 @@
             "image_icon": "shopify://shop_images/productdetail-yucca.jpg",
             "title": "All Natural Extracts",
             "text": "<p>Regenerative Tallow<br/>Calendula<br/>Yucca Root<br/>Green Tea<br/>Neroli</p>",
-            "link_label": "SHOP CLOVEN",
+            "link_label": "",
             "link": "#",
             "image": "shopify://shop_images/cloven-big.png"
           }
@@ -350,7 +350,7 @@
         "background_style": "primary",
         "button_label": "SHOP CLOVEN",
         "button_link": "#",
-        "color_scheme": "scheme-e52ac7d6-3393-41bf-93f9-48f28b364730",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
