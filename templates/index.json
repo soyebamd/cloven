@@ -381,8 +381,17 @@
         "column_b8BRdp": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "GREEN TEA",
+            "text": "<p>Regenerative practices promote diverse plant species and healthy ecosystems by mimicking natural grazing patterns.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WwNEKy": {
+          "type": "column",
+          "settings": {
+            "title": "NEROLI",
+            "text": "<p>Regenerative practices promote diverse plant species and healthy ecosystems by mimicking natural grazing patterns.</p>",
             "link_label": "",
             "link": ""
           }
@@ -391,7 +400,8 @@
       "block_order": [
         "column_EyHpFx",
         "column_yVWBh9",
-        "column_b8BRdp"
+        "column_b8BRdp",
+        "column_WwNEKy"
       ],
       "settings": {
         "title": "All natural extracts enhance your skin",
