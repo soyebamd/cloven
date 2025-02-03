@@ -128,22 +128,10 @@
 
   
 
-     {{
-                section.settings.image
-                | image_url: width: 1500
-                | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority 
-              }}
 
 
-    <div class="sprite sprite-topleft"></div>
-    <div class="sprite sprite-topright"></div>
-    <div class="sprite sprite-bottomleft"></div>
-    <div class="sprite sprite-bottomright"></div>
-  </div>
-</div>
 
-
-{% comment %}       
+     
       <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
           <div
             class="image-with-text__media image-with-text__media--{{ section.settings.height }} global-media-settings{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}{% if section.settings.image != blank %} media{% else %} image-with-text__media--placeholder placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}"
@@ -174,9 +162,15 @@
               {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}
           </div>
-        </div> {% endcomment %}
+        </div> 
 
 
+    <div class="sprite sprite-topleft"></div>
+    <div class="sprite sprite-topright"></div>
+    <div class="sprite sprite-bottomleft"></div>
+    <div class="sprite sprite-bottomright"></div>
+  </div>
+</div>
         <div class="image-with-text__text-item grid__item">
           <div
             id="ImageWithText--{{ section.id }}"
