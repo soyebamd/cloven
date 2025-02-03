@@ -383,6 +383,7 @@
         "column_b8BRdp": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/icon3.png",
             "title": "GREEN TEA",
             "text": "<p>Regenerative practices promote diverse plant species and healthy ecosystems by mimicking natural grazing patterns.</p>",
             "link_label": "",
