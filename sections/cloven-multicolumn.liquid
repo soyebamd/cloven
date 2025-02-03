@@ -98,7 +98,7 @@
                   <h3 class="inline-richtext">{{ block.settings.title }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  <div class="rte">{{ block.settings.text }}</div>
+                  <div class="rte hxl">{{ block.settings.text }}</div>
                 {%- endif -%}
               
               </div>
@@ -241,6 +241,10 @@
       "type": "select",
       "id": "heading_size",
       "options": [
+          {
+          "value": "h3",
+          "label": "x-small"
+        },
         {
           "value": "h2",
           "label": "t:sections.all.heading_size.options__1.label"
