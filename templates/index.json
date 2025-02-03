@@ -263,14 +263,14 @@
         "heading_j6kaGf": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "Nourish. Balance. Soothe.",
+            "heading_size": "h2"
           }
         },
         "text_9TAYfR": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Tallow deeply nourishes and moisturizes skin with natural linolic acid, an omega-6 fatty acid and antioxidant. The anti-inflammatory properties from linolic acid soothe sensitive skin and calm redness. </p>",
             "text_style": "body"
           }
         },
