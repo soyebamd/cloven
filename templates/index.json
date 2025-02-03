@@ -257,8 +257,56 @@
         "padding_bottom": 52
       }
     },
+    "cloven_image_with_text_r7xwFW": {
+      "type": "cloven-image-with-text",
+      "blocks": {
+        "heading_j6kaGf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Nourish. Balance. Soothe.",
+            "heading_size": "h2"
+          }
+        },
+        "text_9TAYfR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tallow deeply nourishes and moisturizes skin with natural linolic acid, an omega-6 fatty acid and antioxidant. The anti-inflammatory properties from linolic acid soothe sensitive skin and calm redness. </p>",
+            "text_style": "body"
+          }
+        },
+        "button_ikdMtn": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_j6kaGf",
+        "text_9TAYfR",
+        "button_ikdMtn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/feature-image.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image-banner": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/CLOVEN-LIFESTYLE-LEADWELL.jpg",
         "image_2": "shopify://shop_images/CLOVEN-PRODUCTSHOT-DRIFTWOOD-1.jpg",
@@ -835,6 +883,7 @@
     "clovent_feature_product_XTAJMh",
     "featured-product",
     "rich_text_WYwcUL",
+    "cloven_image_with_text_r7xwFW",
     "image-banner",
     "multicolumn_QB3RDD",
     "rich-text-1",
