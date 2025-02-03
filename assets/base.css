@@ -1253,7 +1253,10 @@ button.shopify-payment-button__button--unbranded {
   padding: 0 3rem;
   cursor: pointer;
   font: inherit;
-  font-size: 1.4rem;
+ min-width: 162px;
+    min-height: 40px;
+    font-size: 14px;
+    font-family: "degular-variable";
   text-decoration: none;
   color: rgb(var(--color-button-text));
   transition: box-shadow var(--duration-short) ease;
