@@ -3718,7 +3718,7 @@ body {
   padding-left: 20px;
 }
 
-/* Multicolumn Styles */
+/* Multicolumn Styles 
 .multicolumn .button {
   visibility: hidden !important;
 }
@@ -3728,6 +3728,8 @@ body {
     visibility: hidden !important;
   }
 }
+*/
+
 
 /* Homepage Product */
 .featured-product {
