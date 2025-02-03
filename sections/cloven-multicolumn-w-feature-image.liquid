@@ -31,10 +31,7 @@
     {% endif %}
   >
 
-
-  <div class="feature-img-width-column">
-
-    {%- unless section.settings.title == blank -%}
+   {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
         <h2 class="title inline-richtext {{ section.settings.heading_size }}">
           {{ section.settings.title }}
@@ -46,6 +43,11 @@
         {%- endif -%}
       </div>
     {%- endunless -%}
+    
+
+  <div class="feature-img-width-column">
+
+   
 
 
     <div class="feature-img-width-column__feature-img">image</div>
