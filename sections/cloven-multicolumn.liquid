@@ -79,7 +79,7 @@
             {% endif %}
           >
             <div class="multicolumn-card content-container">
-
+ {%- if block.settings.image_icon != blank -%}
              {{
                       block.settings.image_icon
                       | image_url: width: 3200
@@ -88,6 +88,7 @@
                         
                         class: 'multicolumn-card__image image-icon'
                     }}
+ {% endif %}
              
               
               <div class="multicolumn-card__info">
