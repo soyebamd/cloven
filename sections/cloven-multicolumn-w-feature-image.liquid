@@ -43,7 +43,9 @@
         {%- endif -%}
       </div>
     {%- endunless -%}
-    
+
+
+    <div class="d-flex">
 
   <div class="feature-img-width-column">
 
@@ -193,6 +195,7 @@
         </div>
       {%- endif -%}
     </slider-component>
+    </div>
     <div class="center{% if show_mobile_slider %} small-hide medium-hide{% endif %}">
       {%- if section.settings.button_label != blank -%}
         <a
