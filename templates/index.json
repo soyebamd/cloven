@@ -393,6 +393,7 @@
         "column_WwNEKy": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/icon4.png",
             "title": "NEROLI",
             "text": "<p>Regenerative practices promote diverse plant species and healthy ecosystems by mimicking natural grazing patterns.</p>",
             "link_label": "",
