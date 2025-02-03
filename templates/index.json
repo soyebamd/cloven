@@ -373,6 +373,7 @@
         "column_yVWBh9": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/icon2.png",
             "title": "CALENDULA",
             "text": "<p>By improving soil structure and increasing organic matter, regenerative grazing enhances the soil's ability to retain water, reducing runoff and erosion.</p>",
             "link_label": "",
