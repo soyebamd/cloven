@@ -328,10 +328,11 @@
         "column_i8FcAn": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/cloven-big.png",
+            "title": "All Natural Extracts",
+            "text": "<p>Regenerative Tallow<br/>Calendula<br/>Yucca Root<br/>Green Tea<br/>Neroli</p>",
+            "link_label": "SHOP CLOVEN",
+            "link": "#"
           }
         }
       },
@@ -343,12 +344,12 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 1,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "Button label",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-e52ac7d6-3393-41bf-93f9-48f28b364730",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
