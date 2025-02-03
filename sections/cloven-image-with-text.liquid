@@ -120,15 +120,19 @@
      
     
       <div class="img-frame">
-  <div class="shadow"></div>
+  {% comment %} <div class="shadow"></div> {% endcomment %}
   <div class="frame-cover">
 
     <div class="frame-1"></div>
     <!-- 
   <img src="https://cdn.shopify.com/s/files/1/0657/4922/1559/files/frame.png?v=1738548662" class="o-2"> -->
 
-    <img class="feature-img" src="https://cloventallow.com/cdn/shop/files/feature-image.jpg?v=1738547853&width=535">
-
+ 
+     {{
+                section.settings.image
+                | image_url: width: 1500
+                | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority, class:'feature-img'
+              }}
     <div class="sprite sprite-topleft"></div>
     <div class="sprite sprite-topright"></div>
     <div class="sprite sprite-bottomleft"></div>
