@@ -413,7 +413,7 @@
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 1,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "SHOP CLOVEN",
