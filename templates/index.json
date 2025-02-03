@@ -408,6 +408,7 @@
         "column_WwNEKy"
       ],
       "settings": {
+        "feature_image": "shopify://shop_images/girl.png",
         "title": "All natural extracts enhance your skin",
         "heading_size": "h1",
         "image_width": "third",
