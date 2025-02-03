@@ -357,6 +357,73 @@
         "padding_bottom": 48
       }
     },
+    "cloven_multicolumn_w_feature_image_qKXwwG": {
+      "type": "cloven-multicolumn-w-feature-image",
+      "blocks": {
+        "column_EyHpFx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/icon1.png",
+            "title": "YUCCA ROOT",
+            "text": "<p>Rotational grazing and allowing cattle to naturally fertilize the land improve soil structure and increase organic matter.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yVWBh9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/icon2.png",
+            "title": "CALENDULA",
+            "text": "<p>By improving soil structure and increasing organic matter, regenerative grazing enhances the soil's ability to retain water, reducing runoff and erosion.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_b8BRdp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/icon3.png",
+            "title": "GREEN TEA",
+            "text": "<p>Regenerative practices promote diverse plant species and healthy ecosystems by mimicking natural grazing patterns.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WwNEKy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/icon4.png",
+            "title": "NEROLI",
+            "text": "<p>Regenerative practices promote diverse plant species and healthy ecosystems by mimicking natural grazing patterns.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_EyHpFx",
+        "column_yVWBh9",
+        "column_b8BRdp",
+        "column_WwNEKy"
+      ],
+      "settings": {
+        "title": "All natural extracts enhance your skin",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "SHOP CLOVEN",
+        "button_link": "#",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_QB3RDD": {
       "type": "multicolumn",
       "blocks": {
@@ -921,6 +988,7 @@
     "cloven_image_with_text_r7xwFW",
     "image-banner",
     "cloven_multicolumn_zCXUc7",
+    "cloven_multicolumn_w_feature_image_qKXwwG",
     "multicolumn_QB3RDD",
     "rich-text-1",
     "multicolumn",
