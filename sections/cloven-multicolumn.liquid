@@ -82,9 +82,9 @@
  {%- if block.settings.image_icon != blank -%}
              {{
                       block.settings.image_icon
-                      | image_url: width: 3200
+                      | image_url: width: 75
                       | image_tag:
-                        widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200',
+                        widths: '75',
                         
                         class: 'multicolumn-card__image image-icon'
                     }}
