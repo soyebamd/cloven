@@ -15,20 +15,20 @@
         "image_kJxUVU": {
           "type": "image",
           "settings": {
-            "heading_image": "shopify://shop_images/girl.png"
+            "heading_image": "shopify://shop_images/banner-logo.png"
           }
         },
         "caption_Lqdjyg": {
           "type": "caption",
           "settings": {
-            "header_text": "ALIGHT YOUR NATURAL",
+            "header_text": "",
             "text_style": "body"
           }
         },
         "heading_NkRfVK": {
           "type": "heading",
           "settings": {
-            "heading": "GL<em>o</em>W",
+            "heading": "",
             "text_style": "subtitle"
           }
         },
