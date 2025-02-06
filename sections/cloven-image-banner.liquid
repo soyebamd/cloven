@@ -137,7 +137,7 @@
 
             
 
-            {%- when 'headingImage' -%}
+            {%- when 'image' -%}
            <div  {{ block.shopify_attributes }}>
               {{
         block.settings.heading_image | image_url: width: 500 | image_tag: class: "header-image"
