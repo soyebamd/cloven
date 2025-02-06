@@ -12,6 +12,12 @@
     "cloven_image_banner_pVfg38": {
       "type": "cloven-image-banner",
       "blocks": {
+        "image_kJxUVU": {
+          "type": "image",
+          "settings": {
+            "heading_image": "shopify://shop_images/girl.png"
+          }
+        },
         "caption_Lqdjyg": {
           "type": "caption",
           "settings": {
@@ -24,12 +30,6 @@
           "settings": {
             "heading": "GL<em>o</em>W",
             "text_style": "subtitle"
-          }
-        },
-        "image_kJxUVU": {
-          "type": "image",
-          "settings": {
-            "heading_image": "shopify://shop_images/banner-logo.png"
           }
         },
         "text_VyzYDh": {
@@ -52,9 +52,9 @@
         }
       },
       "block_order": [
+        "image_kJxUVU",
         "caption_Lqdjyg",
         "heading_NkRfVK",
-        "image_kJxUVU",
         "text_VyzYDh",
         "buttons_3BQM8k"
       ],
