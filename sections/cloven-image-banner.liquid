@@ -135,6 +135,22 @@
 
 
 
+            
+
+            {%- when 'headingImage' -%}
+           
+              {{
+        block.settings.heading_image
+        | image_url: width: 500
+        | image_tag:
+         
+          class: "header-image",
+         
+      }}
+
+
+
+
 
           {%- when 'heading' -%}
             <h2
@@ -381,6 +397,20 @@
     }
   ],
   "blocks": [
+
+   {
+      "type": "image",
+      "name": "headingImage",
+      "limit": 1,
+  "settings": [
+   {
+      "type": "image_picker",
+      "id": "heading_image",
+      "label": "t:sections.image-banner.settings.image.label"
+    }
+  ]
+   },
+
     {
       "type": "heading",
       "name": "t:sections.image-banner.blocks.heading.name",
@@ -531,6 +561,9 @@
     {
       "name": "Cloven image banner",
       "blocks": [
+         {
+          "type": "image"
+        },
         {
           "type": "heading"
         },
