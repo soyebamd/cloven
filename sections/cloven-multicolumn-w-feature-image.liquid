@@ -133,15 +133,25 @@
             {% endif %}
           >
             <div class="multicolumn-card content-container">
-              {%- if block.settings.image != blank -%}
-                {{
-                      block.settings.image | image_url
-                      
-                    }}
-              {%- endif -%}
+             
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
+                  <div class="title-bg"
+
+                   {%- if block.settings.image != blank -%}
+               
+             
+                  
+                  style="background-image:url( {{
+                      block.settings.image | image_url
+                      
+                    }})"
+
+                     {%- endif -%}
+                  
+                  >
                   <h3 class="inline-richtext">{{ block.settings.title }}</h3>
+                  </div>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
