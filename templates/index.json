@@ -432,73 +432,6 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_QB3RDD": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_agThU4": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/productdetail-tallow-medium.jpg",
-            "title": "Tallow",
-            "text": "<p>Tallow’s fatty acids closely match our skin's natural sebum, making it highly compatible. Tallow supports skin health and elasticity and is a perfect carrier for vitamins in essential oils. Its anti-inflammatory properties soothe irritation and have been know to benefit conditions like eczema and psoriasis. Its non-comedogenic nature allows tallow to provide moisture without greasiness and absorbs deeply into our skin.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_pEAya6": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/productdetail-yucca-medium.jpg",
-            "title": "Yucca",
-            "text": "<p>Yucca can help the skin retain moisture and its anti-inflammatory properties aid in soothing irritation. High amounts of vitamin C in Yucca  can aid in the production of collagen, our skin’s main protein. Studies have also found that Yucca contains natural photoprotective qualities and may be able to protect against sun damage. </p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_3V3EdB": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/productdetail-greentea-medium.jpg",
-            "title": "Green Tea",
-            "text": "<p>Green Tea is filled with many beneficial compounds like vitamins A, E, and squalene. Squalene has been compared to hyaluronic acid for its hydrating properties. Green tea is also a  powerful moisturizer that can absorb into skin without causing acne or clogging pores. The antioxidants in green tea have been known to aid in prevention of premature aging and fine lines. <br/><br/></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_ELC6hz": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/productdetail-calendula-medium-3.jpg",
-            "title": "Calendula",
-            "text": "<p>Calendula has been shown to increase blood circulation and heighten cell turnover, keeping skin smooth and vibrant.  Due to its ability to increase oxygen and blood flow to the skin, calendula can speed the healing of redness, wounds, acne and other skin ailments. Calendula contains natural antifungal and antimicrobial properties, making this powerhouse flower more than just pretty petals!</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_agThU4",
-        "column_pEAya6",
-        "column_3V3EdB",
-        "column_ELC6hz"
-      ],
-      "settings": {
-        "title": "Benefits",
-        "heading_size": "h0",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "scheme-e52ac7d6-3393-41bf-93f9-48f28b364730",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 76,
-        "padding_bottom": 0
-      }
-    },
     "rich-text-1": {
       "type": "rich-text",
       "blocks": {
@@ -513,8 +446,8 @@
           "settings": {
             "heading": "Glow & Tell",
             "heading_size": "h0",
-            "heading_alignment": "left",
-            "heading_2": "Talk about your brand",
+            "heading_alignment": "center",
+            "heading_2": "",
             "heading_size_2": "h1",
             "heading_alignment_2": "left"
           }
@@ -617,6 +550,73 @@
         "swipe_on_mobile": true,
         "padding_top": 80,
         "padding_bottom": 68
+      }
+    },
+    "multicolumn_QB3RDD": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_agThU4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/productdetail-tallow-medium.jpg",
+            "title": "Tallow",
+            "text": "<p>Tallow’s fatty acids closely match our skin's natural sebum, making it highly compatible. Tallow supports skin health and elasticity and is a perfect carrier for vitamins in essential oils. Its anti-inflammatory properties soothe irritation and have been know to benefit conditions like eczema and psoriasis. Its non-comedogenic nature allows tallow to provide moisture without greasiness and absorbs deeply into our skin.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pEAya6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/productdetail-yucca-medium.jpg",
+            "title": "Yucca",
+            "text": "<p>Yucca can help the skin retain moisture and its anti-inflammatory properties aid in soothing irritation. High amounts of vitamin C in Yucca  can aid in the production of collagen, our skin’s main protein. Studies have also found that Yucca contains natural photoprotective qualities and may be able to protect against sun damage. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3V3EdB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/productdetail-greentea-medium.jpg",
+            "title": "Green Tea",
+            "text": "<p>Green Tea is filled with many beneficial compounds like vitamins A, E, and squalene. Squalene has been compared to hyaluronic acid for its hydrating properties. Green tea is also a  powerful moisturizer that can absorb into skin without causing acne or clogging pores. The antioxidants in green tea have been known to aid in prevention of premature aging and fine lines. <br/><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ELC6hz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/productdetail-calendula-medium-3.jpg",
+            "title": "Calendula",
+            "text": "<p>Calendula has been shown to increase blood circulation and heighten cell turnover, keeping skin smooth and vibrant.  Due to its ability to increase oxygen and blood flow to the skin, calendula can speed the healing of redness, wounds, acne and other skin ailments. Calendula contains natural antifungal and antimicrobial properties, making this powerhouse flower more than just pretty petals!</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_agThU4",
+        "column_pEAya6",
+        "column_3V3EdB",
+        "column_ELC6hz"
+      ],
+      "settings": {
+        "title": "Benefits",
+        "heading_size": "h0",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "scheme-e52ac7d6-3393-41bf-93f9-48f28b364730",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 76,
+        "padding_bottom": 0
       }
     },
     "rich_text_Ne8Kqk": {
@@ -997,9 +997,9 @@
     "image-banner",
     "cloven_multicolumn_zCXUc7",
     "cloven_multicolumn_w_feature_image_qKXwwG",
-    "multicolumn_QB3RDD",
     "rich-text-1",
     "multicolumn",
+    "multicolumn_QB3RDD",
     "rich_text_Ne8Kqk",
     "image_banner_zUQmDg",
     "multicolumn_p3PzPD",
