@@ -432,6 +432,40 @@
         "padding_bottom": 36
       }
     },
+    "rich-text-1": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>THE REVIEWS</p>"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Glow & Tell",
+            "heading_size": "h0",
+            "heading_alignment": "left",
+            "heading_2": "Talk about your brand",
+            "heading_size_2": "h1",
+            "heading_alignment_2": "left"
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "heading"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-ea848b25-c9db-4f83-8e42-cda508e974c5",
+        "full_width": true,
+        "padding_top": 88,
+        "padding_bottom": 0
+      }
+    },
     "multicolumn_QB3RDD": {
       "type": "multicolumn",
       "blocks": {
@@ -496,40 +530,6 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 76,
-        "padding_bottom": 0
-      }
-    },
-    "rich-text-1": {
-      "type": "rich-text",
-      "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>THE REVIEWS</p>"
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Glow & Tell",
-            "heading_size": "h0",
-            "heading_alignment": "left",
-            "heading_2": "Talk about your brand",
-            "heading_size_2": "h1",
-            "heading_alignment_2": "left"
-          }
-        }
-      },
-      "block_order": [
-        "text",
-        "heading"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-ea848b25-c9db-4f83-8e42-cda508e974c5",
-        "full_width": true,
-        "padding_top": 88,
         "padding_bottom": 0
       }
     },
@@ -997,9 +997,9 @@
     "image-banner",
     "cloven_multicolumn_zCXUc7",
     "cloven_multicolumn_w_feature_image_qKXwwG",
-    "multicolumn_QB3RDD",
     "rich-text-1",
     "multicolumn",
+    "multicolumn_QB3RDD",
     "rich_text_Ne8Kqk",
     "image_banner_zUQmDg",
     "multicolumn_p3PzPD",
