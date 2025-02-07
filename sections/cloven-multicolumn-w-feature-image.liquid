@@ -16,6 +16,16 @@
 
  .multicolumn-card__feature_image {    width: 100%;
     height: auto;}
+
+
+    .icon-text{
+      position:absolute
+    }
+
+    .icon-img{
+      position:relative
+    }
+
 {%- endstyle -%}
 
 {%- liquid
@@ -138,19 +148,23 @@
                 {%- if block.settings.title != blank -%}
                   <div class="title-bg"
 
+                  
+                  
+                  >
+
                    {%- if block.settings.image != blank -%}
                
              
                   
                   style="background-image:url( {{
-                      block.settings.image | image_url
+                      block.settings.image |  image_url: width: 200
+                      | image_tag: class:"icon-img"
                       
                     }})"
 
                      {%- endif -%}
-                  
-                  >
-                  <h3 class="inline-richtext">{{ block.settings.title }}</h3>
+
+                  <h3 class="inline-richtext icon-text">{{ block.settings.title }}</h3>
                   </div>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
