@@ -416,8 +416,8 @@
       ],
       "settings": {
         "feature_image": "shopify://shop_images/girl.png",
-        "title": "All natural extracts enhance your skin",
-        "heading_size": "h1",
+        "title": "Rooted in Nature",
+        "heading_size": "hxxl",
         "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 1,
