@@ -55,20 +55,31 @@
 
 
     <div class="feature-img-width-column__feature-img">
+
+
+      <div class="img-frame ">
+  {% comment %} <div class="shadow"></div> {% endcomment %}
+  <div class="frame-cover">
+
+    <div class="frame-1"></div>
         
     {% if  section.settings.feature_image %}
 
     {{
                       section.settings.feature_image
-                      | image_url: width: 3200
+                      | image_url: width: 1200
                       | image_tag:
                         widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200',
                         sizes: sizes,
-                        class: 'multicolumn-card__feature_image'
+                        class: 'multicolumn-card__feature_image w-100'
                     }}
 
     {% endif %}
 
+
+    </div>
+
+    </div>
 
     </div>
 
