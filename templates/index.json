@@ -15,7 +15,7 @@
         "image_kJxUVU": {
           "type": "image",
           "settings": {
-            "heading_image": "shopify://shop_images/banner-logo.png"
+            "heading_image": "shopify://shop_images/logo.png"
           }
         },
         "caption_Lqdjyg": {
@@ -59,9 +59,9 @@
         "buttons_3BQM8k"
       ],
       "settings": {
-        "image": "shopify://shop_images/banner-image.jpg",
+        "image": "shopify://shop_images/banner.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "adapt",
         "desktop_content_position": "middle-right",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -602,6 +602,7 @@
         "column_3V3EdB",
         "column_ELC6hz"
       ],
+      "disabled": true,
       "settings": {
         "title": "Benefits",
         "heading_size": "h0",
@@ -625,18 +626,18 @@
         "heading_rNf3YL": {
           "type": "heading",
           "settings": {
-            "heading": "Clean Beauty. Timeless Purity.",
+            "heading": "It’s more than just",
             "heading_size": "h1",
             "heading_alignment": "left",
-            "heading_2": "Talk about your brand",
+            "heading_2": "<em>clean</em> skincare",
             "heading_size_2": "h1",
-            "heading_alignment_2": "left"
+            "heading_alignment_2": "right"
           }
         },
         "text_thDeew": {
           "type": "text",
           "settings": {
-            "text": "<p>Experience the benefits of nature’s most ancient skincare, offering deep nourishment and moisture, while supporting your skin's natural barrier.</p>"
+            "text": ""
           }
         }
       },
@@ -651,6 +652,53 @@
         "full_width": true,
         "padding_top": 100,
         "padding_bottom": 100
+      }
+    },
+    "cloven_image_with_text_3G67UV": {
+      "type": "cloven-image-with-text",
+      "blocks": {
+        "heading_pXAkxi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rooted in Nature,Crafted with Care.",
+            "heading_size": "h1"
+          }
+        },
+        "text_cnk3Hn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our journey began with a desire to take control of what we put on our skin, inspired by nature and a commitment to clean ingredients. We wanted a skincare solution that reflects our deep connection to the earth, using only trusted, natural ingredients like tallow and herbs. With no synthetic additives or harmful chemicals, Cloven is more than skincare — it's a return to purity and natural living.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_zUD6rT": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_pXAkxi",
+        "text_cnk3Hn",
+        "button_zUD6rT"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/cloven2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
+        "color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_banner_zUQmDg": {
@@ -1001,6 +1049,7 @@
     "multicolumn",
     "multicolumn_QB3RDD",
     "rich_text_Ne8Kqk",
+    "cloven_image_with_text_3G67UV",
     "image_banner_zUQmDg",
     "multicolumn_p3PzPD",
     "multicolumn_Vip7D4",
