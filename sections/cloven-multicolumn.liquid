@@ -17,6 +17,12 @@
  .lh-14{
   line-height:14rem;
  }
+
+ .adjust-image-for-view{
+  top: -64px;
+    position: relative;
+    right: 132px;
+ }
 {%- endstyle -%}
 
 {%- liquid
@@ -114,7 +120,7 @@
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}
                 {% endif %}
-                <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} mx-auto page-width-912 multicolumn-card-spacing{% endif %}">
+                <div class="adjust-image-for-view multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} mx-auto page-width-912 multicolumn-card-spacing{% endif %}">
                   <div
                     class="media media--transparent media--{{ section.settings.image_ratio }}"
                     {% if section.settings.image_ratio == 'adapt' %}
