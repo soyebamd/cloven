@@ -65,6 +65,19 @@ transform: translateX(-50%);
     transform: translateX(-50%);
 }
 
+.mb-40{
+  margin-bottom:40px;
+}
+
+ .max-1000{
+  max-width:900px;
+  margin:auto;
+ }
+
+ .double-frame {
+  margin-top:70px;
+ }
+
 {%- endstyle -%}
 
 {%- liquid
@@ -84,7 +97,7 @@ transform: translateX(-50%);
   >
 
    {%- unless section.settings.title == blank -%}
-      <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
+      <div class="title-wrapper-with-link mb-40 title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
         <h2 class="title inline-richtext w-100 {{ section.settings.heading_size_alignment }} {{ section.settings.heading_size }}">
           {{ section.settings.title }}
         </h2>
@@ -97,7 +110,7 @@ transform: translateX(-50%);
     {%- endunless -%}
 
 
-    <div class="grid">
+    <div class="grid max-1000">
   <div class="feature-img-width-column grid__item">
 
    
