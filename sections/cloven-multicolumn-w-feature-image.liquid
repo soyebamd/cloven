@@ -63,7 +63,7 @@ transform: translateX(-50%);
 
    {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
-        <h2 class="title inline-richtext {{ section.settings.heading_size_alignment }} {{ section.settings.heading_size }}">
+        <h2 class="title inline-richtext w-100 {{ section.settings.heading_size_alignment }} {{ section.settings.heading_size }}">
           {{ section.settings.title }}
         </h2>
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
@@ -311,11 +311,15 @@ transform: translateX(-50%);
       "options": [
         {
           "value": "left",
-          "label": "t:sections.multicolumn.settings.column_alignment.options__1.label"
+          "label": "left"
         },
         {
           "value": "center",
-          "label": "t:sections.multicolumn.settings.column_alignment.options__2.label"
+          "label": "center"
+        },
+        {
+          "value": "right",
+          "label": "right"
         }
       ],
       "default": "left",
