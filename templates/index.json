@@ -418,6 +418,7 @@
         "feature_image": "shopify://shop_images/girl.png",
         "title": "Rooted in <em>Nature</em>",
         "heading_size": "hxl",
+        "heading_size_alignment": "center",
         "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 1,
