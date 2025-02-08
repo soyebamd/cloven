@@ -51,7 +51,19 @@ transform: translateX(-50%);
     height: 646px;
   }
 
-    
+
+
+    .border-bottom:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    height: 1px;
+    width: 55%;
+    background: red;
+    transform: translateX(-50%);
+}
 
 {%- endstyle -%}
 
@@ -191,7 +203,7 @@ transform: translateX(-50%);
 
                      {%- endif -%}
 
-                  <h3 class="inline-richtext h5 w-100 ls-8 icon-text">{{ block.settings.title }}</h3>
+                  <h3 class="inline-richtext h5 w-100 ls-8 icon-text border-bottom">{{ block.settings.title }}</h3>
 
                   </div>
                 {%- endif -%}
