@@ -261,7 +261,7 @@
         "color_scheme": "scheme-2",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 0
       }
     },
     "cloven_image_with_text_r7xwFW": {
@@ -271,7 +271,7 @@
           "type": "heading",
           "settings": {
             "heading": "Nourish. Balance. Soothe.",
-            "heading_size": "h3"
+            "heading_size": "h2"
           }
         },
         "text_9TAYfR": {
