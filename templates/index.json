@@ -59,9 +59,9 @@
         "buttons_3BQM8k"
       ],
       "settings": {
-        "image": "shopify://shop_images/banner-image.jpg",
+        "image": "shopify://shop_images/slider.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "medium",
         "desktop_content_position": "middle-right",
         "show_text_box": false,
         "desktop_content_alignment": "center",
