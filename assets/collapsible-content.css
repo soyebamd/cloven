@@ -130,8 +130,8 @@
   }
 }
 
-.accordion__title.inline-richtext.h4 {
-  font-size: 20px;
+.accordion__title {
+  font-size: 20px !important;
 
   letter-spacing: normal;
   line-height: 27px;
