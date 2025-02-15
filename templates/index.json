@@ -296,11 +296,8 @@
         "button_ikdMtn"
       ],
       "settings": {
-        "heading": "Image with text",
-        "heading_size": "h1",
         "image": "shopify://shop_images/feature-image.jpg",
         "height": "adapt",
-        "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -703,6 +700,53 @@
         "button_zUD6rT"
       ],
       "settings": {
+        "image": "shopify://shop_images/cloven2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
+        "color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cloven_image_with_text_v2_LhCUaP": {
+      "type": "cloven-image-with-text-v2",
+      "blocks": {
+        "heading_778y7B": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rooted in Nature, Crafted with Care.",
+            "heading_size": "h1"
+          }
+        },
+        "text_Y48aCf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our journey began with a desire to take control of what we put on our skin, inspired by nature and a commitment to clean ingredients. We wanted a skincare solution that reflects our deep connection to the earth, using only trusted, natural ingredients like tallow and herbs. With no synthetic additives or harmful chemicals, Cloven is more than skincare — it's a return to purity and natural living.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_xDe7KR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_778y7B",
+        "text_Y48aCf",
+        "button_xDe7KR"
+      ],
+      "settings": {
         "heading": "A Healthier Path for Your Skin",
         "heading_size": "h3",
         "image": "shopify://shop_images/cloven2.png",
@@ -1077,6 +1121,7 @@
     "multicolumn_QB3RDD",
     "rich_text_Ne8Kqk",
     "cloven_image_with_text_3G67UV",
+    "cloven_image_with_text_v2_LhCUaP",
     "image_banner_zUQmDg",
     "multicolumn_p3PzPD",
     "multicolumn_Vip7D4",
