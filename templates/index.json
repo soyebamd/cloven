@@ -699,6 +699,7 @@
         "text_cnk3Hn",
         "button_zUD6rT"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/cloven2.png",
         "height": "adapt",
