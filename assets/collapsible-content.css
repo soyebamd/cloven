@@ -129,3 +129,14 @@
     }
   }
 }
+
+.accordion__title.inline-richtext.h4 {
+  font-size: 20px;
+
+  letter-spacing: normal;
+  line-height: 27px;
+}
+
+.accordion .svg-wrapper {
+  margin-right: 36px;
+}
