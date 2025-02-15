@@ -25,6 +25,21 @@
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'heading' -%}
+
+
+               {%- if block.settings.image != blank -%}
+             {{
+                      block.settings.image
+                      | image_url: width: 278
+                      | image_tag:
+                        widths: '75',
+                        
+                        class: 'multicolumn-card__image image-multiple'
+                    }}
+ {% endif %}
+
+
+ 
               <h2
                 class="rich-text__heading rte inline-richtext {{ block.settings.heading_alignment  }}  {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
