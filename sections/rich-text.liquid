@@ -24,24 +24,6 @@
       <div class="rich-text__blocks {{ section.settings.content_alignment }}">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
-
-   {%- when 'image' -%}
-
-     {%- if block.settings.image != blank -%}
-             {{
-                      block.settings.image
-                      | image_url: width: 278
-                      | image_tag:
-                        widths: '75',
-                        
-                        class: 'multicolumn-card__image image-multiple'
-                    }}
- {% endif %}
-
-
-
-
-
             {%- when 'heading' -%}
               <h2
                 class="rich-text__heading rte inline-richtext {{ block.settings.heading_alignment  }}  {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -138,7 +120,6 @@
     "groups": ["header", "footer"]
   },
   "settings": [
-   
     {
       "type": "select",
       "id": "desktop_content_position",
@@ -218,20 +199,6 @@
     }
   ],
   "blocks": [
-
-   {
-      "type": "image",
-      "name": "t:sections.rich-text.blocks.text.name",
-      "limit": 1,
-      "settings": [
-         {
-          "type": "image_picker",
-          "id": "image",
-          "label": "t:sections.multicolumn.blocks.column.settings.image.label"
-        }
-      ]
-    },
-
     {
       "type": "heading",
       "name": "t:sections.rich-text.blocks.heading.name",
@@ -464,7 +431,6 @@
     {
       "name": "t:sections.rich-text.presets.name",
       "blocks": [
-        { "type": "image"},
         {
           "type": "heading"
         },
