@@ -474,6 +474,7 @@
           "type": "column",
           "settings": {
             "title": "Wonderful",
+            "title_size": "h3",
             "text": "<p>The all-natural formula is wonderful. I LOVE smoothing the rich cream around my eyes and lips, nourishing my skin with pure goodness.</p><p>- Michelle </p>",
             "link_label": "",
             "link": ""
@@ -483,6 +484,7 @@
           "type": "column",
           "settings": {
             "title": "My Happy Dewy Skin",
+            "title_size": "h5",
             "text": "<p>“Obsessed with Cloven’s silky, fluffy formula. I love to use as a night cream, waking up with the most dewy, hydrated skin”   </p><p>- Ellodee </p>",
             "link_label": "",
             "link": ""
@@ -492,6 +494,7 @@
           "type": "column",
           "settings": {
             "title": "Bravo!",
+            "title_size": "h3",
             "text": "<p>Okay. Real talk!! Bravo … two days with cloven!!! I’ve never seen so much progress on my skin. I’ve been searching for almost 8 years for something to help my skin and I’m already seeing results!!! I’ve never been so hopeful to see my old skin.  Thank you for this!!!  </p><p> - Arinze </p>",
             "link_label": "",
             "link": ""
@@ -501,6 +504,7 @@
           "type": "column",
           "settings": {
             "title": "My New Go-To!",
+            "title_size": "h3",
             "text": "<p>I’m a skincare freak and have tried loads of moisturizers.  Nothing I’ve tried has come close to the hydration that Cloven provides.  I use it all over my body, especially in those dry, winter months.  And the best part is that it uses minimal and natural ingredients.  Cloven has quickly become my new favorite go-to!  </p><p>- Amanda </p>",
             "link_label": "",
             "link": ""
@@ -510,6 +514,7 @@
           "type": "column",
           "settings": {
             "title": "Lite and Airy",
+            "title_size": "h3",
             "text": "<p>I love the way Cloven smells and feels so nice on my skin. Other tallow brands have felt heavy but not Cloven. New favorite!</p><p>- Monica </p>",
             "link_label": "",
             "link": ""
@@ -519,6 +524,7 @@
           "type": "column",
           "settings": {
             "title": "Skincare Noobie",
+            "title_size": "h3",
             "text": "<p>As a guy I've never paid much attention to skincare but after trying Cloven, I get the hype. My skin feels so soft and moisturized. And I like that the scent is good for guys and gals. </p><p>- Ben </p>",
             "link_label": "",
             "link": ""
@@ -537,6 +543,7 @@
         ".multicolumn {padding-bottom: 40px;}"
       ],
       "settings": {
+        "page_width_small": false,
         "title": "",
         "heading_size": "h1",
         "image_width": "third",
@@ -561,6 +568,7 @@
           "settings": {
             "image": "shopify://shop_images/productdetail-tallow-medium.jpg",
             "title": "Tallow",
+            "title_size": "h3",
             "text": "<p>Tallow’s fatty acids closely match our skin's natural sebum, making it highly compatible. Tallow supports skin health and elasticity and is a perfect carrier for vitamins in essential oils. Its anti-inflammatory properties soothe irritation and have been know to benefit conditions like eczema and psoriasis. Its non-comedogenic nature allows tallow to provide moisture without greasiness and absorbs deeply into our skin.</p>",
             "link_label": "",
             "link": ""
@@ -571,6 +579,7 @@
           "settings": {
             "image": "shopify://shop_images/productdetail-yucca-medium.jpg",
             "title": "Yucca",
+            "title_size": "h3",
             "text": "<p>Yucca can help the skin retain moisture and its anti-inflammatory properties aid in soothing irritation. High amounts of vitamin C in Yucca  can aid in the production of collagen, our skin’s main protein. Studies have also found that Yucca contains natural photoprotective qualities and may be able to protect against sun damage. </p>",
             "link_label": "",
             "link": ""
@@ -581,6 +590,7 @@
           "settings": {
             "image": "shopify://shop_images/productdetail-greentea-medium.jpg",
             "title": "Green Tea",
+            "title_size": "h3",
             "text": "<p>Green Tea is filled with many beneficial compounds like vitamins A, E, and squalene. Squalene has been compared to hyaluronic acid for its hydrating properties. Green tea is also a  powerful moisturizer that can absorb into skin without causing acne or clogging pores. The antioxidants in green tea have been known to aid in prevention of premature aging and fine lines. <br/><br/></p>",
             "link_label": "",
             "link": ""
@@ -591,6 +601,7 @@
           "settings": {
             "image": "shopify://shop_images/productdetail-calendula-medium-3.jpg",
             "title": "Calendula",
+            "title_size": "h3",
             "text": "<p>Calendula has been shown to increase blood circulation and heighten cell turnover, keeping skin smooth and vibrant.  Due to its ability to increase oxygen and blood flow to the skin, calendula can speed the healing of redness, wounds, acne and other skin ailments. Calendula contains natural antifungal and antimicrobial properties, making this powerhouse flower more than just pretty petals!</p>",
             "link_label": "",
             "link": ""
@@ -605,6 +616,7 @@
       ],
       "disabled": true,
       "settings": {
+        "page_width_small": false,
         "title": "Benefits",
         "heading_size": "h0",
         "image_width": "half",
@@ -728,6 +740,7 @@
           "type": "column",
           "settings": {
             "title": "Ethical Skincare. Healthier Glow.",
+            "title_size": "h3",
             "text": "<p><strong>We are dedicated to embracing ancestral wisdom. Tallow was once the most widely used form of skincare before modern methods took its place; we want to bring it back to the forefront. Our tallow is ethically sourced from regenerative ranch-raised cattle, ensuring we honor the earth and minimize waste. We strive to offer a cleaner alternative to chemical-laden skincare, championing a return to purity and non-toxic living for a healthier glow. </strong></p>",
             "link_label": "",
             "link": ""
@@ -737,6 +750,7 @@
           "type": "column",
           "settings": {
             "title": "Nourish, Balance, and Soothe.",
+            "title_size": "h3",
             "text": "<p>Tallow deeply nourishes and moisturizes skin with natural linolic acid, an omega-6 fatty acid and antioxidant. The anti-inflammatory properties from linolic acid soothe sensitive skin and calm redness. Many have found tallow to be beneficial in diminishing the effects of eczema, acne, and other skin conditions.  Everyone's skin journey is different, but by focusing on what we put in our bodies and on our skin we take control of making a change for the better. </p>",
             "link_label": "",
             "link": ""
@@ -751,6 +765,7 @@
         "p {text-align: justify;}"
       ],
       "settings": {
+        "page_width_small": false,
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
@@ -774,6 +789,7 @@
           "type": "column",
           "settings": {
             "title": "Crafting Purity",
+            "title_size": "h3",
             "text": "<p><strong>Our meticulous dry-rendering process is designed to preserve nutrients at every step. Beginning with the highest quality grass-fed trimmings, we render our </strong><em><strong>suet</strong></em><strong> at low temperatures, ensuring our tallow retains all of its vitamins and health benefits. Through a process of multiple renders, the suet transforms into liquid gold. All of the impurities are gently removed, leaving us with a vitamin-rich, cosmetic-grade tallow. The perfect base for a powerful yet gentle balm. </strong></p>",
             "link_label": "",
             "link": ""
@@ -784,6 +800,7 @@
           "settings": {
             "image": "shopify://shop_images/Screenshot_2024-08-31_194357.png",
             "title": "",
+            "title_size": "h3",
             "text": "",
             "link_label": "",
             "link": ""
@@ -794,6 +811,7 @@
           "settings": {
             "image": "shopify://shop_images/Screenshot_2024-08-31_194423.png",
             "title": "",
+            "title_size": "h3",
             "text": "",
             "link_label": "",
             "link": ""
@@ -807,6 +825,7 @@
       ],
       "custom_css": [],
       "settings": {
+        "page_width_small": false,
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
