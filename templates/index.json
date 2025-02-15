@@ -639,6 +639,7 @@
         "heading_rNf3YL": {
           "type": "heading",
           "settings": {
+            "image": "shopify://shop_images/flower.png",
             "heading": "It’s more than just",
             "heading_size": "hxl",
             "heading_alignment": "left",
