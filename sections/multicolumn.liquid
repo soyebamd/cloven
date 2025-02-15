@@ -25,7 +25,7 @@
 
 <div class="multicolumn color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
   <div
-    class="page-width section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    class="page-width {% if section.settings.page_width_small  %}page--width-small {% endif %} section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     {% if settings.animations_reveal_on_scroll %}
       data-cascade
     {% endif %}
@@ -200,6 +200,12 @@
   },
   "settings": [
     {
+      "type": "checkbox",
+      "id": "page_width_small",
+      "default": false,
+      "label": "Small Container"
+    },
+    {
       "type": "inline_richtext",
       "id": "title",
       "default": "t:sections.multicolumn.settings.title.default",
@@ -361,6 +367,9 @@
       "default": false,
       "label": "t:sections.multicolumn.settings.swipe_on_mobile.label"
     },
+
+
+    
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
