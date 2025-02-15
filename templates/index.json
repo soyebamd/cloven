@@ -1075,12 +1075,12 @@
         "heading_GxwBPK": {
           "type": "heading",
           "settings": {
-            "heading": "We’re Here to Help",
+            "heading": "",
             "heading_size": "h1",
             "heading_alignment": "right",
-            "heading_2": "Talk about your brand",
-            "heading_size_2": "h1",
-            "heading_alignment_2": "left"
+            "heading_2": "We’re Here to Help",
+            "heading_size_2": "hxl",
+            "heading_alignment_2": "center"
           }
         },
         "text_x8DJyq": {
