@@ -35,6 +35,18 @@
     <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
        
 <div class="grid__item">
+
+
+
+<div class="cloven-image-title">
+
+<h2 class="{{ section.settings.heading }}">
+ {{ section.settings.heading }}
+</h2>
+
+</div>
+
+
     
       <div class="img-frame ">
   {% comment %} <div class="shadow"></div> {% endcomment %}
@@ -56,6 +68,16 @@
     <div class="sprite sprite-bottomright"></div>
   </div>
 </div>
+
+
+<div class="cloven-image-text">
+
+ {{ section.settings.text }}
+
+
+</div>
+
+
 
       </div>
 
@@ -115,6 +137,13 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+
+    {
+          "type": "inline_richtext",
+          "id": "heading",
+          "default": "t:sections.image-with-text.blocks.heading.settings.heading.default",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
 
   {
           "type": "select",
