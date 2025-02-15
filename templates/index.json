@@ -640,10 +640,10 @@
           "type": "heading",
           "settings": {
             "heading": "It’s more than just",
-            "heading_size": "h1",
+            "heading_size": "hxl",
             "heading_alignment": "left",
             "heading_2": "<em>clean</em> skincare",
-            "heading_size_2": "h1",
+            "heading_size_2": "hxl",
             "heading_alignment_2": "right"
           }
         },
