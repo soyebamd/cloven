@@ -439,7 +439,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>THE REVIEWS</p>"
+            "text": "<p>THE REVIEWS</p>",
+            "text_size": "medium"
           }
         },
         "heading": {
@@ -651,7 +652,8 @@
         "text_thDeew": {
           "type": "text",
           "settings": {
-            "text": ""
+            "text": "",
+            "text_size": "medium"
           }
         }
       },
@@ -1086,7 +1088,8 @@
         "text_x8DJyq": {
           "type": "text",
           "settings": {
-            "text": "<p>Feel free to ask us anything or share your thoughts with us.</p>"
+            "text": "<p>Feel free to ask us anything or share your thoughts with us.</p>",
+            "text_size": "large"
           }
         },
         "button_3amA4t": {
