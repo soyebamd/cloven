@@ -474,7 +474,7 @@
           "type": "column",
           "settings": {
             "title": "Wonderful",
-            "title_size": "h3",
+            "title_size": "h5",
             "text": "<p>The all-natural formula is wonderful. I LOVE smoothing the rich cream around my eyes and lips, nourishing my skin with pure goodness.</p><p>- Michelle </p>",
             "link_label": "",
             "link": ""
@@ -494,7 +494,7 @@
           "type": "column",
           "settings": {
             "title": "Bravo!",
-            "title_size": "h3",
+            "title_size": "h5",
             "text": "<p>Okay. Real talk!! Bravo … two days with cloven!!! I’ve never seen so much progress on my skin. I’ve been searching for almost 8 years for something to help my skin and I’m already seeing results!!! I’ve never been so hopeful to see my old skin.  Thank you for this!!!  </p><p> - Arinze </p>",
             "link_label": "",
             "link": ""
@@ -504,7 +504,7 @@
           "type": "column",
           "settings": {
             "title": "My New Go-To!",
-            "title_size": "h3",
+            "title_size": "h5",
             "text": "<p>I’m a skincare freak and have tried loads of moisturizers.  Nothing I’ve tried has come close to the hydration that Cloven provides.  I use it all over my body, especially in those dry, winter months.  And the best part is that it uses minimal and natural ingredients.  Cloven has quickly become my new favorite go-to!  </p><p>- Amanda </p>",
             "link_label": "",
             "link": ""
@@ -514,7 +514,7 @@
           "type": "column",
           "settings": {
             "title": "Lite and Airy",
-            "title_size": "h3",
+            "title_size": "h5",
             "text": "<p>I love the way Cloven smells and feels so nice on my skin. Other tallow brands have felt heavy but not Cloven. New favorite!</p><p>- Monica </p>",
             "link_label": "",
             "link": ""
@@ -524,7 +524,7 @@
           "type": "column",
           "settings": {
             "title": "Skincare Noobie",
-            "title_size": "h3",
+            "title_size": "h5",
             "text": "<p>As a guy I've never paid much attention to skincare but after trying Cloven, I get the hype. My skin feels so soft and moisturized. And I like that the scent is good for guys and gals. </p><p>- Ben </p>",
             "link_label": "",
             "link": ""
@@ -556,8 +556,8 @@
         "color_scheme": "scheme-ea848b25-c9db-4f83-8e42-cda508e974c5",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 80,
-        "padding_bottom": 68
+        "padding_top": 0,
+        "padding_bottom": 56
       }
     },
     "multicolumn_QB3RDD": {
@@ -640,10 +640,10 @@
           "type": "heading",
           "settings": {
             "heading": "It’s more than just",
-            "heading_size": "h1",
+            "heading_size": "hxl",
             "heading_alignment": "left",
             "heading_2": "<em>clean</em> skincare",
-            "heading_size_2": "h1",
+            "heading_size_2": "hxl",
             "heading_alignment_2": "right"
           }
         },
