@@ -13,22 +13,6 @@
     }
   }
 
-  .cloven-image-title h2{
-  letter-spacing: 6px;
-  text-transform: uppercase;
-  text-align: center; }
-
-   .cloven-image-title .h3{
-    font-size:20px!important;
-   }
-
-   .cloven-image-text{
-    text-align:center;
-   }
-
-   .cloven-image-text{max-width: 510px;
-  margin: auto;}
-
 
 {%- endstyle -%}
 
@@ -51,20 +35,8 @@
     <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
        
 <div class="grid__item">
-
-
-
-<div class="cloven-image-title">
-
-<h2 class="{{ section.settings.heading_size }}">
- {{ section.settings.heading }}
-</h2>
-
-</div>
-
-
     
-      <div class="img-frame double-frame h-auto ">
+      <div class="img-frame ">
   {% comment %} <div class="shadow"></div> {% endcomment %}
   <div class="frame-cover">
 
@@ -84,16 +56,6 @@
     <div class="sprite sprite-bottomright"></div>
   </div>
 </div>
-
-
-<div class="cloven-image-text">
-
- {{ section.settings.text }}
-
-
-</div>
-
-
 
       </div>
 
@@ -153,49 +115,6 @@
     "groups": ["header", "footer"]
   },
   "settings": [
-
-    {
-          "type": "inline_richtext",
-          "id": "heading",
-          "default": "t:sections.image-with-text.blocks.heading.settings.heading.default",
-          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
-        },
-
-  {
-          "type": "select",
-          "id": "heading_size",
-          "options": [
-             {
-              "value": "h3",
-              "label": "x-small"
-            },
-            {
-              "value": "h2",
-              "label": "t:sections.all.heading_size.options__1.label"
-            },
-            {
-              "value": "h1",
-              "label": "t:sections.all.heading_size.options__2.label"
-            },
-            {
-              "value": "h0",
-              "label": "t:sections.all.heading_size.options__3.label"
-            },
-            {
-              "value": "hxl",
-              "label": "t:sections.all.heading_size.options__4.label"
-            },
-            {
-              "value": "hxxl",
-              "label": "t:sections.all.heading_size.options__5.label"
-            }
-          ],
-          "default": "h1",
-          "label": "t:sections.all.heading_size.label"
-        }
-
-
-        ,
     {
       "type": "image_picker",
       "id": "image",
@@ -225,12 +144,6 @@
       "default": "adapt",
       "label": "t:sections.image-with-text.settings.height.label"
     },
-    {
-          "type": "richtext",
-          "id": "text",
-          "default": "t:sections.image-with-text.blocks.text.settings.text.default",
-          "label": "t:sections.image-with-text.blocks.text.settings.text.label"
-        },
     {
       "type": "select",
       "id": "desktop_image_width",
