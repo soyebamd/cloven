@@ -320,7 +320,7 @@
         "column_WEVcUU"
       ],
       "settings": {
-        "page_width_small": false,
+        "page_width_small": true,
         "title": "Multicolumn",
         "heading_size": "h1",
         "image_width": "full",
