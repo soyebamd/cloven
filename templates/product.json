@@ -254,13 +254,13 @@
     "multicolumn_dcnXFb": {
       "type": "multicolumn",
       "blocks": {
-        "column_fCxXjx": {
+        "column_BfQETh": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/productdetail-tallow-medium.jpg",
-            "title": "Tallow",
+            "image": "shopify://shop_images/productdetail-calendula-medium-3.jpg",
+            "title": "Calendula",
             "title_size": "h3",
-            "text": "<p>Tallow’s fatty acids are similar to sebum—the oil our skin creates—making tallow extremely compatible with our skin. Tallow contains vitamins A, E, D, and K which can help with skin health and elasticity. Due to its natural anti-inflammatory properties, tallow can be very beneficial to those with eczema, psoriasis, and other skin sensitivities. It is moisturizing without feeling greasy and absorbs deeply into skin. </p>",
+            "text": "<p>Calendula has been shown to increase blood circulation and heighten cell turnover, keeping skin smooth and vibrant. Due to its ability to increase oxygen and blood flow to the skin, calendula can speed the healing of redness, wounds, acne and other skin ailments. Calendula contains natural antifungal and antimicrobial properties, making this powerhouse flower more than just pretty petals!</p>",
             "link_label": "",
             "link": ""
           }
@@ -269,9 +269,9 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/productdetail-yucca-medium.jpg",
-            "title": "Yucca",
+            "title": "YUCCA ROOT",
             "title_size": "h3",
-            "text": "<p>Yucca can help the skin retain moisture and its anti-inflammatory properties aid in soothing irritated skin. High amounts of vitamin C in Yucca  can aid in the production of collagen, our skin’s main protein. Studies have also found that Yucca contains natural photoprotective qualities and may be able to protect against sun damage. </p>",
+            "text": "<p>Yucca can help the skin retain moisture and its anti-inflammatory properties aid in soothing irritation. High amounts of vitamin C in Yucca  can aid in the production of collagen, our skin’s main protein. Studies have also found that Yucca contains natural photoprotective qualities and may be able to protect against sun damage. </p>",
             "link_label": "",
             "link": ""
           }
@@ -280,30 +280,30 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/productdetail-greentea-medium.jpg",
-            "title": "Green Tea",
+            "title": "GREEN TEA",
             "title_size": "h3",
-            "text": "<p>Green Tea Oil is filled with many beneficial compounds like vitamins A, E, and squalene. Squalene has been compared to hyaluronic acid for its hydrating properties. Green tea is also a  powerful moisturizer that can absorb into skin without worsening acne or clog pores. </p>",
+            "text": "<p>Green Tea is filled with many beneficial compounds like vitamins A, E, and squalene. Squalene has been compared to hyaluronic acid for its hydrating properties. Green tea is also a  powerful moisturizer that can absorb into skin without causing acne or clogging pores. The antioxidants in green tea have been known to aid in prevention of premature aging and fine lines.<br/></p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_BfQETh": {
+        "column_fCxXjx": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/productdetail-calendula-medium-3.jpg",
-            "title": "Calendula",
+            "image": "shopify://shop_images/productdetail-tallow-medium.jpg",
+            "title": "NEROLI",
             "title_size": "h3",
-            "text": "<p>Calendula has been shown to increase blood circulation and heighten cell turnover, keeping skin smooth and vibrant. It can also aid in healing redness, wounds, acne sores, and other skin ailments due to its antifungal and antimicrobial properties. </p>",
+            "text": "<p>Neroli Oil is rich in antioxidants and natural anti-inflammatory properties which help soothe redness and irritation. Neroli also supports healthy skin cell turnover, prompting a brighter complexion, and reducing the appearance of dark spots or scars. Its delicate floral aroma adds a luxurious sensory experience to any skincare routine</p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_fCxXjx",
+        "column_BfQETh",
         "column_FEkffB",
         "column_fTaEKe",
-        "column_BfQETh"
+        "column_fCxXjx"
       ],
       "settings": {
         "page_width_small": false,
