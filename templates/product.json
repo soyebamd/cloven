@@ -237,7 +237,7 @@
         "page_width_small": true,
         "title": "Multicolumn",
         "heading_size": "h1",
-        "image_width": "third",
+        "image_width": "thumbnail",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
