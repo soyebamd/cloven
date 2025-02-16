@@ -302,54 +302,38 @@
         "include_margins": true
       }
     },
-    "cloven_image_with_text_v2_Dth4gD": {
-      "type": "cloven-image-with-text-v2",
+    "cloven_single_column_BggCjA": {
+      "type": "cloven-single-column",
       "blocks": {
-        "heading_Emp4bw": {
-          "type": "heading",
+        "column_WEVcUU": {
+          "type": "column",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "text_URkTzy": {
-          "type": "text",
-          "settings": {
+            "image": "shopify://shop_images/meal.png",
+            "title": "Column",
+            "title_size": "h3",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_VdQT4N": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "heading_Emp4bw",
-        "text_URkTzy",
-        "button_VdQT4N"
+        "column_WEVcUU"
       ],
       "settings": {
-        "heading": "Image with text",
+        "page_width_small": true,
+        "title": "Multicolumn",
         "heading_size": "h1",
-        "height": "adapt",
-        "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-        "desktop_image_width": "medium",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
         "button_label": "Button label",
         "button_link": "",
-        "button_style_secondary": false,
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -362,6 +346,6 @@
     "related-products",
     "multicolumn_dcnXFb",
     "1736374350f920e1f1",
-    "cloven_image_with_text_v2_Dth4gD"
+    "cloven_single_column_BggCjA"
   ]
 }
