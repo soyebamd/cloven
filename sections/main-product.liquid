@@ -91,7 +91,12 @@
                 {% render block %}
               {%- when 'text' -%}
                 <p
-                  class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
+                  class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}
+                 
+
+                  {{ block.settings.text_size }}
+                  
+                  "
                   {{ block.shopify_attributes }}
                 >
                   {{- block.settings.text -}}
@@ -747,18 +752,7 @@
           "type": "select",
           "id": "text_style",
           "options": [
-              {
-            "value": "small",
-            "label": "Small"
-          },
-          {
-            "value": "medium",
-            "label": "Medium"
-          },
-          {
-            "value": "large",
-            "label": "Large"
-          },
+            
             {
               "value": "body",
               "label": "t:sections.main-product.blocks.text.settings.text_style.options__1.label"
@@ -774,7 +768,27 @@
           ],
           "default": "body",
           "label": "t:sections.main-product.blocks.text.settings.text_style.label"
-        }
+        },
+         {
+        "type": "select",
+        "id": "text_size",
+        "options": [
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          }
+        ],
+        "value": "small",
+        "label": "Small"
+      }
       ]
     },
     {
