@@ -242,7 +242,7 @@
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
         "columns_mobile": "1",
