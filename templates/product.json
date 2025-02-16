@@ -231,7 +231,7 @@
         "text_QCxfKV": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<h3>Where?</h3><p>Cloven is perfect for any external area needing some moisture. Face, hands, feet, or as body lotion— we find ourselves reaching for Cloven Tallow Balm. </p><h3>How Much?</h3><p>A little goes a long way! Start small and add more as needed. We recommend a pea sized amount to start.</p>",
             "text_style": "body"
           }
         },
@@ -250,6 +250,7 @@
         "button_dbDdTd"
       ],
       "settings": {
+        "image": "shopify://shop_images/wer.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
