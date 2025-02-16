@@ -96,8 +96,11 @@
                       assign grid_space_tablet = number_of_columns_mobile | minus: 1 | times: settings.spacing_grid_horizontal | plus: 100 | append: 'px'
                       assign grid_space_mobile = number_of_columns_mobile | minus: 1 | times: settings.spacing_grid_horizontal | divided_by: 2 | plus: 30 | append: 'px'
                       if section.settings.image_width == '250'
+                        assign image_width = 0.25
+                     
+                     if section.settings.image_width == 'half'
                         assign image_width = 0.5
-                      elsif section.settings.image_width == '250'
+                      elsif section.settings.image_width == 'third'
                         assign image_width = 0.33
                       else
                         assign image_width = 1
@@ -247,6 +250,10 @@
       "type": "select",
       "id": "image_width",
       "options": [
+          {
+      "value": "250",
+      "label": "250px"
+    },
         {
           "value": "third",
           "label": "t:sections.multicolumn.settings.image_width.options__1.label"
