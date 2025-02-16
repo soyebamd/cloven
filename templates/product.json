@@ -20,6 +20,7 @@
           "type": "text",
           "settings": {
             "text": "Our four ingredient tallow balm is luxurious skincare, simplified.",
+            "text_size": "large",
             "text_style": "medium"
           }
         },
@@ -31,6 +32,7 @@
           "type": "text",
           "settings": {
             "text": "Embrace the ancestral wisdom and simplicity of your skincare with this luxurious tallow balm. Made with only four ingredients, Cloven cultivates natural remedies to nurture and hydrate your skin. Free from harmful chemicals, dyes, or fragrances. ",
+            "text_size": "small",
             "text_style": "body"
           }
         },
@@ -38,6 +40,7 @@
           "type": "text",
           "settings": {
             "text": "Ingredients: Grass-Fed Pasture raised beef tallow, Yucca Powder, Green Tea Oil, Calendula Oil. ",
+            "text_size": "small",
             "text_style": "uppercase"
           }
         },
