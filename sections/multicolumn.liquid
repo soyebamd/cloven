@@ -70,13 +70,22 @@
 
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
-            class="multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            class="multicolumn-list__item position-relative grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
             {{ block.shopify_attributes }}
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
+
+
+
+          {{ 'icon-airstar.svg' | asset_url | img_tag: class: 'position-absolute star-topleft' }}
+           {{ 'icon-airstar.svg' | asset_url | img_tag: class: 'position-absolute star-topright' }}
+            {{ 'icon-airstar.svg' | asset_url | img_tag: class: 'position-absolute star-bottomleft' }}
+             {{ 'icon-airstar.svg' | asset_url | img_tag: class: 'position-absolute star-bottomright' }}
+
+
             <div class="multicolumn-card content-container">
               {%- if block.settings.image != blank -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
