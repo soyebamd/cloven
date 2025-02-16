@@ -534,14 +534,14 @@ h5,
   height: 320px;
 }
 
-.title {
+.title-main {
     position: relative;
     display: inline-block;
     text-align: center;
 }
 
-.title::before,
-.title::after {
+.title-main::before,
+.title-main::after {
     content: "";
     position: absolute;
     width: 300px;
@@ -551,13 +551,18 @@ h5,
     transform: translateX(-50%);
 }
 
-.title::before {
-    top: -7px; /* Places it 5px above the title (2px height + 5px gap) */
+.title-main::before {
+    top: -10px;
 }
 
-.title::after {
-    bottom: 100%; /* Positions it above the title */
+.title-main::after {
+    bottom: -7px;
     margin-bottom: 5px; /* Adds a 5px gap above the title */
+}
+
+ .title-main {
+   
+    letter-spacing: 4px;
 }
 
 
