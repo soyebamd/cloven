@@ -14,6 +14,18 @@
   }
 
 
+  .small-wrapper{}
+
+    .small-wrapper .img-frame {max-width: 360px; height:610px;  }
+
+   .small-wrapper  .frame-cover {
+ 
+  min-height: 100%;
+  height: 100%;
+ 
+}
+
+
 {%- endstyle -%}
 
 {%- liquid
@@ -36,7 +48,7 @@
        
 <div class="grid__item">
     
-      <div class="img-frame ">
+      <div class="img-frame {{ section.settings.image_style }} ">
   {% comment %} <div class="shadow"></div> {% endcomment %}
   <div class="frame-cover ">
 
@@ -120,6 +132,26 @@
       "id": "image",
       "label": "t:sections.image-with-text.settings.image.label"
     },
+
+    {
+      "type": "select",
+      "id": "image_style",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "t:sections.image-with-text.settings.height.options__1.label"
+        },
+        {
+          "value": "small-wrapper",
+          "label": "t:sections.image-with-text.settings.height.options__2.label"
+        }
+       
+      ],
+      "default": "adapt",
+      "label": "t:sections.image-with-text.settings.height.label"
+    },
+
+
     {
       "type": "select",
       "id": "height",
