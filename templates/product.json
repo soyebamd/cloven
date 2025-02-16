@@ -224,7 +224,7 @@
         "heading_8HyAne": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Recomended Use",
             "heading_size": "h1"
           }
         },
@@ -237,6 +237,7 @@
         },
         "button_dbDdTd": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
