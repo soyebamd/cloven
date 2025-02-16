@@ -256,6 +256,6 @@
 
 .multicolumn-list--custom li {
   border: solid 1px #333;
-  background: rgba(var(--color-foreground), 1);
+  background: var(--gradient-background);
   padding: 20px !important;
 }
