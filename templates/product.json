@@ -112,6 +112,55 @@
         "padding_bottom": 36
       }
     },
+    "cloven_image_with_text_76rApD": {
+      "type": "cloven-image-with-text",
+      "blocks": {
+        "heading_8HyAne": {
+          "type": "heading",
+          "settings": {
+            "heading": "Recomended Use",
+            "heading_size": "h1"
+          }
+        },
+        "text_QCxfKV": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Where?</h3><p>Cloven is perfect for any external area needing some moisture. Face, hands, feet, or as body lotion— we find ourselves reaching for Cloven Tallow Balm. </p><h3>How Much?</h3><p>A little goes a long way! Start small and add more as needed. We recommend a pea sized amount to start.</p><h3>How?</h3><p>Warm the tallow by rubbing it between your fingertips and apply. Depending on your moisture needs, a pea sized amount should be enough for an area about the size of your face or both your hands.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_dbDdTd": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_8HyAne",
+        "text_QCxfKV",
+        "button_dbDdTd"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/wer.png",
+        "image_style": "small-wrapper",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "right",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
+        "color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -217,62 +266,13 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "cloven_image_with_text_76rApD": {
-      "type": "cloven-image-with-text",
-      "blocks": {
-        "heading_8HyAne": {
-          "type": "heading",
-          "settings": {
-            "heading": "Recomended Use",
-            "heading_size": "h1"
-          }
-        },
-        "text_QCxfKV": {
-          "type": "text",
-          "settings": {
-            "text": "<h3>Where?</h3><p>Cloven is perfect for any external area needing some moisture. Face, hands, feet, or as body lotion— we find ourselves reaching for Cloven Tallow Balm. </p><h3>How Much?</h3><p>A little goes a long way! Start small and add more as needed. We recommend a pea sized amount to start.</p><h3>How?</h3><p>Warm the tallow by rubbing it between your fingertips and apply. Depending on your moisture needs, a pea sized amount should be enough for an area about the size of your face or both your hands.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_dbDdTd": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_8HyAne",
-        "text_QCxfKV",
-        "button_dbDdTd"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/wer.png",
-        "image_style": "small-wrapper",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "right",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
-        "color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
+    "cloven_image_with_text_76rApD",
     "related-products",
     "multicolumn_dcnXFb",
-    "1736374350f920e1f1",
-    "cloven_image_with_text_76rApD"
+    "1736374350f920e1f1"
   ]
 }
