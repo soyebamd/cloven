@@ -1127,6 +1127,59 @@
         "padding_top": 28,
         "padding_bottom": 100
       }
+    },
+    "slideshow_mQKPy4": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_zfVtQi": {
+          "type": "slide",
+          "settings": {
+            "heading": "RefiningPurity",
+            "heading_size": "h1",
+            "subheading": "Our meticulous dry-rendering process is designed to preserve nutrients at every step. Beginning with the highest quality grass-fed trimmings, we render our suet at low temperatures, ensuring our tallow retains all of its vitamins and health benefits..",
+            "button_label": "SHOP CLOVEN",
+            "link": "#",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_GMe7eH": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_zfVtQi",
+        "slide_GMe7eH"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
@@ -1150,6 +1203,7 @@
     "image_banner_eezadb",
     "collapsible_content_VGUfeb",
     "rich_text_qbgAAV",
-    "contact_form_b4nbe7"
+    "contact_form_b4nbe7",
+    "slideshow_mQKPy4"
   ]
 }
