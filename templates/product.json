@@ -308,6 +308,7 @@
         "column_WEVcUU": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/meal.png",
             "title": "Column",
             "title_size": "h3",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
