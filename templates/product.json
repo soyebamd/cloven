@@ -314,14 +314,14 @@
         "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "scheme-e52ac7d6-3393-41bf-93f9-48f28b364730",
         "color_scheme_blocks": "scheme-983f992e-3be0-4ccc-9900-8ab3a4e228bb",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 20,
+        "padding_bottom": 80
       }
     },
     "1736374350f920e1f1": {
