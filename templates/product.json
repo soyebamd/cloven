@@ -338,6 +338,23 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "173973655936ccd51f": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_krjatr": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_krjatr"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -347,6 +364,7 @@
     "related-products",
     "cloven_single_column_BggCjA",
     "multicolumn_dcnXFb",
-    "1736374350f920e1f1"
+    "1736374350f920e1f1",
+    "173973655936ccd51f"
   ]
 }
