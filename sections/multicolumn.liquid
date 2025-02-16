@@ -78,10 +78,11 @@
             {% endif %}
           >
 
-       {{ 'icon-airstar.svg' | asset_url | img_tag: { class: "position-absolute icon-star star-topleft" } }}
-{{ 'icon-airstar.svg' | asset_url | img_tag: { class: "position-absolute icon-star star-topright" } }}
-{{ 'icon-airstar.svg' | asset_url | img_tag: { class: "position-absolute icon-star star-bottomleft" } }}
-{{ 'icon-airstar.svg' | asset_url | img_tag: { class: "position-absolute icon-star star-bottomright" } }}
+     <img src="{{ 'icon-airstar.svg' | asset_url }}" class="position-absolute icon-star star-topleft">
+<img src="{{ 'icon-airstar.svg' | asset_url }}" class="position-absolute icon-star star-topright">
+<img src="{{ 'icon-airstar.svg' | asset_url }}" class="position-absolute icon-star star-bottomleft">
+<img src="{{ 'icon-airstar.svg' | asset_url }}" class="position-absolute icon-star star-bottomright">
+
 
 
             <div class="multicolumn-card content-container">
