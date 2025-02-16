@@ -301,13 +301,14 @@
         "column_TFhUmh"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "feature_image": "shopify://shop_images/wer.png",
+        "title": "",
         "heading_size": "h1",
         "heading_size_alignment": "left",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 1,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "Button label",
         "button_link": "",
