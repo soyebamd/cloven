@@ -215,6 +215,42 @@
         "padding_bottom": 28
       }
     },
+    "cloven_single_column_BggCjA": {
+      "type": "cloven-single-column",
+      "blocks": {
+        "column_WEVcUU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/meal.png",
+            "title": "Column",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_WEVcUU"
+      ],
+      "settings": {
+        "page_width_small": true,
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "Thumbnail",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_dcnXFb": {
       "type": "multicolumn",
       "blocks": {
@@ -301,42 +337,6 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "cloven_single_column_BggCjA": {
-      "type": "cloven-single-column",
-      "blocks": {
-        "column_WEVcUU": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/meal.png",
-            "title": "Column",
-            "title_size": "h3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_WEVcUU"
-      ],
-      "settings": {
-        "page_width_small": true,
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -344,8 +344,8 @@
     "cloven_image_with_text_76rApD",
     "rich_text_UVmpnH",
     "related-products",
+    "cloven_single_column_BggCjA",
     "multicolumn_dcnXFb",
-    "1736374350f920e1f1",
-    "cloven_single_column_BggCjA"
+    "1736374350f920e1f1"
   ]
 }
