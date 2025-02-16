@@ -254,7 +254,7 @@
   }
 }
 
-.multicolumn-list li {
+.multicolumn-list--custom li {
   border: solid 1px #333;
   background: #f3f1eb;
   padding: 20px !important;
