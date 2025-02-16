@@ -290,7 +290,7 @@
         "column_fCxXjx": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/productdetail-tallow-medium.jpg",
+            "image": "shopify://shop_images/NEROLI.png",
             "title": "NEROLI",
             "title_size": "h3",
             "text": "<p>Neroli Oil is rich in antioxidants and natural anti-inflammatory properties which help soothe redness and irritation. Neroli also supports healthy skin cell turnover, prompting a brighter complexion, and reducing the appearance of dark spots or scars. Its delicate floral aroma adds a luxurious sensory experience to any skincare routine</p>",
@@ -309,7 +309,7 @@
         "page_width_small": false,
         "title": "THE EXTRACTS",
         "heading_size": "h1",
-        "image_width": "half",
+        "image_width": "third",
         "image_ratio": "portrait",
         "columns_desktop": 4,
         "column_alignment": "center",
