@@ -534,6 +534,33 @@ h5,
   height: 320px;
 }
 
+.title {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.title::before,
+.title::after {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 2px;
+    background-color: #333;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title::before {
+    top: -7px; /* Places it 5px above the title (2px height + 5px gap) */
+}
+
+.title::after {
+    bottom: 100%; /* Positions it above the title */
+    margin-bottom: 5px; /* Adds a 5px gap above the title */
+}
+
+
 @media screen and (min-width: 750px) {
   #ContactForm .contact .field {
     margin-bottom: 5rem;
