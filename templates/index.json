@@ -752,7 +752,7 @@
       "settings": {
         "heading": "A Healthier Path for Your Skin",
         "heading_size": "h3",
-        "image": "shopify://shop_images/cloven2.png",
+        "image": "shopify://shop_images/healthierpath.jpg",
         "height": "adapt",
         "text": "<p>Cloven is our answer to toxic, chemical-filled products. Using safe, natural ingredients, we’ve created a balm that reconnects us to nature and purity. Our mission is simple: healthier skin, free from harmful additives.</p>",
         "desktop_image_width": "medium",
@@ -768,7 +768,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 100
       }
     },
     "image_banner_zUQmDg": {
