@@ -252,6 +252,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/wer.png",
+        "image_style": "small-wrapper",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
