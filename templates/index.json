@@ -795,10 +795,33 @@
             "color_scheme": "scheme-4",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_agptMq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/CLOVEN-LIFESTYLE-LEADWELL.jpg",
+            "heading": "Image slide",
+            "heading_size": "hxl",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
-        "slide_zfVtQi"
+        "slide_zfVtQi",
+        "slide_agptMq"
+      ],
+      "custom_css": [
+        ".banner__text {max-width: 80%; margin: 3.5rem 0;}",
+        "@media screen and (max-width: 749px) {.banner__text {max-width: 100%; }}"
       ],
       "settings": {
         "layout": "full_bleed",
