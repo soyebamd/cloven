@@ -795,28 +795,10 @@
             "color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_GMe7eH": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
-        "slide_zfVtQi",
-        "slide_GMe7eH"
+        "slide_zfVtQi"
       ],
       "settings": {
         "layout": "full_bleed",
