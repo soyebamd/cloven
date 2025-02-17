@@ -297,6 +297,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/feature-image.jpg",
+        "image_style": "adapt",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -555,6 +556,7 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "scheme-ea848b25-c9db-4f83-8e42-cda508e974c5",
+        "color_scheme_blocks": "",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 0,
@@ -628,6 +630,7 @@
         "button_label": "Button label",
         "button_link": "",
         "color_scheme": "scheme-e52ac7d6-3393-41bf-93f9-48f28b364730",
+        "color_scheme_blocks": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 76,
@@ -704,6 +707,7 @@
       "disabled": true,
       "settings": {
         "image": "shopify://shop_images/cloven2.png",
+        "image_style": "adapt",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -779,40 +783,22 @@
           "settings": {
             "image": "shopify://shop_images/CLOVEN-PRODUCTSHOT-DRIFTWOOD-1.jpg",
             "heading": "RefiningPurity",
-            "heading_size": "h1",
+            "heading_size": "hxl",
             "subheading": "Our meticulous dry-rendering process is designed to preserve nutrients at every step. Beginning with the highest quality grass-fed trimmings, we render our suet at low temperatures, ensuring our tallow retains all of its vitamins and health benefits..",
             "button_label": "SHOP CLOVEN",
             "link": "#",
-            "button_style_secondary": false,
-            "box_align": "middle-right",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_GMe7eH": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "color_scheme": "scheme-4",
             "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "slide_zfVtQi",
-        "slide_GMe7eH"
+        "slide_zfVtQi"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -820,7 +806,7 @@
         "slider_visual": "numbers",
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "image_behavior": "none",
+        "image_behavior": "ambient",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
@@ -889,6 +875,7 @@
         "button_label": "Button label",
         "button_link": "",
         "color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
+        "color_scheme_blocks": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 80,
@@ -962,6 +949,7 @@
         "button_label": "Button label",
         "button_link": "",
         "color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
+        "color_scheme_blocks": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
