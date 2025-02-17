@@ -230,8 +230,13 @@ slideshow-component:not(.page-width) .slider-buttons {
 .slider-counter__link--dots .dot,
 .slider-counter__link--numbers {
   transform: scale(1.8);
+  color: rgba(var(--color-foreground));
 }
 
 .slider-counter__link--active.slider-counter__link--numbers {
   transform: scale(2.1);
+  color: rgba(var(--color-foreground));
+}
+.slider-button {
+  color: rgba(var(--color-foreground));
 }
