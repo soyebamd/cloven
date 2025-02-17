@@ -800,6 +800,10 @@
       "block_order": [
         "slide_zfVtQi"
       ],
+      "custom_css": [
+        ".banner__text {max-width: 80%;}",
+        "@media screen and (max-width: 749px) {.banner__text {max-width: 100%; }}"
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "large",
