@@ -787,7 +787,7 @@
             "subheading": "Our meticulous dry-rendering process is designed to preserve nutrients at every step. Beginning with the highest quality grass-fed trimmings, we render our suet at low temperatures, ensuring our tallow retains all of its vitamins and health benefits..",
             "button_label": "SHOP CLOVEN",
             "link": "#",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
