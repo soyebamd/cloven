@@ -1250,10 +1250,10 @@ button.shopify-payment-button__button--unbranded {
   justify-content: center;
   align-items: center;
   border: 0;
-  padding: 0 3rem;
+  padding: 0 10px;
   cursor: pointer;
   font: inherit;
- min-width: calc(152px - 6rem);
+ min-width: calc(142px);
     min-height: 40px;
     font-size: 14px;
     font-family: "degular-variable";
