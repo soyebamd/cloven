@@ -94,12 +94,13 @@
           "type": "text",
           "settings": {
             "text": "$54",
-            "text_size": "price-item--regular",
+            "text_size": "price__regular",
             "text_style": "body"
           }
         },
         "price_dXnXLW": {
           "type": "price",
+          "disabled": true,
           "settings": {}
         },
         "variant_picker_TP8tjz": {
