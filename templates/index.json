@@ -59,6 +59,7 @@
         "buttons_3BQM8k"
       ],
       "settings": {
+        "narrow_width": true,
         "image": "shopify://shop_images/banner.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
@@ -316,6 +317,7 @@
       "type": "image-banner",
       "disabled": true,
       "settings": {
+        "narrow_width": false,
         "image": "shopify://shop_images/CLOVEN-LIFESTYLE-LEADWELL.jpg",
         "image_2": "shopify://shop_images/CLOVEN-PRODUCTSHOT-DRIFTWOOD-1.jpg",
         "image_overlay_opacity": 0,
@@ -841,6 +843,7 @@
         "{background-color: #e3ded3 !important;}"
       ],
       "settings": {
+        "narrow_width": false,
         "image": "shopify://shop_images/CLOVEN-PRODUCTSHOT-DRIFTWOOD-1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
@@ -1003,6 +1006,7 @@
       ],
       "disabled": true,
       "settings": {
+        "narrow_width": false,
         "image_2": "shopify://shop_images/Studio_SnakeMarble_01.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
