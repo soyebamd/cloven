@@ -86,6 +86,7 @@
           "type": "text",
           "settings": {
             "text": "Made With: Regenerative Tallow, Yucca, Green Tea, Calendula and Neroli Extract",
+            "text_size": "small",
             "text_style": "body"
           }
         },
@@ -93,6 +94,7 @@
           "type": "text",
           "settings": {
             "text": "$54",
+            "text_size": "price-item--regular",
             "text_style": "body"
           }
         },
@@ -168,6 +170,7 @@
           "type": "text",
           "settings": {
             "text": "Made With: Regenerative Tallow, Yucca, Green Tea, Calendula and Neroli Extract",
+            "text_size": "small",
             "text_style": "subtitle"
           }
         },
@@ -180,6 +183,7 @@
           "type": "text",
           "settings": {
             "text": "Crafted with powerful natural ingredients, this whipped balm soothes, hydrates and awakens your complexion; imbuing skin with vitamins and the ancestral power of tallow. Free from harmful chemicals, dyes or synthetic fragrances, Cloven nourishes with a simple formula that repairs and enhances - drawing on the gifts of animal and earth to alight your natural glow.",
+            "text_size": "small",
             "text_style": "body"
           }
         },
@@ -187,6 +191,7 @@
           "type": "text",
           "settings": {
             "text": "Ingredients: Regenerative Ranch-raised Beef Tallow, Yucca Powder, Green Tea Oil, Calendula Oil and Neroli Extract. ",
+            "text_size": "small",
             "text_style": "uppercase"
           }
         },
