@@ -240,3 +240,7 @@ slideshow-component:not(.page-width) .slider-buttons {
 .slider-button {
   color: rgba(var(--color-foreground));
 }
+
+.narrow-width {
+  max-width: 1050px !important;
+}
