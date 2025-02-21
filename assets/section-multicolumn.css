@@ -254,7 +254,7 @@
   }
 }
 
-.multicolumn-list--custom li {
+.box_layout .multicolumn-list--custom li {
   border: solid 1px rgba(var(--color-foreground), 1);
   background: var(--gradient-background);
   padding: 20px !important;
