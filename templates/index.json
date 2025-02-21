@@ -600,12 +600,42 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_3bRjwL": {
+          "type": "column",
+          "settings": {
+            "title": "My New Go-To!",
+            "text": "<p>I’m a skincare freak and have tried loads of moisturizers.  Nothing I’ve tried has come close to the hydration that Cloven provides.  I use it all over my body, especially in those dry, winter months.  And the best part is that it uses minimal and natural ingredients.  Cloven has quickly become my new favorite go-to!  </p><p>- Amanda </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RVVkL4": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_G3WNPm": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_4TEbcR",
         "column_cMbX4C",
-        "column_4bKmYN"
+        "column_4bKmYN",
+        "column_3bRjwL",
+        "column_RVVkL4",
+        "column_G3WNPm"
       ],
       "settings": {
         "title": "",
