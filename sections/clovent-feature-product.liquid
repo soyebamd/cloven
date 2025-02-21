@@ -470,7 +470,7 @@
                   {% render 'icon-with-text', block: block %}
               {%- endcase -%}
             {%- endfor -%}
-            <a
+            {% comment %} <a
               {% if product == blank %}
                 role="link" aria-disabled="true"
               {% else %}
@@ -480,7 +480,7 @@
             >
               {{ 'products.product.view_full_details' | t }}
               {{- 'icon-arrow.svg' | inline_asset_content -}}
-            </a>
+            </a> {% endcomment %}
           </section>
         </div>
       </div>
@@ -546,7 +546,7 @@
          {
           "type": "select",
           "id": "text_size",
-          "options": [
+          "options": [ 
             {
               "value": "small",
               "label": "Small"
