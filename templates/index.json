@@ -379,7 +379,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/icon1.png",
-            "title": "YUCCA ROOT",
+            "title": "<strong>YUCCA ROOT</strong>",
             "text": "<p>Rotational grazing and allowing cattle to naturally fertilize the land improve soil structure and increase organic matter.</p>",
             "link_label": "",
             "link": ""
