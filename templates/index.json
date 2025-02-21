@@ -553,6 +553,7 @@
       ],
       "settings": {
         "page_width_small": false,
+        "box_layout": false,
         "title": "",
         "heading_size": "h1",
         "image_width": "third",
@@ -566,6 +567,59 @@
         "color_scheme_blocks": "",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 56
+      }
+    },
+    "multicolumn_default_Na7FEJ": {
+      "type": "multicolumn-default",
+      "blocks": {
+        "column_4TEbcR": {
+          "type": "column",
+          "settings": {
+            "title": "Wonderful",
+            "text": "<p>The all-natural formula is wonderful. I LOVE smoothing the rich cream around my eyes and lips, nourishing my skin with pure goodness.</p><p>- Michelle </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cMbX4C": {
+          "type": "column",
+          "settings": {
+            "title": "My Happy Dewy Skin",
+            "text": "<p>“Obsessed with Cloven’s silky, fluffy formula. I love to use as a night cream, waking up with the most dewy, hydrated skin”   </p><p>- Ellodee </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4bKmYN": {
+          "type": "column",
+          "settings": {
+            "title": "Bravo!",
+            "text": "<p>Okay. Real talk!! Bravo … two days with cloven!!! I’ve never seen so much progress on my skin. I’ve been searching for almost 8 years for something to help my skin and I’m already seeing results!!! I’ve never been so hopeful to see my old skin.  Thank you for this!!!  </p><p> - Arinze </p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4TEbcR",
+        "column_cMbX4C",
+        "column_4bKmYN"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-ea848b25-c9db-4f83-8e42-cda508e974c5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 56
       }
@@ -627,6 +681,7 @@
       "disabled": true,
       "settings": {
         "page_width_small": false,
+        "box_layout": false,
         "title": "Benefits",
         "heading_size": "h0",
         "image_width": "half",
@@ -896,6 +951,7 @@
       ],
       "settings": {
         "page_width_small": false,
+        "box_layout": false,
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
@@ -970,6 +1026,7 @@
       "custom_css": [],
       "settings": {
         "page_width_small": false,
+        "box_layout": false,
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
@@ -1215,6 +1272,7 @@
     "cloven_multicolumn_w_feature_image_qKXwwG",
     "rich-text-1",
     "multicolumn",
+    "multicolumn_default_Na7FEJ",
     "multicolumn_QB3RDD",
     "rich_text_Ne8Kqk",
     "cloven_image_with_text_3G67UV",
