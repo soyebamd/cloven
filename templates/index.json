@@ -345,7 +345,7 @@
           "settings": {
             "image_icon": "shopify://shop_images/productdetail-yucca.jpg",
             "title": "All Natural Extracts",
-            "text": "<p><em><strong>Regenerative </strong></em><strong>Tallow</strong><br/><strong>Calendula</strong><br/><strong>Yucca Root</strong><br/><strong>Green Tea</strong><br/><strong>Neroli</strong></p>",
+            "text": "<p><em>Regenerative </em>Tallow<br/>Calendula<br/>Yucca Root<br/>Green Tea<br/>Neroli</p>",
             "link_label": "",
             "link": "#",
             "image": "shopify://shop_images/cloven-big.png"
