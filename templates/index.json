@@ -828,7 +828,7 @@
         "text_Y48aCf": {
           "type": "text",
           "settings": {
-            "text": "<p>Our journey began with a desire to take control of what we put on our skin, inspired by nature and a commitment to clean ingredients. We wanted a skincare solution that reflects our deep connection to the earth, using only trusted, natural ingredients like tallow and herbs. With no synthetic additives or harmful chemicals, Cloven is more than skincare — it's a return to purity and natural living.</p>",
+            "text": "<p>Our journey began with a desire to take control of what we put on our skin, inspired by nature and a commitment to clean ingredients. We wanted a skincare solution that reflects our deep connection to the earth, using only trusted, natural ingredients like tallow and herbs. With no synthetic additives or harmful chemicals, Cloven is more than skincare</p><p> — it's a return to purity and natural living.</p>",
             "text_style": "body"
           }
         },
