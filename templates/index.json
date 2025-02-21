@@ -914,7 +914,8 @@
       ],
       "custom_css": [
         ".banner__text {max-width: 80%; margin: 3.5rem 0;}",
-        "@media screen and (max-width: 749px) {.banner__text {max-width: 100%; }}"
+        "@media screen and (max-width: 749px) {.banner__text {max-width: 100%; }}",
+        ".button:before{display:none;}"
       ],
       "settings": {
         "layout": "full_bleed",
