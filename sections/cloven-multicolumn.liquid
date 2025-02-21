@@ -31,6 +31,8 @@
 }
 
 
+
+
 {%- endstyle -%}
 
 {%- liquid
@@ -116,7 +118,11 @@
                   <h3 class="inline-richtext">{{ block.settings.title }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  <div class="rte hxl presti-display lh-14">{{ block.settings.text }}</div>
+                  <div class="rte presti-display lh-14">
+                    
+                  {{ block.settings.text }}
+                  
+                  </div>
                 {%- endif -%}
               
               </div>
