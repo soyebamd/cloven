@@ -828,15 +828,15 @@
         "text_Y48aCf": {
           "type": "text",
           "settings": {
-            "text": "<p>Our journey began with a desire to take control of what we put on our skin, inspired by nature and a commitment to clean ingredients. We wanted a skincare solution that reflects our deep connection to the earth, using only trusted, natural ingredients like tallow and herbs. With no synthetic additives or harmful chemicals, Cloven is more than skincare — it's a return to purity and natural living.</p>",
+            "text": "<p>Our journey began with a desire to take control of what we put on our skin, inspired by nature and a commitment to clean ingredients. We wanted a skincare solution that reflects our deep connection to the earth, using only trusted, natural ingredients like tallow and herbs. With no synthetic additives or harmful chemicals, Cloven is more than skincare</p><p> — it's a return to purity and natural living.</p>",
             "text_style": "body"
           }
         },
         "button_xDe7KR": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "SHOP CLOVEN",
+            "button_link": "#",
             "button_style_secondary": false
           }
         }
@@ -853,7 +853,7 @@
         "height": "adapt",
         "text": "<p>Cloven is our answer to toxic, chemical-filled products. Using safe, natural ingredients, we’ve created a balm that reconnects us to nature and purity. Our mission is simple: healthier skin, free from harmful additives.</p>",
         "desktop_image_width": "medium",
-        "button_label": "Button label",
+        "button_label": "LEARN MORE",
         "button_link": "#",
         "button_style_secondary": false,
         "layout": "image_first",
@@ -861,7 +861,7 @@
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "section_color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
-        "color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
+        "color_scheme": "scheme-2",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -914,7 +914,8 @@
       ],
       "custom_css": [
         ".banner__text {max-width: 80%; margin: 3.5rem 0;}",
-        "@media screen and (max-width: 749px) {.banner__text {max-width: 100%; }}"
+        "@media screen and (max-width: 749px) {.banner__text {max-width: 100%; }}",
+        ".button:before {display: none;}"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -1252,7 +1253,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Feel free to ask us anything or share your thoughts with us.</p>",
-            "text_size": "large"
+            "text_size": "medium"
           }
         },
         "button_3amA4t": {
