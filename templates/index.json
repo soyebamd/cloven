@@ -249,10 +249,10 @@
         "heading_fJARXz": {
           "type": "heading",
           "settings": {
-            "heading": "Regenerative, <em>ranch raised</em>",
+            "heading": "<strong>Regenerative</strong>, <em>ranch raised</em>",
             "heading_size": "hxl",
             "heading_alignment": "left",
-            "heading_2": "Tallow Balm",
+            "heading_2": "<strong>Tallow Balm</strong>",
             "heading_size_2": "hxl",
             "heading_alignment_2": "right"
           }
