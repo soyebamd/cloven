@@ -85,7 +85,8 @@
                     <h3 class="accordion__title inline-richtext h4">
                       {{ block.settings.heading | default: block.settings.page.title | escape }}
                     </h3>
-                    {{- 'icon-caret-1.svg' | inline_asset_content -}}
+                  <img src="{{ 'icon-caret-1.svg' | asset_url }}" alt="Caret Icon" width="15" height="15">
+
                   </summary>
                   <div
                     class="accordion__content rte"
