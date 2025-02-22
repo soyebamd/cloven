@@ -329,27 +329,27 @@
         "padding_bottom": 80
       }
     },
-    "slideshow_ghHat3": {
-      "type": "slideshow",
+    "testimonials_ehW68w": {
+      "type": "testimonials",
       "blocks": {
-        "slide_DFRHNN": {
+        "slide_t8pKWn": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "The all-natural formula is wonderful. I LOVE smoothing the rich cream around my eyesand lips, nourishing my skin with pure goodness.- Michelle",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "color_scheme": "scheme-4fd4b036-74ea-40c3-9ab1-f214d54405e2",
             "text_alignment_mobile": "center"
           }
         },
-        "slide_VKFBhc": {
+        "slide_cG3zVt": {
           "type": "slide",
           "settings": {
             "heading": "Image slide",
@@ -368,13 +368,14 @@
         }
       },
       "block_order": [
-        "slide_DFRHNN",
-        "slide_VKFBhc"
+        "slide_t8pKWn",
+        "slide_cG3zVt"
       ],
       "settings": {
+        "color_scheme": "scheme-4fd4b036-74ea-40c3-9ab1-f214d54405e2",
         "layout": "full_bleed",
         "slide_height": "medium",
-        "slider_visual": "counter",
+        "slider_visual": "dots",
         "auto_rotate": false,
         "change_slides_speed": 5,
         "image_behavior": "none",
@@ -467,59 +468,6 @@
         "padding_top": 36,
         "padding_bottom": 100
       }
-    },
-    "testimonials_ehW68w": {
-      "type": "testimonials",
-      "blocks": {
-        "slide_t8pKWn": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_cG3zVt": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_t8pKWn",
-        "slide_cG3zVt"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
     }
   },
   "order": [
@@ -530,7 +478,6 @@
     "cloven_single_column_BggCjA",
     "multicolumn_dcnXFb",
     "testimonials_ehW68w",
-    "slideshow_ghHat3",
     "1736374350f920e1f1",
     "collapsible_content_9nVpF3",
     "contact_form_c8KjE3"
