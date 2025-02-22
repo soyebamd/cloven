@@ -146,7 +146,7 @@
       ],
       "custom_css": [
         "#ImageWithText--template--17770190799031__cloven_image_with_text_76rApD {max-width: 500px;}",
-        "em {font-family: \"bookmania\";font-style:normal}"
+        "#ImageWithText--template--17770190799031__cloven_image_with_text_76rApD em {font-family: \"bookmania\"; font-style: normal;}"
       ],
       "settings": {
         "image": "shopify://shop_images/wer.png",
