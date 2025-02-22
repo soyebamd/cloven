@@ -329,24 +329,6 @@
         "padding_bottom": 80
       }
     },
-    "173973655936ccd51f": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_featured_carousel_krjatr": {
-          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1080
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_featured_carousel_krjatr"
-      ],
-      "custom_css": [],
-      "settings": {
-        "include_margins": false
-      }
-    },
     "1736374350f920e1f1": {
       "type": "apps",
       "blocks": {
@@ -432,6 +414,59 @@
         "padding_top": 36,
         "padding_bottom": 100
       }
+    },
+    "slideshow_ghHat3": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_DFRHNN": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_VKFBhc": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_DFRHNN",
+        "slide_VKFBhc"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
@@ -441,7 +476,7 @@
     "related-products",
     "cloven_single_column_BggCjA",
     "multicolumn_dcnXFb",
-    "173973655936ccd51f",
+    "slideshow_ghHat3",
     "1736374350f920e1f1",
     "collapsible_content_9nVpF3",
     "contact_form_c8KjE3"
