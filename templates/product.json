@@ -118,7 +118,7 @@
         "heading_8HyAne": {
           "type": "heading",
           "settings": {
-            "heading": "Recomended Use",
+            "heading": "<em>Recomended </em>Use",
             "heading_size": "h2"
           }
         },
@@ -144,6 +144,10 @@
         "text_QCxfKV",
         "button_dbDdTd"
       ],
+      "custom_css": [
+        "#ImageWithText--template--17770190799031__cloven_image_with_text_76rApD {max-width: 500px;}",
+        "#ImageWithText--template--17770190799031__cloven_image_with_text_76rApD em {font-family: \"bookmania\"; font-style: normal;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/wer.png",
         "image_style": "small-wrapper",
@@ -158,7 +162,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 80,
-        "padding_bottom": 80
+        "padding_bottom": 12
       }
     },
     "rich_text_UVmpnH": {
