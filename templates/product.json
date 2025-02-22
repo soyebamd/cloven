@@ -310,7 +310,7 @@
         "column_fCxXjx"
       ],
       "settings": {
-        "page_width_small": false,
+        "page_width_small": true,
         "box_layout": false,
         "title": "THE EXTRACTS",
         "heading_size": "h1",
