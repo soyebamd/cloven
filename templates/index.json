@@ -343,7 +343,7 @@
         "column_i8FcAn": {
           "type": "column",
           "settings": {
-            "image_icon": "shopify://shop_images/productdetail-yucca.jpg",
+            "image_icon": "shopify://shop_images/detail_frame_yucca.svg",
             "title": "All Natural Extracts",
             "text": "<h1><em>Regenerative </em>Tallow<br/>Calendula<br/>Yucca Root<br/>Green Tea<br/>Neroli</h1>",
             "link_label": "",
