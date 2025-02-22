@@ -1,6 +1,4 @@
 {%- if icon != 'none' -%}
   {%- assign file = icon | replace: '_', '-' | prepend: 'icon-' | append: '.svg' -%}
-  <span class="svg-wrapper" style="width: 30px; height: 30px;">
-    {%- render file -%}
-  </span>
+  <span class="svg-wrapper"> <img src="{{ file | asset_url }}" alt="" style="width:30px; height:30px"> </span>
 {%- endif -%}
