@@ -257,7 +257,7 @@
         "column_BfQETh": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Calendula.png",
+            "image": "shopify://shop_images/detail_frame_calendula.svg",
             "title": "Calendula",
             "title_size": "h3",
             "text": "<p>Calendula has been shown to increase blood circulation and heighten cell turnover, keeping skin smooth and vibrant. Due to its ability to increase oxygen and blood flow to the skin, calendula can speed the healing of redness, wounds, acne and other skin ailments. Calendula contains natural antifungal and antimicrobial properties, making this powerhouse flower more than just pretty petals!</p>",
@@ -268,7 +268,7 @@
         "column_FEkffB": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/YUCCA-ROOT.png",
+            "image": "shopify://shop_images/detail_frame_yucca.svg",
             "title": "YUCCA ROOT",
             "title_size": "h3",
             "text": "<p>Yucca can help the skin retain moisture and its anti-inflammatory properties aid in soothing irritation. High amounts of vitamin C in Yucca  can aid in the production of collagen, our skin’s main protein. Studies have also found that Yucca contains natural photoprotective qualities and may be able to protect against sun damage. </p>",
@@ -279,7 +279,7 @@
         "column_fTaEKe": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/GREEN-TEA.png",
+            "image": "shopify://shop_images/detail_frame_greentea.svg",
             "title": "GREEN TEA",
             "title_size": "h3",
             "text": "<p>Green Tea is filled with many beneficial compounds like vitamins A, E, and squalene. Squalene has been compared to hyaluronic acid for its hydrating properties. Green tea is also a  powerful moisturizer that can absorb into skin without causing acne or clogging pores. The antioxidants in green tea have been known to aid in prevention of premature aging and fine lines.<br/></p>",
@@ -290,7 +290,7 @@
         "column_fCxXjx": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/NEROLI.png",
+            "image": "shopify://shop_images/detail_frame_neroli.svg",
             "title": "NEROLI",
             "title_size": "h3",
             "text": "<p>Neroli Oil is rich in antioxidants and natural anti-inflammatory properties which help soothe redness and irritation. Neroli also supports healthy skin cell turnover, prompting a brighter complexion, and reducing the appearance of dark spots or scars. Its delicate floral aroma adds a luxurious sensory experience to any skincare routine</p>",
@@ -307,6 +307,7 @@
       ],
       "settings": {
         "page_width_small": false,
+        "box_layout": false,
         "title": "THE EXTRACTS",
         "heading_size": "h1",
         "image_width": "third",

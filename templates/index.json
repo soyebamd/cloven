@@ -343,7 +343,7 @@
         "column_i8FcAn": {
           "type": "column",
           "settings": {
-            "image_icon": "shopify://shop_images/productdetail-yucca.jpg",
+            "image_icon": "shopify://shop_images/detail_frame_yucca.svg",
             "title": "All Natural Extracts",
             "text": "<h1><em>Regenerative </em>Tallow<br/>Calendula<br/>Yucca Root<br/>Green Tea<br/>Neroli</h1>",
             "link_label": "",
@@ -378,7 +378,7 @@
         "column_EyHpFx": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/icon1.png",
+            "image": "shopify://shop_images/yucca2.svg",
             "title": "<strong>YUCCA ROOT</strong>",
             "text": "<p>Rotational grazing and allowing cattle to naturally fertilize the land improve soil structure and increase organic matter.</p>",
             "link_label": "",
@@ -388,7 +388,7 @@
         "column_yVWBh9": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/icon2.png",
+            "image": "shopify://shop_images/calendula.svg",
             "title": "CALENDULA",
             "text": "<p>By improving soil structure and increasing organic matter, regenerative grazing enhances the soil's ability to retain water, reducing runoff and erosion.</p>",
             "link_label": "",
@@ -398,7 +398,7 @@
         "column_b8BRdp": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/icon3.png",
+            "image": "shopify://shop_images/greentea.svg",
             "title": "GREEN TEA",
             "text": "<p>Regenerative practices promote diverse plant species and healthy ecosystems by mimicking natural grazing patterns.</p>",
             "link_label": "",
@@ -408,7 +408,7 @@
         "column_WwNEKy": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/icon4.png",
+            "image": "shopify://shop_images/neroli.svg",
             "title": "NEROLI",
             "text": "<p>Regenerative practices promote diverse plant species and healthy ecosystems by mimicking natural grazing patterns.</p>",
             "link_label": "",
@@ -736,7 +736,6 @@
         "heading_rNf3YL": {
           "type": "heading",
           "settings": {
-            "image": "shopify://shop_images/flower.png",
             "heading": "It’s more than just",
             "heading_size": "hxl",
             "heading_alignment": "left",
@@ -1121,7 +1120,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "What is tallow?",
-            "icon": "flower",
+            "icon": "icon-plant1",
             "row_content": "<p>Tallow was once the most widely used form of skincare. Tallow is made by rendering fat trimmings from rumiment animals to its melting point - where it turns from solid fat to  liquid oil. At this stage the melted trimmings are now called tallow, and can be made into soap, skincare items, or even used for cooking. <br/><br/>Our tallow balm is only ever made from regenerative ranch raised beef fat. We source a specific type of fat called suet that is only found around the organs. Suet is the purest, nutrient-dense source of fat; perfect for clean, high-quality skincare. </p>",
             "page": ""
           }
