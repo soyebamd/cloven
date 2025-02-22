@@ -337,7 +337,7 @@
           "settings": {
             "heading": "",
             "heading_size": "h2",
-            "subheading": "The all-natural formula is wonderful. I LOVE smoothing the rich cream around my eyesand lips, nourishing my skin with pure goodness.- Michelle",
+            "subheading": "<p>The all-natural formula is wonderful. I LOVE smoothing the rich cream around my eyesand lips, nourishing my skin with pure goodness.</p><p>- Michelle</p>",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -354,7 +354,7 @@
           "settings": {
             "heading": "Image slide",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
+            "subheading": "<p>Tell your brand's story through images</p>",
             "button_label": "Button label",
             "link": "",
             "button_style_secondary": false,
