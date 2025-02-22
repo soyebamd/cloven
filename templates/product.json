@@ -338,14 +338,14 @@
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "color_scheme": "scheme-4fd4b036-74ea-40c3-9ab1-f214d54405e2",
             "text_alignment_mobile": "center"
           }
         },
@@ -372,6 +372,7 @@
         "slide_cG3zVt"
       ],
       "settings": {
+        "color_scheme": "scheme-4fd4b036-74ea-40c3-9ab1-f214d54405e2",
         "layout": "full_bleed",
         "slide_height": "medium",
         "slider_visual": "counter",
