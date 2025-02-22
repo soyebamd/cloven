@@ -405,7 +405,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Collapsible row",
-            "icon": "check_mark",
+            "icon": "flower",
             "row_content": "",
             "page": ""
           }
@@ -414,7 +414,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Collapsible row",
-            "icon": "check_mark",
+            "icon": "flower",
             "row_content": "",
             "page": ""
           }
@@ -423,7 +423,16 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Collapsible row",
-            "icon": "check_mark",
+            "icon": "flower",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_iMkpp7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "flower",
             "row_content": "",
             "page": ""
           }
@@ -432,7 +441,43 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Collapsible row",
-            "icon": "check_mark",
+            "icon": "flower",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_mWRiUJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "flower",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_HCptnh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "flower",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_ApF9ke": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "flower",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_Pn7JLn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "flower",
             "row_content": "",
             "page": ""
           }
@@ -442,7 +487,12 @@
         "collapsible_row_BN8nKx",
         "collapsible_row_kR36AE",
         "collapsible_row_QeJHRL",
-        "collapsible_row_ETmLzk"
+        "collapsible_row_iMkpp7",
+        "collapsible_row_ETmLzk",
+        "collapsible_row_mWRiUJ",
+        "collapsible_row_HCptnh",
+        "collapsible_row_ApF9ke",
+        "collapsible_row_Pn7JLn"
       ],
       "settings": {
         "caption": "",
