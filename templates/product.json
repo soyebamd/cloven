@@ -374,7 +374,7 @@
       "settings": {
         "color_scheme": "scheme-4fd4b036-74ea-40c3-9ab1-f214d54405e2",
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "small",
         "slider_visual": "dots",
         "auto_rotate": false,
         "change_slides_speed": 5,
