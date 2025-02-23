@@ -688,6 +688,16 @@ color:#faf9f8!important;
   display: none;
 }
 
+.for-desk {
+    display: block; /* Visible on desktop */
+}
+
+.for-mob {
+    display: none; /* Hidden on desktop */
+}
+
+
+
 @media screen and (max-width: 749px) {
 
   .hxxl {
@@ -730,9 +740,12 @@ color:#faf9f8!important;
   display: block!important;
 }
 
-.for-desk{
-  display:none;
-}
+  .for-desk {
+        display: none; /* Hidden on mobile */
+    }
+    .for-mob {
+        display: block; /* Visible on mobile */
+    }
 
 .header-image-mobile{
   max-width: 100%;

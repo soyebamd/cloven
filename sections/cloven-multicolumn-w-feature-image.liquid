@@ -97,7 +97,7 @@ transform: translateX(-50%);
   >
 
    {%- unless section.settings.title == blank -%}
-      <div class="title-wrapper-with-link mb-40 title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
+      <div class="for-desk title-wrapper-with-link mb-40 title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
         <h2 class="title inline-richtext w-100 {{ section.settings.heading_size_alignment }} {{ section.settings.heading_size }}">
           {{ section.settings.title }}
         </h2>
@@ -156,6 +156,18 @@ transform: translateX(-50%);
 </div>
 
 
+   {%- unless section.settings.title == blank -%}
+      <div class="for-mob title-wrapper-with-link mb-40 title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
+        <h2 class="title inline-richtext w-100 {{ section.settings.heading_size_alignment }} {{ section.settings.heading_size }}">
+          {{ section.settings.title }}
+        </h2>
+        {%- if section.settings.button_label != blank and show_mobile_slider -%}
+          <a href="{{ section.settings.button_link }}" class="link underlined-link large-up-hide">
+            {{- section.settings.button_label | escape -}}
+          </a>
+        {%- endif -%}
+      </div>
+    {%- endunless -%}
 
 
 
