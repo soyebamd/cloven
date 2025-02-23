@@ -101,7 +101,15 @@
   {%- endif -%}
 
 
-  <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width  {% if section.settings.narrow_width  %}  narrow-width {% endif %}  {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+  <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width  {% if section.settings.narrow_width  %}  narrow-width {% endif %}  {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+  
+  
+style="background-image: url({{ section.settings.image_2 | img_url: '3840x' }}); background-size: cover; background-position: center; background-repeat: no-repeat;"
+ 
+  
+  
+  
+  >
     <div class="banner__box banner--cloven-text-width  content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
       {%- for block in section.blocks -%}
 
@@ -136,22 +144,6 @@
 </div>
 
 
- {%- when 'mobImage' -%}
-  <div class="mob-image">
-    {%- if block.settings.image_2 != blank -%}
-     
-        {{
-          block.settings.image_2
-          | image_url: width: 3840
-          | image_tag: class: "header-image-mobile"
-           
-            
-          
-           
-        }}
-     
-    {%- endif -%}</div>
-  
 
 
 
@@ -225,7 +217,11 @@
       "id": "image",
       "label": "t:sections.image-banner.settings.image.label"
     },
-    
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "t:sections.image-banner.settings.image_2.label"
+    },
     {
       "type": "range",
       "id": "image_overlay_opacity",
@@ -453,17 +449,6 @@
 
 
     },
- {
-      "type": "mobImage",
-      "name": "MobImage",
-      "limit": 1,
-      "settings": [
-    {
-      "type": "image_picker",
-      "id": "image_2",
-      "label": "t:sections.image-banner.settings.image_2.label"
-    }]},
-
      {
       "type": "caption",
       "name": "caption",
