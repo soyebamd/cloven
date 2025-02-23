@@ -763,6 +763,9 @@
         "heading_rNf3YL",
         "text_thDeew"
       ],
+      "custom_css": [
+        "@media (max-width: 749px) {h2 {text-align:center!important }}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
