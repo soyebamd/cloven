@@ -18,8 +18,8 @@
             "heading_image": "shopify://shop_images/logo.png"
           }
         },
-        "mob_image_6tiiaC": {
-          "type": "mob-image",
+        "mob_image_g87cr6": {
+          "type": "mobImage",
           "settings": {
             "image_2": "shopify://shop_images/header_image_mobile.jpg"
           }
@@ -59,7 +59,7 @@
       },
       "block_order": [
         "image_kJxUVU",
-        "mob_image_6tiiaC",
+        "mob_image_g87cr6",
         "caption_Lqdjyg",
         "heading_NkRfVK",
         "text_VyzYDh",
