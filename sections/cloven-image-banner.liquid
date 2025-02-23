@@ -143,13 +143,11 @@
         {{
           block.settings.image_2
           | image_url: width: 3840
-          | image_tag:
-            width: section.settings.image_2.width,
-            height: image_height,
-            class: 'banner__media-image-half',
-            sizes: sizes,
-            widths: widths,
-            fetchpriority: fetch_priority
+          | image_tag: class: "header-image-mobile"
+           
+            
+          
+           
         }}
      
     {%- endif -%}</div>
