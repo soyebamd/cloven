@@ -772,7 +772,7 @@
         "color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
         "full_width": true,
         "padding_top": 100,
-        "padding_bottom": 100
+        "padding_bottom": 0
       }
     },
     "cloven_image_with_text_3G67UV": {
@@ -873,7 +873,7 @@
         "color_scheme": "scheme-2",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 100
       }
     },
