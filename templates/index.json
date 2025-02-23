@@ -61,6 +61,7 @@
       "settings": {
         "narrow_width": true,
         "image": "shopify://shop_images/banner.jpg",
+        "image_2": "shopify://shop_images/header_image_mobile.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-right",
@@ -69,7 +70,7 @@
         "color_scheme": "scheme-eb276daf-a192-471b-8965-acd1cdd7fb3f",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
+        "stack_images_on_mobile": true,
         "show_text_below": true
       }
     },
