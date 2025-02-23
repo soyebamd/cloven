@@ -764,7 +764,7 @@
         "text_thDeew"
       ],
       "custom_css": [
-        "@media (max-width: 749px) {h2 {text-align:center!important }}"
+        "@media (max-width: 749px) {h2 {text-align: center !important; } .section-template--17770191126711__rich_text_Ne8Kqk-padding{padding: 0 !important; }}"
       ],
       "settings": {
         "desktop_content_position": "center",
