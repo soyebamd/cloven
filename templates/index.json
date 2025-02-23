@@ -657,7 +657,7 @@
         "button_link": "",
         "color_scheme": "scheme-ea848b25-c9db-4f83-8e42-cda508e974c5",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 0,
         "padding_bottom": 56
       }
