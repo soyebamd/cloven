@@ -18,12 +18,6 @@
             "heading_image": "shopify://shop_images/logo.png"
           }
         },
-        "mob_image_g87cr6": {
-          "type": "mobImage",
-          "settings": {
-            "image_2": "shopify://shop_images/header_image_mobile.jpg"
-          }
-        },
         "caption_Lqdjyg": {
           "type": "caption",
           "settings": {
@@ -59,7 +53,6 @@
       },
       "block_order": [
         "image_kJxUVU",
-        "mob_image_g87cr6",
         "caption_Lqdjyg",
         "heading_NkRfVK",
         "text_VyzYDh",
@@ -68,6 +61,7 @@
       "settings": {
         "narrow_width": true,
         "image": "shopify://shop_images/banner.jpg",
+        "image_2": "shopify://shop_images/header_image_mobile.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-right",
