@@ -446,6 +446,9 @@
         "column_b8BRdp",
         "column_WwNEKy"
       ],
+      "custom_css": [
+        ".multicolumn-card__info{padding-top:0; padding-bottom:0;}"
+      ],
       "settings": {
         "video": "shopify://files/videos/cloven-ingredients.mp4",
         "video_url": "",
