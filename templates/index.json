@@ -316,7 +316,7 @@
         "video_url": "",
         "enable_video_looping": true,
         "autoplay": true,
-        "muted": false,
+        "muted": true,
         "image": "shopify://shop_images/feature-image.jpg",
         "image_style": "adapt",
         "height": "adapt",
