@@ -262,6 +262,9 @@
       "block_order": [
         "heading_fJARXz"
       ],
+      "custom_css": [
+        "@media(max-width:749px){h2{text-align:center; }}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
