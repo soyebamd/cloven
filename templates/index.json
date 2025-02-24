@@ -62,6 +62,11 @@
         "@media (max-width: 749px) {.banner--mobile-bottom .banner__box {padding: 4rem 1rem; }}"
       ],
       "settings": {
+        "video_url": "https://www.youtube.com/watch?v=uwLUMl_BjIM",
+        "enable_video_looping": true,
+        "autoplay": true,
+        "muted": false,
+        "description": "A short description of the video",
         "narrow_width": true,
         "image": "shopify://shop_images/banner.jpg",
         "image_2": "shopify://shop_images/header_image_mobile.jpg",
