@@ -121,7 +121,81 @@
         tabindex="-1"
       >
         <div class="slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
-          {%- if block.settings.image -%}
+         
+        
+
+
+
+
+
+          
+
+
+
+        
+        
+
+<div class="video-section">
+
+
+
+  {%- if block.settings.video == blank and block.settings.video_url != blank -%}
+    {%- liquid
+      assign video_url = block.settings.video_url
+      assign video_id = ''
+      assign loop = ''
+      if block.settings.enable_video_looping
+        assign loop = '&loop=1&playlist=' | append: video_id
+      endif
+
+      if video_url contains 'youtube.com' or video_url contains 'youtu.be'
+        assign video_id = video_url | split: 'v=' | last | split: '&' | first
+        assign video_src = 'https://www.youtube.com/embed/' | append: video_id | append: '?enablejsapi=1&autoplay=1&mute=1' | append: loop
+      elsif video_url contains 'vimeo.com'
+        assign video_id = video_url | split: '/' | last
+        assign video_src = 'https://player.vimeo.com/video/' | append: video_id | append: '?autoplay=1&muted=1' | append: loop
+      endif
+    -%}
+
+    {%- if video_id != '' -%}
+      <iframe
+        src="{{ video_src }}"
+        class="js-video"
+        allow="autoplay; encrypted-media"
+        allowfullscreen
+        title="{{ block.settings.description | escape }}"
+      ></iframe>
+    {%- endif -%}
+
+  {%- else -%}
+    {{ block.settings.video
+      | video_tag:
+        image_size: '1100x',
+        autoplay: true,
+        loop: block.settings.enable_video_looping,
+        controls: true,
+        muted: block.settings.muted
+    }}
+  {%- endif -%}
+</div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        {%- if block.settings.image -%}
             {%- liquid
               assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
               if section.settings.image_behavior == 'ambient'
@@ -389,11 +463,59 @@
     }
   ],
   "blocks": [
+
+
+  
+
     {
       "type": "slide",
       "name": "t:sections.slideshow.blocks.slide.name",
       "limit": 5,
       "settings": [
+
+
+
+
+        {
+      "type": "video",
+      "id": "video",
+      "label": "Upload Video"
+    },
+    {
+      "type": "text",
+      "id": "video_url",
+      "label": "Video URL",
+      "info": "Supports YouTube and Vimeo links"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_video_looping",
+      "label": "Enable Video Looping",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "autoplay",
+      "label": "Autoplay",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "muted",
+      "label": "Mute Video",
+      "default": false
+    },
+    {
+      "type": "image_picker",
+      "id": "fallback_image",
+      "label": "Fallback Image",
+      "info": "Shown when video is not available"
+    }
+
+,
+
+
+
         {
           "type": "image_picker",
           "id": "image",
