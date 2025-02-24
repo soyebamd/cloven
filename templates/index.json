@@ -65,7 +65,7 @@
         "video_url": "https://www.youtube.com/watch?v=uwLUMl_BjIM",
         "enable_video_looping": true,
         "autoplay": true,
-        "muted": false,
+        "muted": true,
         "description": "A short description of the video",
         "narrow_width": true,
         "image": "shopify://shop_images/banner.jpg",
