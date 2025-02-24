@@ -124,8 +124,63 @@ transform: translateX(-50%);
   <div class="frame-cover">
 
     <div class="frame-1"></div>
+
+
+    
+
+<div class="video-section">
+
+
+
+  {%- if section.settings.video == blank and section.settings.video_url != blank -%}
+    {%- liquid
+      assign video_url = section.settings.video_url
+      assign video_id = ''
+      assign loop = ''
+      if section.settings.enable_video_looping
+        assign loop = '&loop=1&playlist=' | append: video_id
+      endif
+
+      if video_url contains 'youtube.com' or video_url contains 'youtu.be'
+        assign video_id = video_url | split: 'v=' | last | split: '&' | first
+        assign video_src = 'https://www.youtube.com/embed/' | append: video_id | append: '?enablejsapi=1&autoplay=1&mute=1' | append: loop
+      elsif video_url contains 'vimeo.com'
+        assign video_id = video_url | split: '/' | last
+        assign video_src = 'https://player.vimeo.com/video/' | append: video_id | append: '?autoplay=1&muted=1' | append: loop
+      endif
+    -%}
+
+
+
+    {%- if video_id != '' -%}
+      <iframe
+        src="{{ video_src }}"
+        class="js-video"
+        allow="autoplay; encrypted-media"
+        allowfullscreen
+        title="{{ section.settings.description | escape }}"
+      ></iframe>
+    {%- endif -%}
+
+  {%- else -%}
+    {{ section.settings.video
+      | video_tag:
+        image_size: '1100x',
+        autoplay: true,
+        loop: section.settings.enable_video_looping,
+        controls: true,
+        muted: section.settings.muted,
+        class: 'js-video-full feature-img'
+    }}
+  {%- endif -%}
+</div>
+
+
+
+{%- if section.settings.feature_image and section.settings.video == blank and section.settings.external_video == blank -%}
+
         
-    {% if  section.settings.feature_image %}
+   
 
     {{
                       section.settings.feature_image
@@ -310,6 +365,48 @@ transform: translateX(-50%);
     "groups": ["header", "footer"]
   },
   "settings": [
+
+
+  
+        {
+      "type": "video",
+      "id": "video",
+      "label": "Upload Video"
+    },
+    {
+      "type": "text",
+      "id": "video_url",
+      "label": "Video URL",
+      "info": "Supports YouTube and Vimeo links"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_video_looping",
+      "label": "Enable Video Looping",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "autoplay",
+      "label": "Autoplay",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "muted",
+      "label": "Mute Video",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "fallback_image",
+      "label": "Fallback Image",
+      "info": "Shown when video is not available"
+    }
+
+,
+
+
 
    {
           "type": "image_picker",
