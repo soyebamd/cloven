@@ -321,7 +321,7 @@
         "@media (max-width: 749px) {#ImageWithText--template--17770191126711__cloven_image_with_text_r7xwFW {padding: 4rem 1rem; }}"
       ],
       "settings": {
-        "video": "shopify://files/videos/cloven-ourprocess.mp4",
+        "video": "shopify://files/videos/cloven-producthighlight.mp4",
         "video_url": "",
         "enable_video_looping": true,
         "autoplay": true,
@@ -447,7 +447,7 @@
         "column_WwNEKy"
       ],
       "settings": {
-        "video": "shopify://files/videos/cloven-ourprocess.mp4",
+        "video": "shopify://files/videos/cloven-ingredients.mp4",
         "video_url": "",
         "enable_video_looping": true,
         "autoplay": true,
