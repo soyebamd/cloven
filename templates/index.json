@@ -312,6 +312,11 @@
         "@media (max-width: 749px) {#ImageWithText--template--17770191126711__cloven_image_with_text_r7xwFW {padding: 4rem 1rem; }}"
       ],
       "settings": {
+        "video": "shopify://files/videos/cloven-ourprocess.mp4",
+        "video_url": "",
+        "enable_video_looping": true,
+        "autoplay": true,
+        "muted": false,
         "image": "shopify://shop_images/feature-image.jpg",
         "image_style": "adapt",
         "height": "adapt",
@@ -811,6 +816,10 @@
       ],
       "disabled": true,
       "settings": {
+        "video_url": "",
+        "enable_video_looping": true,
+        "autoplay": true,
+        "muted": false,
         "image": "shopify://shop_images/cloven2.png",
         "image_style": "adapt",
         "height": "adapt",
