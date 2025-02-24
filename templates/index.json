@@ -59,7 +59,7 @@
         "buttons_3BQM8k"
       ],
       "custom_css": [
-        "@media(max-width:749px){.banner--mobile-bottom .banner__box {padding: 1rem;}}"
+        "@media (max-width: 749px) {.banner--mobile-bottom .banner__box {padding: 4rem 1rem; }}"
       ],
       "settings": {
         "narrow_width": true,
