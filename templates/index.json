@@ -438,6 +438,11 @@
         "column_WwNEKy"
       ],
       "settings": {
+        "video": "shopify://files/videos/cloven-ourprocess.mp4",
+        "video_url": "",
+        "enable_video_looping": true,
+        "autoplay": true,
+        "muted": true,
         "feature_image": "shopify://shop_images/girl.png",
         "title": "<strong>Rooted in </strong><em>Nature</em>",
         "heading_size": "hxl",
