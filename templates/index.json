@@ -765,10 +765,10 @@
         "heading_rNf3YL": {
           "type": "heading",
           "settings": {
-            "heading": "It’s more than just",
+            "heading": "<strong>It’s more than just</strong>",
             "heading_size": "hxl",
             "heading_alignment": "left",
-            "heading_2": "<em>clean</em> skincare",
+            "heading_2": "<em>clean</em> <strong>skincare</strong>",
             "heading_size_2": "hxl",
             "heading_alignment_2": "right"
           }
