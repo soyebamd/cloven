@@ -149,6 +149,11 @@
         "#ImageWithText--template--17770190799031__cloven_image_with_text_76rApD em {font-family: \"bookmania\"; font-style: normal;}"
       ],
       "settings": {
+        "video": "shopify://files/videos/cloven-ourprocess.mp4",
+        "video_url": "",
+        "enable_video_looping": true,
+        "autoplay": true,
+        "muted": false,
         "image": "shopify://shop_images/wer.png",
         "image_style": "small-wrapper",
         "height": "adapt",
@@ -310,7 +315,7 @@
         "column_fCxXjx"
       ],
       "custom_css": [
-        "h3{font-size:20px;letter-spacing:1px; text-transform:uppercase;}"
+        "h3 {font-size: 20px; letter-spacing: 1px; text-transform: uppercase;}"
       ],
       "settings": {
         "page_width_small": true,
