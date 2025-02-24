@@ -21,33 +21,26 @@
         "caption_Lqdjyg": {
           "type": "caption",
           "settings": {
-            "header_text": "",
-            "text_style": "body"
+            "header_text": ""
           }
         },
         "heading_NkRfVK": {
           "type": "heading",
           "settings": {
-            "heading": "",
-            "text_style": "subtitle"
+            "heading": ""
           }
         },
         "text_VyzYDh": {
           "type": "text",
           "settings": {
-            "text": "Crafted with powerful natural ingredients, this whipped balm soothes, hydrates and awakens your complexion; imbuing skin with vitamins and the ancestral power of tallow.",
-            "text_style": "body"
+            "text": "Crafted with powerful natural ingredients, this whipped balm soothes, hydrates and awakens your complexion; imbuing skin with vitamins and the ancestral power of tallow."
           }
         },
         "buttons_3BQM8k": {
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP CLOVEN",
-            "button_link_1": "#",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_link_1": "#"
           }
         }
       },
@@ -62,6 +55,7 @@
         "@media (max-width: 749px) {.banner--mobile-bottom .banner__box {padding: 4rem 1rem; }}"
       ],
       "settings": {
+        "video": "shopify://files/videos/cloven-ourprocess.mp4",
         "video_url": "https://www.youtube.com/watch?v=uwLUMl_BjIM",
         "enable_video_looping": true,
         "autoplay": true,
@@ -74,12 +68,7 @@
         "image_height": "adapt",
         "desktop_content_position": "middle-right",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-eb276daf-a192-471b-8965-acd1cdd7fb3f",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "color_scheme": "scheme-eb276daf-a192-471b-8965-acd1cdd7fb3f"
       }
     },
     "clovent_feature_product_XTAJMh": {
