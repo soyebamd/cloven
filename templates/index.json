@@ -447,7 +447,7 @@
         "column_WwNEKy"
       ],
       "custom_css": [
-        ".multicolumn-card__info{padding-top:0; padding-bottom:0;}"
+        ".multicolumn-card__info {padding-top: 0; padding-bottom: 0;}"
       ],
       "settings": {
         "video": "shopify://files/videos/cloven-ingredients.mp4",
@@ -470,7 +470,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 100
+        "padding_bottom": 72
       }
     },
     "rich-text-1": {
