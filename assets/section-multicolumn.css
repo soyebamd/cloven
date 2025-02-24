@@ -23,13 +23,6 @@
   }
 }
 
-@media screen and (max-width: 989px) {
-  .multicolumn .page-width {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
 .multicolumn-card__image-wrapper--third-width {
   width: 33%;
 }
