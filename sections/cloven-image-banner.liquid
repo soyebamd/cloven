@@ -79,53 +79,6 @@
 
 
 <div class="video-section">
-  {%- if section.settings.video == blank and section.settings.video_url != blank -%}
-    {%- liquid
-      assign video_url = section.settings.video_url
-      assign video_id = ''
-      assign loop = ''
-      if section.settings.enable_video_looping
-        assign loop = '&loop=1&playlist=' | append: video_id
-      endif
-
-      if video_url contains 'youtube.com' or video_url contains 'youtu.be'
-        assign video_id = video_url | split: 'v=' | last | split: '&' | first
-        assign video_src = 'https://www.youtube.com/embed/' | append: video_id | append: '?enablejsapi=1&autoplay=1&mute=1' | append: loop
-      elsif video_url contains 'vimeo.com'
-        assign video_id = video_url | split: '/' | last
-        assign video_src = 'https://player.vimeo.com/video/' | append: video_id | append: '?autoplay=1&muted=1' | append: loop
-      endif
-    -%}
-
-    {%- if video_id != '' -%}
-      <iframe
-        src="{{ video_src }}"
-        class="js-video"
-        allow="autoplay; encrypted-media"
-        allowfullscreen
-        title="{{ section.settings.description | escape }}"
-      ></iframe>
-    {%- endif -%}
-
-  {%- else -%}
-    {{ section.settings.video
-      | video_tag:
-        image_size: '1100x',
-        autoplay: true,
-        loop: section.settings.enable_video_looping,
-        controls: true,
-        muted: section.settings.muted
-    }}
-  {%- endif -%}
-</div>
-
-
-
-<div
-  id="Banner-{{ section.id }}"
-  class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
->
-
 
 
   {%- for block in section.blocks -%}
@@ -208,7 +161,59 @@
             </div>
         {%- endcase -%}
       {%- endfor -%}
+
+
       
+  {%- if section.settings.video == blank and section.settings.video_url != blank -%}
+    {%- liquid
+      assign video_url = section.settings.video_url
+      assign video_id = ''
+      assign loop = ''
+      if section.settings.enable_video_looping
+        assign loop = '&loop=1&playlist=' | append: video_id
+      endif
+
+      if video_url contains 'youtube.com' or video_url contains 'youtu.be'
+        assign video_id = video_url | split: 'v=' | last | split: '&' | first
+        assign video_src = 'https://www.youtube.com/embed/' | append: video_id | append: '?enablejsapi=1&autoplay=1&mute=1' | append: loop
+      elsif video_url contains 'vimeo.com'
+        assign video_id = video_url | split: '/' | last
+        assign video_src = 'https://player.vimeo.com/video/' | append: video_id | append: '?autoplay=1&muted=1' | append: loop
+      endif
+    -%}
+
+    {%- if video_id != '' -%}
+      <iframe
+        src="{{ video_src }}"
+        class="js-video"
+        allow="autoplay; encrypted-media"
+        allowfullscreen
+        title="{{ section.settings.description | escape }}"
+      ></iframe>
+    {%- endif -%}
+
+  {%- else -%}
+    {{ section.settings.video
+      | video_tag:
+        image_size: '1100x',
+        autoplay: true,
+        loop: section.settings.enable_video_looping,
+        controls: true,
+        muted: section.settings.muted
+    }}
+  {%- endif -%}
+</div>
+
+
+
+<div
+  id="Banner-{{ section.id }}"
+  class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+>
+
+
+
+
 
 
 
