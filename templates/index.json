@@ -102,6 +102,14 @@
             "text_style": "body"
           }
         },
+        "text_pBkm3e": {
+          "type": "text",
+          "settings": {
+            "text": "(+ free shipping)",
+            "text_size": "medium",
+            "text_style": "body"
+          }
+        },
         "price_dXnXLW": {
           "type": "price",
           "disabled": true,
@@ -139,6 +147,7 @@
         "title_tdWz8f",
         "text_ANXewY",
         "text_8UbMbX",
+        "text_pBkm3e",
         "price_dXnXLW",
         "variant_picker_TP8tjz",
         "quantity_selector_pr9qDK",
