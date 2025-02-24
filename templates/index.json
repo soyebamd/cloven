@@ -924,7 +924,8 @@
       "custom_css": [
         ".banner__text {max-width: 80%; margin: 3.5rem 0;}",
         "@media screen and (max-width: 749px) {.banner__text {max-width: 100%; }}",
-        ".button:before {display: none;}"
+        ".button:before {display: none;}",
+        ".slider-counter__link, .slider-button {color: #fff;}"
       ],
       "settings": {
         "layout": "full_bleed",
