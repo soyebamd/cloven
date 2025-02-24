@@ -193,9 +193,10 @@
         
         
         
+{%- if block.settings.image and block.settings.video == blank and block.settings.external_video == blank -%}
+  
+  
         
-        
-        {%- if block.settings.image -%}
             {%- liquid
               assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
               if section.settings.image_behavior == 'ambient'
