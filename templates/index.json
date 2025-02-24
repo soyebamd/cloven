@@ -106,7 +106,7 @@
           "type": "text",
           "settings": {
             "text": "(+ free shipping)",
-            "text_size": "medium",
+            "text_size": "small",
             "text_style": "body"
           }
         },
