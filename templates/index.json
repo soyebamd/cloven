@@ -45,7 +45,7 @@
             "button_label_1": "SHOP CLOVEN",
             "button_link_1": "#",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -275,7 +275,7 @@
         "heading_fJARXz"
       ],
       "custom_css": [
-        "@media (max-width: 749px) {h2 {text-align: center; }}"
+        "@media (max-width: 1420px) {h2 {text-align: center; }}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -307,7 +307,7 @@
           "type": "button",
           "settings": {
             "button_label": "LEARN MORE",
-            "button_link": "#",
+            "button_link": "#shopify-section-template--17770191126711__cloven_multicolumn_w_feature_image_qKXwwG",
             "button_style_secondary": false
           }
         }
@@ -321,7 +321,7 @@
         "@media (max-width: 749px) {#ImageWithText--template--17770191126711__cloven_image_with_text_r7xwFW {padding: 4rem 1rem; }}"
       ],
       "settings": {
-        "video": "shopify://files/videos/cloven-ourprocess.mp4",
+        "video": "shopify://files/videos/cloven-producthighlight.mp4",
         "video_url": "",
         "enable_video_looping": true,
         "autoplay": true,
@@ -446,8 +446,11 @@
         "column_b8BRdp",
         "column_WwNEKy"
       ],
+      "custom_css": [
+        ".multicolumn-card__info {padding-top: 0 !important; padding-bottom: 0 !important;}"
+      ],
       "settings": {
-        "video": "shopify://files/videos/cloven-ourprocess.mp4",
+        "video": "shopify://files/videos/cloven-ingredients.mp4",
         "video_url": "",
         "enable_video_looping": true,
         "autoplay": true,
@@ -467,7 +470,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 100
+        "padding_bottom": 72
       }
     },
     "rich-text-1": {
@@ -765,10 +768,10 @@
         "heading_rNf3YL": {
           "type": "heading",
           "settings": {
-            "heading": "It’s more than just",
+            "heading": "<strong>It’s more than just</strong>",
             "heading_size": "hxl",
             "heading_alignment": "left",
-            "heading_2": "<em>clean</em> skincare",
+            "heading_2": "<em>clean</em> <strong>skincare</strong>",
             "heading_size_2": "hxl",
             "heading_alignment_2": "right"
           }
@@ -786,7 +789,7 @@
         "text_thDeew"
       ],
       "custom_css": [
-        "@media (max-width: 749px) {h2 {text-align: center !important; } .section-template--17770191126711__rich_text_Ne8Kqk-padding {padding: 0 !important; }}"
+        "@media (max-width: 1420px) {h2 {text-align: center !important; } .section-template--17770191126711__rich_text_Ne8Kqk-padding {padding: 0 !important; }}"
       ],
       "settings": {
         "desktop_content_position": "center",
