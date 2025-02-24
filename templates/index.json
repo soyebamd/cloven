@@ -880,6 +880,11 @@
         "slide_zfVtQi": {
           "type": "slide",
           "settings": {
+            "video": "shopify://files/videos/cloven-ourprocess.mp4",
+            "video_url": "",
+            "enable_video_looping": true,
+            "autoplay": true,
+            "muted": false,
             "image": "shopify://shop_images/CLOVEN-PRODUCTSHOT-DRIFTWOOD-1.jpg",
             "heading": "RefiningPurity",
             "heading_size": "hxl",
@@ -898,6 +903,10 @@
         "slide_agptMq": {
           "type": "slide",
           "settings": {
+            "video_url": "",
+            "enable_video_looping": true,
+            "autoplay": true,
+            "muted": false,
             "image": "shopify://shop_images/CLOVEN-LIFESTYLE-LEADWELL.jpg",
             "heading": "Image slide",
             "heading_size": "hxl",
