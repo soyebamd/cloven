@@ -155,7 +155,7 @@ transform: translateX(-50%);
     {%- if video_id != '' -%}
       <iframe
         src="{{ video_src }}"
-        class="js-video"
+        class="js-video js-video-full multicolumn-card__feature_image w-100 feature-img"
         allow="autoplay; encrypted-media"
         allowfullscreen
         title="{{ section.settings.description | escape }}"
