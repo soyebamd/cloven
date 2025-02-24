@@ -47,7 +47,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
+
 }
 
 {%- endstyle -%}
@@ -114,11 +114,11 @@
     <div class="banner__box banner--cloven-text-width  content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient 
     
     
-       {%- if block.settings.image_2 != blank -%}
+       {%- if section.settings.image_2 != blank -%}
 
          mob-bg-transparent
 
-         banner--mobile-bg
+         banner--mobile-bg-{{ section.id }}
      
         
      
