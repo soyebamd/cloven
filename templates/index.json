@@ -106,7 +106,7 @@
           "type": "text",
           "settings": {
             "text": "(+ free shipping)",
-            "text_size": "medium",
+            "text_size": "small",
             "text_style": "body"
           }
         },
@@ -372,7 +372,7 @@
             "text": "<h1><em>Regenerative </em>Tallow<br/>Calendula<br/>Yucca Root<br/>Green Tea<br/>Neroli</h1>",
             "link_label": "",
             "link": "#",
-            "image": "shopify://shop_images/ingredients_jar.jpg"
+            "image": "shopify://shop_images/ingredients_jar_59bf6045-900d-402f-ab7d-61e162be6363.jpg"
           }
         }
       },
@@ -866,7 +866,7 @@
         "text_Y48aCf": {
           "type": "text",
           "settings": {
-            "text": "<p>Our journey began with a desire to take control of what we put on our skin, inspired by nature and a commitment to clean ingredients. We wanted a skincare solution that reflects our deep connection to the earth, using only trusted, natural ingredients like tallow and herbs. With no synthetic additives or harmful chemicals, Cloven is more than skincare</p><p> — it's a return to purity and natural living.</p>",
+            "text": "<p>Our journey began with a desire to take control of what we put on our skin, inspired by nature and a commitment to clean ingredients. We wanted a skincare solution that reflects our deep connection to the earth, using only trusted, natural ingredients like tallow and herbs. With no synthetic additives or harmful chemicals, Cloven is more than skincare — it's a return to purity and natural living.</p>",
             "text_style": "body"
           }
         },
@@ -887,12 +887,11 @@
       "settings": {
         "heading": "A Healthier Path for Your Skin",
         "heading_size": "h3",
-        "video": "shopify://files/videos/cloven-ourprocess.mp4",
         "video_url": "",
         "enable_video_looping": true,
         "autoplay": true,
         "muted": true,
-        "image": "shopify://shop_images/healthierpath.jpg",
+        "image": "shopify://shop_images/familyphoto_8576f5ee-eb00-4829-9400-20cb962a7313.jpg",
         "height": "adapt",
         "text": "",
         "desktop_image_width": "medium",
