@@ -887,12 +887,11 @@
       "settings": {
         "heading": "A Healthier Path for Your Skin",
         "heading_size": "h3",
-        "video": "shopify://files/videos/cloven-ourprocess.mp4",
         "video_url": "",
         "enable_video_looping": true,
         "autoplay": true,
         "muted": true,
-        "image": "shopify://shop_images/healthierpath.jpg",
+        "image": "shopify://shop_images/familyphoto_8576f5ee-eb00-4829-9400-20cb962a7313.jpg",
         "height": "adapt",
         "text": "",
         "desktop_image_width": "medium",
