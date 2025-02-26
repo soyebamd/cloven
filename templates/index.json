@@ -893,6 +893,9 @@
         "text_Y48aCf",
         "button_xDe7KR"
       ],
+      "custom_css": [
+        "{margin-bottom: -80px !important; height: auto !important; }"
+      ],
       "settings": {
         "heading": "A Healthier Path for Your Skin",
         "heading_size": "h3",
