@@ -342,7 +342,7 @@
     "testimonials_ehW68w": {
       "type": "testimonials",
       "blocks": {
-        "slide_t8pKWn": {
+        "slide_FtKaxc": {
           "type": "slide",
           "settings": {
             "heading": "",
@@ -364,7 +364,24 @@
           "settings": {
             "heading": "",
             "heading_size": "h1",
-            "subheading": "<h4>The all-natural formula is wonderful. I LOVE smoothing the rich cream around my eyesand lips, nourishing my skin with pure goodness.</h4><p><strong>- Michelle</strong></p>",
+            "subheading": "<h4><strong>Obsessed with Cloven’s silky, fluffy formula. I love to use as a night cream, waking up with the most dewy, hydrated skin</strong></h4><p><strong>- Ellodee</strong></p>",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-4fd4b036-74ea-40c3-9ab1-f214d54405e2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_t8pKWn": {
+          "type": "slide",
+          "settings": {
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "<h4><strong>I love the way Cloven smells and feels so nice on my skin. Other tallow brands have felt heavy but not Cloven. New favorite!</strong></h4><p><em><strong>- Monica</strong></em></p>",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -378,8 +395,9 @@
         }
       },
       "block_order": [
-        "slide_t8pKWn",
-        "slide_cG3zVt"
+        "slide_FtKaxc",
+        "slide_cG3zVt",
+        "slide_t8pKWn"
       ],
       "custom_css": [
         ".slider-button {display: none !important;}"
