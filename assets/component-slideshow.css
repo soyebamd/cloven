@@ -213,6 +213,16 @@ slideshow-component:not(.page-width) .slider-buttons {
   border: 0;
 }
 
+@media (max-width: 749px) {
+  .slideshow__controls {
+    bottom: 30px;
+  }
+
+  .banner__box > * + .banner__buttons {
+    margin: 2rem 0;
+  }
+}
+
 .slider-button {
   color: rgba(var(--color-foreground), 1);
   background: transparent;
