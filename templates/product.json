@@ -39,7 +39,7 @@
         "text_Lp3YAD": {
           "type": "text",
           "settings": {
-            "text": "Ingredients: Grass-Fed Pasture raised beef tallow, Yucca Powder, Green Tea Oil, Calendula Oil. ",
+            "text": "Ingredients: Regenerative Beef Tallow, Yucca Extract, Green Tea Extract, Calendula Extract, Neroli Extract. ",
             "text_size": "small",
             "text_style": "uppercase"
           }
@@ -79,6 +79,7 @@
         },
         "judge_me_reviews_preview_badge_yLnzgd": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
           "settings": {}
         }
       },
