@@ -671,6 +671,9 @@
         "column_RVVkL4",
         "column_G3WNPm"
       ],
+      "custom_css": [
+        ".slider-button {color: rgb(255 255 255); opacity: 1;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
