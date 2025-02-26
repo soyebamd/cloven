@@ -208,7 +208,7 @@ slideshow-component:not(.page-width) .slider-buttons {
 .slideshow__controls {
   position: absolute;
   width: 100%;
-  bottom: 10px;
+  bottom: 30px;
   color: #fff;
   border: 0;
 }
