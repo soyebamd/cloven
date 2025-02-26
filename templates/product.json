@@ -38,6 +38,7 @@
         },
         "text_Lp3YAD": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Ingredients: Regenerative Beef Tallow, Yucca Extract, Green Tea Extract, Calendula Extract, Neroli Extract. ",
             "text_size": "small",
