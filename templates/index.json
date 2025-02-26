@@ -372,12 +372,15 @@
             "text": "<h1><em>Regenerative </em>Tallow<br/>Calendula<br/>Yucca Root<br/>Green Tea<br/>Neroli</h1>",
             "link_label": "",
             "link": "#",
-            "image": "shopify://shop_images/ingredients_jar_edit.jpg"
+            "image": "shopify://shop_images/ingredients_jar_edit2.jpg"
           }
         }
       },
       "block_order": [
         "column_i8FcAn"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.multicolumn-list, .section-template--17770191126711__cloven_multicolumn_zCXUc7-padding, .section-template--17770191126711__cloven_multicolumn_zCXUc7-padding {padding-left: 0 !important; padding-right: 0 !important; } .multicolumn-card-spacing {margin-left: -50px !important; margin-right: -50px !important; } .multicolumn .button {margin-top: -0px; } .section-template--17770191126711__cloven_multicolumn_zCXUc7-padding {padding:0!important; }}"
       ],
       "settings": {
         "title": "",
@@ -393,7 +396,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
-        "padding_bottom": 48
+        "padding_bottom": 0
       }
     },
     "cloven_multicolumn_w_feature_image_qKXwwG": {
