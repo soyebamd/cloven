@@ -380,7 +380,7 @@
         "column_i8FcAn"
       ],
       "custom_css": [
-        "@media (max-width: 768px) {.multicolumn-list {padding-left: 0; padding-right: 0; } .multicolumn-card-spacing {margin-left: -50px !important; margin-right: -70px !important; }}"
+        "@media (max-width: 768px) {.multicolumn-list {padding-left: 0; padding-right: 0; } .multicolumn-card-spacing {margin-left: -50px !important; margin-right: -70px !important; } .multicolumn .button{margin-top:-0px; }}"
       ],
       "settings": {
         "title": "",
@@ -396,7 +396,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
-        "padding_bottom": 48
+        "padding_bottom": 0
       }
     },
     "cloven_multicolumn_w_feature_image_qKXwwG": {
