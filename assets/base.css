@@ -3930,14 +3930,6 @@ textarea:focus {
     margin-top: 20px; /* Move the text closer to the images */
   }
 
-   @media (min-width: 769px) {
-    #shopify-section-template--17770191126711__cloven_multicolumn_zCXUc7 {
-      padding-bottom: 0 !important;
-      margin-bottom: -200px !important; /* Adjust as needed */
-      height: auto !important;
-    }
-
-
 
 /*
 #shopify-section-template--17260799361207__multicolumn {
