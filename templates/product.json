@@ -379,6 +379,9 @@
         "slide_t8pKWn",
         "slide_cG3zVt"
       ],
+      "custom_css": [
+        ".slider-button {display: none !important;}"
+      ],
       "settings": {
         "color_scheme": "scheme-4fd4b036-74ea-40c3-9ab1-f214d54405e2",
         "layout": "full_bleed",
