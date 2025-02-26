@@ -315,7 +315,8 @@
         "column_fCxXjx"
       ],
       "custom_css": [
-        "h3 {font-size: 20px; letter-spacing: 1px; text-transform: uppercase;}"
+        "h3 {font-size: 20px; letter-spacing: 1px; text-transform: uppercase;}",
+        ".multicolumn-list p {font-family: \"bookmania\"; font-size: 14px;}"
       ],
       "settings": {
         "page_width_small": true,
