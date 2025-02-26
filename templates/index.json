@@ -451,7 +451,8 @@
       ],
       "custom_css": [
         ".multicolumn-card__info {padding-top: 0 !important; padding-bottom: 0 !important;}",
-        "@media screen and (min-width: 750px) {.multicolumn .button {margin-top: 8rem; }}"
+        "@media screen and (min-width: 750px) {.multicolumn .button {margin-top: calc(8rem + 20px); }}",
+        "@media screen and (max-width: 749px) {.multicolumn .button {margin-top: 40px; }}"
       ],
       "settings": {
         "video": "shopify://files/videos/cloven-ingredients.mp4",
@@ -473,7 +474,7 @@
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 0,
+        "padding_top": 36,
         "padding_bottom": 72
       }
     },
@@ -611,20 +612,11 @@
     "multicolumn_default_Na7FEJ": {
       "type": "multicolumn-default",
       "blocks": {
-        "column_4TEbcR": {
+        "column_3bRjwL": {
           "type": "column",
           "settings": {
-            "title": "Wonderful",
-            "text": "<p>The all-natural formula is wonderful. I LOVE smoothing the rich cream around my eyes and lips, nourishing my skin with pure goodness.</p><p></p><p><em><strong>- Michelle </strong></em></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_cMbX4C": {
-          "type": "column",
-          "settings": {
-            "title": "My Happy Dewy Skin",
-            "text": "<p>“Obsessed with Cloven’s silky, fluffy formula. I love to use as a night cream, waking up with the most dewy, hydrated skin”   </p><p><em><strong>- Ellodee </strong></em></p>",
+            "title": "My New Go-To!",
+            "text": "<p>I’m a skincare freak and have tried loads of moisturizers.  Nothing I’ve tried has come close to the hydration that Cloven provides.  I use it all over my body, especially in those dry, winter months.  And the best part is that it uses minimal and natural ingredients.  Cloven has quickly become my new favorite go-to!  </p><p><em><strong>- Amanda </strong></em></p>",
             "link_label": "",
             "link": ""
           }
@@ -638,11 +630,20 @@
             "link": ""
           }
         },
-        "column_3bRjwL": {
+        "column_cMbX4C": {
           "type": "column",
           "settings": {
-            "title": "My New Go-To!",
-            "text": "<p>I’m a skincare freak and have tried loads of moisturizers.  Nothing I’ve tried has come close to the hydration that Cloven provides.  I use it all over my body, especially in those dry, winter months.  And the best part is that it uses minimal and natural ingredients.  Cloven has quickly become my new favorite go-to!  </p><p><em><strong>- Amanda </strong></em></p>",
+            "title": "My Happy Dewy Skin",
+            "text": "<p>“Obsessed with Cloven’s silky, fluffy formula. I love to use as a night cream, waking up with the most dewy, hydrated skin”   </p><p><em><strong>- Ellodee </strong></em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4TEbcR": {
+          "type": "column",
+          "settings": {
+            "title": "Wonderful",
+            "text": "<p>The all-natural formula is wonderful. I LOVE smoothing the rich cream around my eyes and lips, nourishing my skin with pure goodness.</p><p></p><p><em><strong>- Michelle </strong></em></p>",
             "link_label": "",
             "link": ""
           }
@@ -667,10 +668,10 @@
         }
       },
       "block_order": [
-        "column_4TEbcR",
-        "column_cMbX4C",
-        "column_4bKmYN",
         "column_3bRjwL",
+        "column_4bKmYN",
+        "column_cMbX4C",
+        "column_4TEbcR",
         "column_RVVkL4",
         "column_G3WNPm"
       ],
