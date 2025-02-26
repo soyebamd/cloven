@@ -3930,13 +3930,12 @@ textarea:focus {
     margin-top: 20px; /* Move the text closer to the images */
   }
 
-@media (max-width: 749px) {
+  @media (max-width: 749px) {
   #shopify-section-template--17770190799031__rich_text_UVmpnH {
-    padding-top: 100px !important;
-    padding-bottom: 100px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
   }
 }
-
 
 
 /*
