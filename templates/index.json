@@ -996,6 +996,8 @@
       ],
       "custom_css": [
         ".banner__text {max-width: 80%; margin: 3.5rem 0;}",
+        " .slider-counter__link--active.slider-counter__link--dots .dot {background-color: rgb(255 255 255)!important;}",
+        ".slider-counter__link--dots .dot {border: .1rem solid #fff!important; }",
         "@media screen and (max-width: 749px) {.banner__text {max-width: 100%; }}",
         ".button:before {display: none;}",
         ".slider-counter__link,.slider-button {color: #fff;}"
