@@ -380,7 +380,7 @@
         "column_i8FcAn"
       ],
       "custom_css": [
-        "@media (max-width: 768px) {.multicolumn-list, .section-template--17770191126711__cloven_multicolumn_zCXUc7-padding, .section-template--17770191126711__cloven_multicolumn_zCXUc7-padding {padding-left: 0 !important; padding-right: 0 !important; } .multicolumn-card-spacing {margin-left: -50px !important; margin-right: -50px !important; } .multicolumn .button {margin-top: -0px; }}"
+        "@media (max-width: 768px) {.multicolumn-list, .section-template--17770191126711__cloven_multicolumn_zCXUc7-padding, .section-template--17770191126711__cloven_multicolumn_zCXUc7-padding {padding-left: 0 !important; padding-right: 0 !important; } .multicolumn-card-spacing {margin-left: -50px !important; margin-right: -50px !important; } .multicolumn .button {margin-top: -0px; } .section-template--17770191126711__cloven_multicolumn_zCXUc7-padding {padding:0!important; }}"
       ],
       "settings": {
         "title": "",
