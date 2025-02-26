@@ -986,7 +986,7 @@
         ".slider-counter__link,.slider-button {color: #fff;}"
       ],
       "settings": {
-        "video": "shopify://files/videos/cloven-ourprocess.mp4",
+        "video": "shopify://files/videos/ctb_process_overlay.mp4",
         "video_url": "",
         "enable_video_looping": true,
         "autoplay": true,
