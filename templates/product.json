@@ -412,81 +412,90 @@
         "collapsible_row_BN8nKx": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "What is tallow?",
             "icon": "flower",
-            "row_content": "",
+            "row_content": "<p>Tallow was once the most widely used form of skincare. Tallow is made by rendering fat trimmings from rumiment animals to its melting point - where it turns from solid fat to liquid oil. At this stage the melted trimmings are now called tallow, and can be made into soap, skincare items, or even used for cooking.<br/><br/>Our tallow balm is only ever made from regenerative ranch raised beef fat. We source a specific type of fat called suet that is only found around the organs. Suet is the purest, nutrient-dense source of fat; perfect for clean, high-quality skincare.</p>",
             "page": ""
           }
         },
         "collapsible_row_kR36AE": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "What are Regenerative Ranch Raised Cattle?",
             "icon": "flower",
-            "row_content": "",
+            "row_content": "<p>Regenerative ranching at its core means leaving the land better than we found it - regenerating, not extracting its nutrients. It refers to the way cattle are raised and how ranchers use holistic practices, creating the most natural environment to live and graze. Keeping animals in too small areas contributes to poor health - and destroys the land at the same time. With regenerative ranching, animal health and behavior are a top priority, simultaneously contributing to the ecosystem and biodiversity of the land they occupy.<br/><br/>While it takes a little more space and patience, this way of raising animals is better - for them, for the land, and for the planet.</p>",
             "page": ""
           }
         },
         "collapsible_row_QeJHRL": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "What can tallow do for your skin?",
             "icon": "flower",
-            "row_content": "",
+            "row_content": "<p>Tallow's high vitamin and fatty acid content provide a multitude of skin-benefiting properties. It helps preserve and repair the skin's natural barrier while providing intense hydration and nourishment. Many people with skin allergies find tallow to be a better alternative due to its similarity to our own sebum and lack of chemicals and synthetic ingredients.</p>",
             "page": ""
           }
         },
         "collapsible_row_iMkpp7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Will tallow clog my pores?",
             "icon": "flower",
-            "row_content": "",
+            "row_content": "<p>Tallow is generally thought to be non-comedogenic, meaning it is less likely to clog pores. Tallow's makeup is similar to the natural oils our skin produces - called sebum - making it incredibly compatible to our skin. All skin types are different though, so it's a good idea to test a small amount first and see how your skin reacts. Especially if you have sensitive or acne-prone skin.</p>",
             "page": ""
           }
         },
         "collapsible_row_ETmLzk": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Is Cloven Tallow Balm only for my face?",
             "icon": "flower",
-            "row_content": "",
+            "row_content": "<p>While we designed Cloven as a replacement for our nighttime face cream, we use it all over and any time of day. It’s excellent for dry hands or feet, on knees, legs, arms and anywhere else that might beg for hydration. Its rich, nourishing properties make it a great all-over moisturizer for maintaining healthy, supple skin.</p>",
             "page": ""
           }
         },
         "collapsible_row_mWRiUJ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Will I smell like beef?!",
             "icon": "flower",
-            "row_content": "",
+            "row_content": "<p>Definitely not! Quality tallow should never smell beefy. Depending on a person's nose, some say plain tallow can smell buttery, like pie crust, or like warm grass.</p>",
             "page": ""
           }
         },
         "collapsible_row_HCptnh": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "What do I do if my tallow product melts?",
             "icon": "flower",
-            "row_content": "",
+            "row_content": "<p>Since there are no stabilizers or thickeners in Cloven, it can change consistency if exposed to warmer temperatures. If your product melts, (we've all left things in the car) simply place it in the refrigerator and let it chill for a few hours. It will return to a solid state. While the consistency may shift to a harder, more salve-type product, its effectiveness and benefits will remain intact!</p>",
             "page": ""
           }
         },
         "collapsible_row_ApF9ke": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Is tallow Vegan?",
             "icon": "flower",
-            "row_content": "",
+            "row_content": "<p>No, tallow is not vegan. Our tallow is sourced from cattle regeneratively raised for human consumption. By utilizing tallow that might ordinarily be discarded we feel that Cloven contributes to sustainability and honors the ancestral mentality of \"nothing goes to waste.\"</p>",
             "page": ""
           }
         },
         "collapsible_row_Pn7JLn": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Does tallow expire?",
             "icon": "flower",
-            "row_content": "",
+            "row_content": "<p>Yes, tallow can expire. Although it has a relatively long shelf life due to its fatty acid content and natural preservatives, it can eventually go rancid. To ensure you get the most longevity from your Cloven, store in a cool, dark place like a drawer or medicine cabinet and always apply with clean hands. If it develops an off-smell or color change, it's best to discard it. With proper storage and handling Cloven can last up to 12 months... but we use ours much quicker!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ChjwVA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I store my tallow?",
+            "icon": "flower",
+            "row_content": "<p>Cloven can be stored like any other face cream at room temperature. If your bathroom is especially bright and sunny we recommend keeping it in a medicine cabinet or drawer.<br/><br/>For an added luxury you can store it in the fridge for a crisp, skin invigorating experience.</p>",
             "page": ""
           }
         }
@@ -500,7 +509,8 @@
         "collapsible_row_mWRiUJ",
         "collapsible_row_HCptnh",
         "collapsible_row_ApF9ke",
-        "collapsible_row_Pn7JLn"
+        "collapsible_row_Pn7JLn",
+        "collapsible_row_ChjwVA"
       ],
       "settings": {
         "caption": "",
