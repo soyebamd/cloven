@@ -159,7 +159,7 @@
         "enable_video_looping": true,
         "autoplay": true,
         "muted": true,
-        "image": "shopify://shop_images/wer.png",
+        "image": "shopify://shop_images/girl.png",
         "image_style": "small-wrapper",
         "height": "adapt",
         "desktop_image_width": "medium",
