@@ -133,7 +133,7 @@
           "type": "custom_button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify://products/tallow-face-balm-copy"
+            "button_link": "shopify://products/tallow-face-balm"
           }
         },
         "buy_buttons_YmG47G": {
@@ -169,7 +169,7 @@
         "div.grid__item.product__media-wrapper.mx-auto > img {width: 60% !important; max-width: 60% !important; height: auto !important; display: block; margin: 0 auto !important;}"
       ],
       "settings": {
-        "product": "tallow-face-balm-copy",
+        "product": "tallow-face-balm",
         "flex_colum": true,
         "color_scheme": "scheme-2",
         "secondary_background": false,
@@ -405,7 +405,7 @@
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "SHOP CLOVEN",
-        "button_link": "shopify://products/tallow-face-balm-copy",
+        "button_link": "shopify://products/tallow-face-balm",
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -484,7 +484,7 @@
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "SHOP CLOVEN",
-        "button_link": "shopify://products/tallow-face-balm-copy",
+        "button_link": "shopify://products/tallow-face-balm",
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -921,7 +921,7 @@
         "text": "",
         "desktop_image_width": "medium",
         "button_label": "",
-        "button_link": "shopify://products/tallow-face-balm-copy",
+        "button_link": "shopify://products/tallow-face-balm",
         "button_style_secondary": false,
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -945,7 +945,7 @@
             "heading_size": "hxl",
             "subheading": "We source our suet exclusively from California ranches that follow regenerative ranching practices, where cows graze in pasture. We believe in a method that not only honors the animal but nurtures the land. Regenerative agriculture helps restore soil health, organic matter, and biodiversity, while reducing atmospheric carbon. This holistic, nature-based approach enhances topsoil, supports sustainable food production, and benefits the livelihoods of ranchers, creating a cycle that cares for both the earth and future generations.",
             "button_label": "SHOP CLOVEN",
-            "link": "shopify://products/tallow-face-balm-copy",
+            "link": "shopify://products/tallow-face-balm",
             "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -962,7 +962,7 @@
             "heading_size": "hxl",
             "subheading": "Our meticulous dry-rendering process is designed to preserve nutrients at every step. Starting with the highest quality regenerative suet, we render at low temperatures, ensuring our tallow retains its full range of vitamins and natural benefits. Through multiple renders, the suet transforms into liquid gold. Any impurities are carefully removed, leaving us with a vitamin-rich, cosmetic-grade tallow—the perfect base for a powerful yet gentle balm.",
             "button_label": "SHOP CLOVEN",
-            "link": "shopify://products/tallow-face-balm-copy",
+            "link": "shopify://products/tallow-face-balm",
             "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -979,7 +979,7 @@
             "heading_size": "hxl",
             "subheading": "We are dedicated to promoting a clean and healthy environment, not just in our ingredients but in every step of production. We ensure that all tools are thoroughly cleaned at every stage, and we take careful precautions to sterilize each jar before being filled. By following these practices, we guarantee that the purity of our product is maintained from start to finish, so you receive only the highest quality balm.",
             "button_label": "SHOP CLOVEN",
-            "link": "shopify://products/tallow-face-balm-copy",
+            "link": "shopify://products/tallow-face-balm",
             "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": false,
