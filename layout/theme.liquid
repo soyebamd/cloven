@@ -306,16 +306,18 @@
       }
     </script>
 
-    <style>
+<style>
 .price-item.price-item--regular::after {
     content: ' + free shipping' !important;
     color: black !important;
-    font-weight: regular !important;
+    font-weight: normal !important; /* 'regular' is not a valid CSS value, using 'normal' */
     display: inline-flex !important;
     font-size: 11px !important;
     align-items: center !important;
+    letter-spacing: -0.5px !important; /* Slightly reduced letter spacing */
 }
 </style>
+
 
   </head>
 
