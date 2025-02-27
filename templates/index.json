@@ -129,8 +129,16 @@
           "disabled": true,
           "settings": {}
         },
+        "custom_button_G8KUaH": {
+          "type": "custom_button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://products/tallow-face-balm"
+          }
+        },
         "buy_buttons_YmG47G": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
@@ -152,15 +160,17 @@
         "price_dXnXLW",
         "variant_picker_TP8tjz",
         "quantity_selector_pr9qDK",
+        "custom_button_G8KUaH",
         "buy_buttons_YmG47G",
         "share_EHTYf8"
       ],
       "custom_css": [
         "#ProductInfo-template--17770191126711__clovent_feature_product_XTAJMh {margin-top: -15px !important;}",
-        "div.grid__item.product__media-wrapper.mx-auto > img {width: 60% !important; max-width: 60% !important; height: auto !important; display: block; margin: 0 auto !important;}"
+        "div.grid__item.product__media-wrapper.mx-auto > img {width: 60% !important; max-width: 60% !important; height: auto !important; display: block; margin: 0 auto !important;}",
+        ".button {margin-top: 20px;}"
       ],
       "settings": {
-        "product": "tallow-face-balm-copy",
+        "product": "tallow-face-balm",
         "flex_colum": true,
         "color_scheme": "scheme-2",
         "secondary_background": false,
@@ -396,12 +406,12 @@
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "SHOP CLOVEN",
-        "button_link": "shopify://products/tallow-face-balm-copy",
+        "button_link": "shopify://products/tallow-face-balm",
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 28,
-        "padding_bottom": 0
+        "padding_bottom": 80
       }
     },
     "cloven_multicolumn_w_feature_image_qKXwwG": {
@@ -475,7 +485,7 @@
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "SHOP CLOVEN",
-        "button_link": "shopify://products/tallow-face-balm-copy",
+        "button_link": "shopify://products/tallow-face-balm",
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -887,7 +897,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP CLOVEN",
-            "button_link": "shopify://products/whipped-tallow-balm",
+            "button_link": "shopify://products/tallow-face-balm",
             "button_style_secondary": false
           }
         }
@@ -912,7 +922,7 @@
         "text": "",
         "desktop_image_width": "medium",
         "button_label": "",
-        "button_link": "shopify://products/tallow-face-balm-copy",
+        "button_link": "shopify://products/tallow-face-balm",
         "button_style_secondary": false,
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -936,7 +946,7 @@
             "heading_size": "hxl",
             "subheading": "We source our suet exclusively from California ranches that follow regenerative ranching practices, where cows graze in pasture. We believe in a method that not only honors the animal but nurtures the land. Regenerative agriculture helps restore soil health, organic matter, and biodiversity, while reducing atmospheric carbon. This holistic, nature-based approach enhances topsoil, supports sustainable food production, and benefits the livelihoods of ranchers, creating a cycle that cares for both the earth and future generations.",
             "button_label": "SHOP CLOVEN",
-            "link": "shopify://products/tallow-face-balm-copy",
+            "link": "shopify://products/tallow-face-balm",
             "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -953,7 +963,7 @@
             "heading_size": "hxl",
             "subheading": "Our meticulous dry-rendering process is designed to preserve nutrients at every step. Starting with the highest quality regenerative suet, we render at low temperatures, ensuring our tallow retains its full range of vitamins and natural benefits. Through multiple renders, the suet transforms into liquid gold. Any impurities are carefully removed, leaving us with a vitamin-rich, cosmetic-grade tallow—the perfect base for a powerful yet gentle balm.",
             "button_label": "SHOP CLOVEN",
-            "link": "shopify://products/tallow-face-balm-copy",
+            "link": "shopify://products/tallow-face-balm",
             "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -970,7 +980,7 @@
             "heading_size": "hxl",
             "subheading": "We are dedicated to promoting a clean and healthy environment, not just in our ingredients but in every step of production. We ensure that all tools are thoroughly cleaned at every stage, and we take careful precautions to sterilize each jar before being filled. By following these practices, we guarantee that the purity of our product is maintained from start to finish, so you receive only the highest quality balm.",
             "button_label": "SHOP CLOVEN",
-            "link": "shopify://products/tallow-face-balm-copy",
+            "link": "shopify://products/tallow-face-balm",
             "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": false,
