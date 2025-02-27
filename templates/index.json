@@ -129,18 +129,19 @@
           "disabled": true,
           "settings": {}
         },
-        "buy_buttons_YmG47G": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": false
-          }
-        },
         "custom_button_G8KUaH": {
           "type": "custom_button",
           "settings": {
             "button_label": "SHOP NOW",
             "button_link": "shopify://products/tallow-face-balm-copy"
+          }
+        },
+        "buy_buttons_YmG47G": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
           }
         },
         "share_EHTYf8": {
@@ -159,8 +160,8 @@
         "price_dXnXLW",
         "variant_picker_TP8tjz",
         "quantity_selector_pr9qDK",
-        "buy_buttons_YmG47G",
         "custom_button_G8KUaH",
+        "buy_buttons_YmG47G",
         "share_EHTYf8"
       ],
       "custom_css": [
