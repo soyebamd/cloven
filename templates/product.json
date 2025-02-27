@@ -564,7 +564,7 @@
       "type": "contact-form",
       "settings": {
         "heading": "We’re Here to Help",
-        "heading_size": "h1",
+        "heading_size": "hxxl",
         "color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
         "padding_top": 36,
         "padding_bottom": 100
