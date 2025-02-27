@@ -897,7 +897,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP CLOVEN",
-            "button_link": "shopify://products/whipped-tallow-balm",
+            "button_link": "shopify://products/tallow-face-balm",
             "button_style_secondary": false
           }
         }
