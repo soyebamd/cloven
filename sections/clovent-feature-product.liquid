@@ -196,6 +196,28 @@
                     <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span>
                     {{- product.selected_or_first_available_variant.sku -}}
                   </p>
+
+
+
+                  {%- when 'custom_button' -%}
+
+                    
+   {%- if block.settings.button_label != blank -%}
+                    <a
+                      {% if block.settings.button_link == blank %}
+                        role="link" aria-disabled="true"
+                      {% else %}
+                        href="{{ block.settings.button_link }}"
+                      {% endif %}
+                      class="button button--primary"
+                      {{ block.shopify_attributes }}
+                    >
+                      {{ block.settings.button_label | escape }}
+                    </a>
+                  {%- endif -%}
+
+
+
                 {%- when 'quantity_selector' -%}
                   <div
                     id="Quantity-Form-{{ section.id }}"
@@ -709,6 +731,29 @@
         }
       ]
     },
+
+
+ {
+      "type": "custom_button",
+      "name": "t:sections.featured-product.blocks.buy_buttons.name",
+      "limit": 1,
+      "settings": [
+       {
+          "type": "text",
+          "id": "button_label",
+          "default": "t:sections.image-banner.blocks.buttons.settings.button_label.default",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_label.label",
+          "info": "t:sections.image-banner.blocks.buttons.settings.button_label.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_link.label"
+        }
+      ]
+    },
+
+
     {
       "type": "buy_buttons",
       "name": "t:sections.featured-product.blocks.buy_buttons.name",
