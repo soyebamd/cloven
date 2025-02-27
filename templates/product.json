@@ -247,6 +247,9 @@
       "block_order": [
         "column_WEVcUU"
       ],
+      "custom_css": [
+        ".text-center.justify-content-center > h2 {display: flex; align-items: center; justify-content: center; /* Centers text horizontally */ height: 100%; position: relative; top: 5px; /* Moves the text down by 5px */}"
+      ],
       "settings": {
         "page_width_small": true,
         "title": "REGENERATIVE TALLOW",
