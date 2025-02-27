@@ -305,6 +305,13 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+   
+    <style>
+.price__current.price__current--on-sale:after {
+    content: "+ FREE SHIPPING";
+}
+</style>
+    
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
