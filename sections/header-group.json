@@ -25,6 +25,9 @@
       "block_order": [
         "announcement"
       ],
+      "custom_css": [
+        "@media(max-width:749px){.announcement-bar__message {font-size: 16px!important;}}"
+      ],
       "settings": {
         "color_scheme": "scheme-5",
         "show_line_separator": false,
