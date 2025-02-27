@@ -894,7 +894,7 @@
         "button_xDe7KR"
       ],
       "custom_css": [
-        "{margin-bottom: -40px !important; height: auto !important;}"
+        "{@media (max-width: 768px) {margin-bottom: -40px !important; height: auto !important;}"
       ],
       "settings": {
         "heading": "A Healthier Path for Your Skin",
