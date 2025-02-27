@@ -155,6 +155,9 @@
         "buy_buttons_YmG47G",
         "share_EHTYf8"
       ],
+      "custom_css": [
+        "#ProductInfo-template--17770191126711__clovent_feature_product_XTAJMh {margin-top: -50px !important;}"
+      ],
       "settings": {
         "product": "tallow-face-balm-copy",
         "flex_colum": true,
