@@ -28,14 +28,6 @@
           "type": "price",
           "settings": {}
         },
-        "text_LrcfgW": {
-          "type": "text",
-          "settings": {
-            "text": "+ Free Shipping",
-            "text_size": "small",
-            "text_style": "body"
-          }
-        },
         "text": {
           "type": "text",
           "settings": {
@@ -96,7 +88,6 @@
         "title",
         "text_N3LbdC",
         "price",
-        "text_LrcfgW",
         "text",
         "text_Lp3YAD",
         "rating",
