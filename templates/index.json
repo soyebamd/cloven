@@ -136,6 +136,13 @@
             "show_gift_card_recipient": false
           }
         },
+        "custom_button_G8KUaH": {
+          "type": "custom_button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://products/tallow-face-balm-copy"
+          }
+        },
         "share_EHTYf8": {
           "type": "share",
           "disabled": true,
@@ -153,6 +160,7 @@
         "variant_picker_TP8tjz",
         "quantity_selector_pr9qDK",
         "buy_buttons_YmG47G",
+        "custom_button_G8KUaH",
         "share_EHTYf8"
       ],
       "custom_css": [
