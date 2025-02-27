@@ -249,7 +249,7 @@
       ],
       "custom_css": [
         ".title-main::before {display: block; position: relative; top: -0.07em;}",
-        "@media (max-width: 749px) {.title-main::before {top: 0.1em; }}"
+        "@media (max-width: 749px) {.title-main::before {top: 0.07em; }}"
       ],
       "settings": {
         "page_width_small": true,
