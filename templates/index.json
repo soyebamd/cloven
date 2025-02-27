@@ -167,7 +167,7 @@
       "custom_css": [
         "#ProductInfo-template--17770191126711__clovent_feature_product_XTAJMh {margin-top: -15px !important;}",
         "div.grid__item.product__media-wrapper.mx-auto > img {width: 60% !important; max-width: 60% !important; height: auto !important; display: block; margin: 0 auto !important;}",
-        ".button{margin-top:20px;}"
+        ".button {margin-top: 20px;}"
       ],
       "settings": {
         "product": "tallow-face-balm",
@@ -322,7 +322,7 @@
           "type": "button",
           "settings": {
             "button_label": "LEARN MORE",
-            "button_link": "#shopify-section-template--17770191126711__cloven_multicolumn_w_feature_image_qKXwwG",
+            "button_link": "shopify://products/tallow-face-balm",
             "button_style_secondary": false
           }
         }
