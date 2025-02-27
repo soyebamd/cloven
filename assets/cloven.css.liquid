@@ -1005,6 +1005,27 @@ h1, h2, h3, h4, h5, h6, .h0, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #333333 !important;
 }
 
+/* Header Logo Styling and Responsiveness */
+.header__heading-logo-wrapper {
+    padding-top: 5px;
+    position: relative;
+    transition: transform 0.3s ease;
+    transform: scale(0.5);
+}
+.header__heading-logo {
+    padding-top: 7px;
+}
+@media only screen and (max-width: 768px) {
+    .header__heading-logo {
+        padding-top: 19px;
+    }
+    .header__heading-logo-wrapper {
+        transform: scale(.75);
+    }
+    .header__icon--account, .header__icon--cart {
+        padding-top: 10px !important;
+    }
+}
 
 /* Hide Icons in Header */
 .header__icon--search, .header__icon--menu {
