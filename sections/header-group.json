@@ -18,7 +18,7 @@
           "type": "announcement",
           "settings": {
             "text": "We're live! 100 free samples available. Click here to claim yours.",
-            "link": "shopify://products/cloven-free-sample"
+            "link": "https://cloventallow.com/pages/freesample"
           }
         }
       },
