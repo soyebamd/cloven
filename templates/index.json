@@ -382,7 +382,7 @@
         "column_i8FcAn": {
           "type": "column",
           "settings": {
-            "image_icon": "shopify://shop_images/detail_frame_yucca.svg",
+            "image_icon": "shopify://shop_images/yucca_hero.svg",
             "title": "All Natural Ingredients",
             "text": "<h1><em>Regenerative Tallow</em><br/>Yucca<br/>Calendula<br/>Green Tea<br/>Neroli</h1>",
             "link_label": "",
