@@ -1032,10 +1032,19 @@ h1, h2, h3, h4, h5, h6, .h0, .h1, .h2, .h3, .h4, .h5, .h6 {
     text-align: center; /* Ensures any inline elements are centered */
 }
 
+
 #Slide-template--17770190799031__main-32049382817975 > div > modal-opener > div.product__media.media.media--transparent {
-    border-radius: 15px; /* Adjust as needed */
-    overflow: hidden; /* Ensures content respects the border-radius */
+    border-radius: 15px; /* Apply rounding to the entire media container */
+    overflow: hidden; /* Prevents child elements from overflowing the border-radius */
 }
+
+#Slide-template--17770190799031__main-32049382817975 > div > modal-opener > div.product__media.media.media--transparent img {
+    border-radius: inherit; /* Ensures all images inside are rounded */
+    display: block; /* Avoids inline spacing issues */
+    width: 100%; /* Ensures images fill their container */
+    height: auto; /* Keeps aspect ratio */
+}
+
 
 
 
