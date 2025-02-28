@@ -1059,20 +1059,25 @@ h1, h2, h3, h4, h5, h6, .h0, .h1, .h2, .h3, .h4, .h5, .h6 {
         width: 100%;
         max-width: 100%;
         display: flex;
-        justify-content: center; /* Ensures horizontal centering */
+        justify-content: center; /* Center the entire text block */
         align-items: center;
         text-align: center;
+        position: relative;
+    }
+
+    #Slide-template--17770191126711__slideshow_mQKPy4-1 .banner__text {
+        width: 100%; /* Make sure the text container spans full width */
+        max-width: 100%;
+        display: flex;
+        justify-content: center; /* Ensures inner text is centered */
     }
 
     #Slide-template--17770191126711__slideshow_mQKPy4-1 h2 {
-        max-width: 90%;
-        width: 90%;
-        white-space: nowrap;
+        width: auto; /* Allows text to expand naturally */
+        max-width: none; /* Removes width restrictions */
+        white-space: nowrap; /* Keeps text on one line */
         text-align: center;
-        margin: 0 auto; /* Ensures the text stays centered */
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%); /* Centers the text precisely */
+        margin: 0 auto; /* Center the element */
     }
 }
 
