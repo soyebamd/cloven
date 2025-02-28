@@ -1033,17 +1033,25 @@ h1, h2, h3, h4, h5, h6, .h0, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 
-#Slide-template--17770190799031__main-32049382817975 > div > modal-opener > div.product__media.media.media--transparent {
-    border-radius: 15px; /* Apply rounding to the entire media container */
-    overflow: hidden; /* Prevents child elements from overflowing the border-radius */
+/* Apply rounded corners to all media containers inside the carousel */
+#Slide-template--17770190799031__main-32049382817975 modal-opener div.product__media.media.media--transparent {
+    border-radius: 15px;
+    overflow: hidden;
 }
 
-#Slide-template--17770190799031__main-32049382817975 > div > modal-opener > div.product__media.media.media--transparent img {
-    border-radius: inherit; /* Ensures all images inside are rounded */
-    display: block; /* Avoids inline spacing issues */
+/* Ensure all images inside the carousel inherit the rounding */
+#Slide-template--17770190799031__main-32049382817975 modal-opener div.product__media.media.media--transparent img {
+    border-radius: inherit;
+    display: block;
     width: 100%; /* Ensures images fill their container */
     height: auto; /* Keeps aspect ratio */
 }
+
+/* If the carousel uses multiple slides, target all slides */
+#Slide-template--17770190799031__main-32049382817975 modal-opener div.product__media.media.media--transparent:not(:first-child) {
+    border-radius: 15px;
+}
+
 
 
 
