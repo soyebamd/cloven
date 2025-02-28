@@ -1056,18 +1056,23 @@ h1, h2, h3, h4, h5, h6, .h0, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 @media (min-width: 1024px) { /* Desktop only */
     #Slide-template--17770191126711__slideshow_mQKPy4-1 .slideshow__text-wrapper {
-        width: 100%; /* Ensure full width */
+        width: 100%;
         max-width: 100%;
-        justify-content: center; /* Keep text centered */
+        display: flex;
+        justify-content: center; /* Ensures horizontal centering */
         align-items: center;
         text-align: center;
     }
 
     #Slide-template--17770191126711__slideshow_mQKPy4-1 h2 {
-        max-width: 90%; /* Increase the width of the h2 container */
-        width: 90%; /* Expand the h2 */
-        white-space: nowrap; /* Prevent line breaks */
+        max-width: 90%;
+        width: 90%;
+        white-space: nowrap;
         text-align: center;
+        margin: 0 auto; /* Ensures the text stays centered */
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%); /* Centers the text precisely */
     }
 }
 
