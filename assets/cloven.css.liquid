@@ -1055,31 +1055,26 @@ h1, h2, h3, h4, h5, h6, .h0, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 @media (min-width: 1024px) { /* Desktop only */
-    #Slide-template--17770191126711__slideshow_mQKPy4-1 .slideshow__text-wrapper {
-        width: 100%;
-        max-width: 100%;
+    #Slide-template--17770191126711__slideshow_mQKPy4-1 > div:nth-child(2) {
+        width: 100%; /* Make the parent div full width */
         display: flex;
-        justify-content: center; /* Center the entire text block */
-        align-items: center;
+        justify-content: center; /* Center its content */
         text-align: center;
-        position: relative;
     }
 
-    #Slide-template--17770191126711__slideshow_mQKPy4-1 .banner__text {
-        width: 100%; /* Make sure the text container spans full width */
-        max-width: 100%;
+    #Slide-template--17770191126711__slideshow_mQKPy4-1 > div:nth-child(2) > div {
+        width: 100%; /* Ensure the inner div spans the full width */
         display: flex;
-        justify-content: center; /* Ensures inner text is centered */
+        justify-content: center;
     }
 
-    #Slide-template--17770191126711__slideshow_mQKPy4-1 h2 {
-        width: auto; /* Allows text to expand naturally */
-        max-width: none; /* Removes width restrictions */
-        white-space: nowrap; /* Keeps text on one line */
+    #Slide-template--17770191126711__slideshow_mQKPy4-1 > div:nth-child(2) > div > h2 {
+        white-space: nowrap; /* Prevent line breaks */
         text-align: center;
-        margin: 0 auto; /* Center the element */
+        margin: 0 auto; /* Ensure it centers properly */
     }
 }
+
 
 
 
