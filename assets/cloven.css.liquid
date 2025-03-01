@@ -1136,9 +1136,10 @@ h1, h2, h3, h4, h5, h6, .h0, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 @media (min-width: 1024px) { /* Desktop only */
-    .product-form__buttons.text-center {
-        width: calc(100% + 40px) !important;
-        margin-right: -40px !important;
+    .product--medium:not(.product--no-media) .product__media-wrapper, 
+    .product--small:not(.product--no-media) .product__info-wrapper {
+        max-width: 60% !important; /* Increase width to allow more space */
+        width: calc(60% - var(--grid-desktop-horizontal-spacing) / 2) !important;
     }
 }
 
