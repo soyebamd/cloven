@@ -1135,6 +1135,13 @@ h1, h2, h3, h4, h5, h6, .h0, .h1, .h2, .h3, .h4, .h5, .h6 {
     width: 50% !important;
 }
 
+@media (min-width: 1024px) { /* Desktop only */
+    .product-form__buttons.text-center {
+        width: calc(100% + 40px) !important; /* Expands the div width */
+        margin-right: -40px !important; /* Prevents unwanted shifting */
+    }
+}
+
 
 
 
