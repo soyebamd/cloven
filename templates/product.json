@@ -557,10 +557,45 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_kHCDBf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_66AagQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "We're Here To Help",
+            "heading_size": "h1",
+            "heading_alignment": "center",
+            "heading_2": "",
+            "heading_size_2": "hxl",
+            "heading_alignment_2": "left"
+          }
+        },
+        "text_rg4cHw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Feel free to ask us anything or share your thoughts with us.</p>",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_66AagQ",
+        "text_rg4cHw"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "contact_form_c8KjE3": {
       "type": "contact-form",
       "settings": {
-        "heading": "We’re Here to Help",
+        "heading": "",
         "heading_size": "h0",
         "color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
         "padding_top": 36,
@@ -578,6 +613,7 @@
     "testimonials_ehW68w",
     "1736374350f920e1f1",
     "collapsible_content_9nVpF3",
+    "rich_text_kHCDBf",
     "contact_form_c8KjE3"
   ]
 }
