@@ -123,7 +123,7 @@
         "heading_8HyAne": {
           "type": "heading",
           "settings": {
-            "heading": "<em>Recommended </em>Use",
+            "heading": "<em>Recommended </em>Usev",
             "heading_size": "h1"
           }
         },
@@ -252,7 +252,7 @@
       "settings": {
         "page_width_small": true,
         "title": "REGENERATIVE TALLOW",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "image_width": "thumbnail",
         "image_ratio": "adapt",
         "columns_desktop": 3,
