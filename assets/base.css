@@ -3674,10 +3674,13 @@ body {
     transform-origin: center !important; /* Keeps it centered */
 }
 
-#Quantity-Form-template--17770190799031__main * {
-    transform: scale(1.43) !important; /* Compensates for the 0.7 scale */
+#Quantity-Form-template--17770190799031__main {
+    width: 70% !important; /* Reduce width by 30% */
+    max-width: 70% !important; /* Prevent it from stretching */
+    display: flex !important; /* Ensures it adapts naturally */
+    justify-content: center !important; /* Keeps content centered */
+    align-items: center !important; /* Prevents misalignment */
 }
-
 
 
 /* Footer Styles */
