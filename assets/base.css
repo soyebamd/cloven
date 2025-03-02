@@ -3669,6 +3669,12 @@ body {
     transform-origin: top left !important; /* Keeps it aligned properly */
 }
 
+#Quantity-Form-template--17770190799031__main {
+    width: 70% !important; /* Reduce width to 70% of original */
+    max-width: 70% !important; /* Ensure it doesn't stretch */
+}
+
+
 
 
 /* Footer Styles */
