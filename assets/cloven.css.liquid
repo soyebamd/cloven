@@ -1162,14 +1162,10 @@ h1, h2, h3, h4, h5, h6, .h0, .h1, .h2, .h3, .h4, .h5, .h6 {
     outline: 2px solid red !important;
 }
 
-.quantity {
-    color: rgb(158 105 105);
-    position: relative;
-    width: calc((14rem / var(--font-body-scale) + var(--inputs-border-width) * 2) / 2) !important; /* Makes the width 50% of original */
-    display: flex;
-    border-radius: 10px !important; /* Adjust for more or less rounding */
-    min-height: calc((var(--inputs-border-width) * 2) + 4.5rem);
-    overflow: hidden !important; /* Ensures inner content follows rounded corners */
+#Quantity-Form-template--17770190799031__main > div.price-per-item__container {
+    width: 50% !important; /* Makes it half the original width */
+    border-radius: 10px !important; /* Adjust for more/less rounding */
+    overflow: hidden !important; /* Ensures child elements follow the rounded shape */
 }
 
 
