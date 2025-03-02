@@ -3669,6 +3669,12 @@ body {
     transform-origin: top left !important; /* Keeps it aligned properly */
 }
 
+#Quantity-Form-template--17770190799031__main > div.price-per-item__container {
+    width: 50% !important; /* Makes it half the original width */
+    border-radius: 10px !important; /* Adjust for more/less rounding */
+    overflow: hidden !important; /* Ensures child elements follow the rounded shape */
+}
+
 
 /* Footer Styles */
 .footer-block__heading {
