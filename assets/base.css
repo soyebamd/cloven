@@ -3664,7 +3664,7 @@ body {
   margin-top: 1px !important;
 }
 
-#Quantity-Form-template--17770190799031__main > div.price-per-item__container {
+#Quantity-Form-template--17770190799031__main {
     transform: scale(0.7) !important;
     transform-origin: top left !important; /* Keeps it aligned properly */
 }
