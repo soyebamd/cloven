@@ -165,7 +165,7 @@
         "share_EHTYf8"
       ],
       "custom_css": [
-        "#ProductInfo-template--17770191126711__clovent_feature_product_XTAJMh {margin-top: -15px !important;}",
+        "#ProductInfo-template--17770191126711__clovent_feature_product_XTAJMh {margin-top: -13px !important;}",
         "div.grid__item.product__media-wrapper.mx-auto > img {width: 60% !important; max-width: 60% !important; height: auto !important; display: block; margin: 0 auto !important;}",
         ".button {margin-top: 20px;}"
       ],
