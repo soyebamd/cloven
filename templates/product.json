@@ -20,8 +20,8 @@
           "type": "text",
           "settings": {
             "text": "Our five ingredient tallow balm is luxurious skincare, simplified.",
-            "text_size": "medium",
-            "text_style": "body"
+            "text_size": "large",
+            "text_style": "subtitle"
           }
         },
         "price": {
