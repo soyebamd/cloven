@@ -1170,7 +1170,9 @@
         "column_NwH3mq"
       ],
       "disabled": true,
-      "custom_css": [],
+      "custom_css": [
+        "@media (max-width: 768px) {.slider-mobile-gutter {height: calc(100% + 80px); }}"
+      ],
       "settings": {
         "page_width_small": false,
         "box_layout": false,
