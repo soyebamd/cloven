@@ -1002,7 +1002,7 @@
         ".slider-counter__link--dots .dot {border: 0.1rem solid #fff !important; width: 0.7rem; height: 0.7rem;}",
         "@media screen and (max-width: 749px) {.banner__text {max-width: 100%; }}",
         ".button:before {display: none;}",
-        ".slider-counter__link,.slider-button {color: #fff;}"
+        ".slider-counter__link,.slider-button {color: #fafaf7;}"
       ],
       "settings": {
         "video": "shopify://files/videos/ctb_process_overlay.mp4",
@@ -1018,7 +1018,7 @@
         "change_slides_speed": 5,
         "image_behavior": "ambient",
         "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand"
+        "accessibility_info": "Slideshow about Cloven"
       }
     },
     "image_banner_eezadb": {
