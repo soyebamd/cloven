@@ -1030,18 +1030,28 @@ h1, h2, h3, h4, h5, h6, .h0, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 /* Main Product Image */
 
-#Slide-template--17770190799031__main-32049502879927 > div > modal-opener > div.product__media.media.media--transparent {
-    position: relative;
-    width: 90%;
-    overflow: hidden;
+/* Ensure the outer slider container hides overflow */
+#Slide-template--17770190799031__main-32049502879927,
+#Slide-template--17770190799031__main-32049502879927 > div {
+    overflow: hidden !important;
 }
 
+/* Center the inner media container */
+#Slide-template--17770190799031__main-32049502879927 > div > modal-opener > div.product__media.media.media--transparent {
+    position: relative !important;
+    width: 100% !important;
+    text-align: center !important;
+    overflow: hidden !important;
+}
+
+/* Force the image to be centered with absolute positioning */
 #Slide-template--17770190799031__main-32049502879927 > div > modal-opener > div.product__media.media.media--transparent > img {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    max-width: 90%;
-    height: auto;
+    position: absolute !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    display: block !important;
+    max-width: 100% !important;
+    height: auto !important;
 }
 
 
