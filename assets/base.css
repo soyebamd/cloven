@@ -3652,7 +3652,7 @@ body {
 /* Price Styles */
 .price__container {
   font-family: 'presti-display', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .price__badge-sold-out {
