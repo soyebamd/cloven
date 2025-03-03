@@ -319,17 +319,18 @@
 </style>
 
 <style>
-  .product-form__input--pill input[type="radio"] + label {
-    width: 100%;
-    max-width: 420px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    text-align: left !important;
-    box-sizing: border-box;
-    padding: 8px 12px;
-  }
-
+.product-form__input--pill input[type="radio"] + label {
+  width: 100%;
+  max-width: 420px;
+  height: 40px;
+  display: flex;
+  align-items: center; /* Vertical centering */
+  justify-content: flex-start; /* Left-aligned horizontally */
+  text-align: left !important;
+  box-sizing: border-box;
+  padding: 8px 12px;
+  line-height: 1; /* Prevents extra vertical spacing */
+}
   @media (max-width: 960px) {
     .product-form__input--pill input[type="radio"] + label {
       max-width: 90%;
