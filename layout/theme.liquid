@@ -318,15 +318,34 @@
 }
 </style>
 
-    <style>
+<style>
   .product-form__input--pill input[type="radio"] + label {
-    width: 420px;
+    width: 100%;
+    max-width: 420px;
     height: 40px;
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* 'left' is invalid, use 'flex-start' */
+    justify-content: flex-start;
     text-align: left;
     box-sizing: border-box;
+    padding: 8px 12px;
+  }
+
+  @media (max-width: 768px) {
+    .product-form__input--pill input[type="radio"] + label {
+      max-width: 90%;
+      height: auto;
+      font-size: 16px;
+      padding: 10px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .product-form__input--pill input[type="radio"] + label {
+      max-width: 100%;
+      font-size: 14px;
+      padding: 12px;
+    }
   }
 </style>
 
