@@ -1231,14 +1231,22 @@ p:nth-child(2) {
   box-sizing: border-box;
 }
 
-#ProductInfo-template--17770190799031__main > div.product__description.rte.quick-add-hidden .product-form__input--pill input[type=radio] + label {
+#ProductInfo-template--17770190799031__main > div.product__description.rte.quick-add-hidden {
+  border: 2px solid blue !important;
+}
+
+#variant-selects-template--17770190799031__main .multicolumn .title-wrapper-with-link {
+  border: 2px solid green !important;
+}
+
+#variant-selects-template--17770190799031__main .product-form__input--pill input[type=radio] + label {
   width: 420px;
   height: 40px;
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* Corrected from 'left' */
+  justify-content: flex-start;
   box-sizing: border-box;
-  border: 2px solid red; /* Added for debugging */
+  border: 2px solid red !important; /* Ensure high specificity */
 }
-  
+
 
