@@ -1221,15 +1221,19 @@ p:nth-child(2) {
     max-width: 100%;
 }
 
-#Slide-template--17770190799031__main-32049502879927 > div::after {
-    content: "Net Wt. 1oz. (28 g)";
-    font-family: "degular-variable", sans-serif;
-    color: #333333;
-    font-weight: 300;
-    display: block;
-    text-align: center;
-    margin-top: 10px;
-}
+document.addEventListener("DOMContentLoaded", function () {
+    let targetDiv = document.querySelector("#Slide-template--17770190799031__main-32049502879927 > div");
+    if (targetDiv) {
+        let newText = document.createElement("p");
+        newText.textContent = "Net Wt. 1oz. (28 g)";
+        newText.style.fontFamily = "degular-variable, sans-serif";
+        newText.style.color = "#333333";
+        newText.style.fontWeight = "300";
+        newText.style.textAlign = "center";
+        newText.style.marginTop = "10px";
+        targetDiv.appendChild(newText);
+    }
+});
 
 
 
