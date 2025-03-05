@@ -357,13 +357,18 @@
   }
 </style>
 
-<style>
-body.template-index #shopify-section-template--17770191126711__clovent_feature_product_XTAJMh div.grid__item.product__media-wrapper.mx-auto > img,
-body.template-index .img.featured-image {
-    content: url('https://cdn.shopify.com/s/files/1/0657/4922/1559/files/noweight_ctb_main.jpg?v=1741201856') !important;
-}
-</style>
-
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    if (document.body.classList.contains("template-index")) {
+        let targetImage = document.querySelector("#shopify-section-template--17770191126711__clovent_feature_product_XTAJMh div.grid__item.product__media-wrapper.mx-auto > img");
+        
+        if (targetImage) {
+            targetImage.src = "https://cdn.shopify.com/s/files/1/0657/4922/1559/files/noweight_ctb_main.jpg?v=1741201856";
+            targetImage.srcset = "https://cdn.shopify.com/s/files/1/0657/4922/1559/files/noweight_ctb_main.jpg?v=1741201856";
+        }
+    }
+});
+</script>
 
   </head>
 
