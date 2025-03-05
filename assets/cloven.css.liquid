@@ -1240,7 +1240,16 @@ p:nth-child(2) {
     align-items: center !important;
 }
 
-#Slide-template--17770190799031__main-32049502879927 > div > modal-opener::after {
+#Slide-template--17770190799031__main-32049502879927 > div > modal-opener,
+.product-media-container .product__modal-opener {
+    position: relative !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+
+#Slide-template--17770190799031__main-32049502879927 > div > modal-opener::after,
+.product-media-container .product__modal-opener::after {
     content: "Net Wt. 1oz. (28 g)" !important;
     font-family: "degular-variable", sans-serif !important;
     color: #333333 !important;
