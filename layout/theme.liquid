@@ -360,12 +360,21 @@
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     if (document.body.classList.contains("template-index")) {
-        let targetImage = document.querySelector("#shopify-section-template--17770191126711__clovent_feature_product_XTAJMh div.grid__item.product__media-wrapper.mx-auto > img");
-        
-        if (targetImage) {
-            targetImage.src = "https://cdn.shopify.com/s/files/1/0657/4922/1559/files/noweight_ctb_main.jpg?v=1741201856";
-            targetImage.srcset = "https://cdn.shopify.com/s/files/1/0657/4922/1559/files/noweight_ctb_main.jpg?v=1741201856";
+        function replaceImage() {
+            let targetImage = document.querySelector("#shopify-section-template--17770191126711__clovent_feature_product_XTAJMh div.grid__item.product__media-wrapper.mx-auto > img");
+            
+            if (targetImage && targetImage.src !== "https://cdn.shopify.com/s/files/1/0657/4922/1559/files/noweight_ctb_main.jpg?v=1741201856") {
+                targetImage.src = "https://cdn.shopify.com/s/files/1/0657/4922/1559/files/noweight_ctb_main.jpg?v=1741201856";
+                targetImage.srcset = "https://cdn.shopify.com/s/files/1/0657/4922/1559/files/noweight_ctb_main.jpg?v=1741201856";
+            }
         }
+
+        // Run immediately in case image is already present
+        replaceImage();
+
+        // Also listen for Shopify's AJAX loading to ensure it replaces correctly
+        let observer = new MutationObserver(replaceImage);
+        observer.observe(document.body, { childList: true, subtree: true });
     }
 });
 </script>
