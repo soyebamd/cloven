@@ -122,6 +122,10 @@
               lazy_load: lazy_load
             %}
           </li>
+
+           <p class="net-weight"> Net Wt. {{ product.variants.first.weight }} {{ product.variants.first.weight_unit }}
+ </p>
+          
         {%- endunless -%}
       {%- endfor -%}
     </ul>
