@@ -3977,6 +3977,9 @@ textarea:focus {
 
 #MediaGallery-template--17770190799031__main .net-weight {
   text-align: center !important;
-  width: 100% !important; /* Ensures full width for proper centering */
-  position: relative !important; /* Keeps it positioned properly */
+  width: 100% !important;
+  position: relative !important;
+  padding-bottom: 20px !important;
+  opacity: 0.5 !important;
 }
+
