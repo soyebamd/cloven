@@ -123,11 +123,15 @@
             %}
           </li>
 
-           <p class="net-weight"> Net Wt. {{ product.variants.first.weight }} {{ product.variants.first.weight_unit }}
- </p>
+          
           
         {%- endunless -%}
       {%- endfor -%}
+
+       <p class="net-weight"> Net Wt. {{ product.variants.first.weight }} {{ product.variants.first.weight_unit }}
+ </p>
+
+      
     </ul>
     <div class="slider-buttons quick-add-hidden{% if hide_mobile_slider %} small-hide{% endif %}">
       <button
