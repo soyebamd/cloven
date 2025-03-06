@@ -3979,7 +3979,6 @@ textarea:focus {
   text-align: center !important;
   width: 100% !important;
   position: relative !important;
-  margin-bottom: 20px !important;
   opacity: 0.5 !important;
+  margin-top: -150px !important;
 }
-
