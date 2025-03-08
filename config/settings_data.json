@@ -521,7 +521,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".jdgm-histogram .jdgm-star {color: #f6d566;}"
+      ".jdgm-histogram .jdgm-star {color: #f6d566;}",
+      ".rating-star:before {background: linear-gradient( 90deg, rgb(254, 216, 63) var(--percent), rgba(var(--color-foreground), 0.15) var(--percent) ); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}"
     ]
   }
 }
