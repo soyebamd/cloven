@@ -425,14 +425,16 @@
         countrySelectorSearchCount: `{{ 'localization.country_results_count' | t: count: '[count]' }}`,
       };
 
+      // add defaul style to outer button
 var elements = document.querySelectorAll('.jdgm-write-rev-link');
 
+// Loop through all selected elements
 elements.forEach(function(element) {
+  // Replace the class 'jdgm-write-rev-link' with 'button button--primary'
+ 
   element.classList.add('button', 'button--primary');
-//  element.classList.remove('jdgm-write-rev-link');
-});
 
-
+ 
   
 });
 
