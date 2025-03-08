@@ -524,7 +524,7 @@
       ".jdgm-histogram .jdgm-star {color: #f6d566;}",
       ".rating-star:before {background: linear-gradient( 90deg, rgb(254, 216, 63) var(--percent), rgba(var(--color-foreground), 0.15) var(--percent) ); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}",
       ".jdgm-histogram__bar-content {border-radius: 20px !important;}",
-      "@media only screen and (min-width: 1305px) {.jdgm-histogram__bar {margin: 0 24px !important; width: 400px !important; }}",
+      "@media only screen and (min-width: 1305px) {.jdgm-histogram__bar {margin: 0 24px !important; width: 320px !important; }}",
       ".jdgm-histogram__bar,.jdgm-histogram__bar-content {height: 7px !important;}",
       ".jdgm-write-rev-link.button.button--primary {border-radius: 5px; width: auto; max-width: 150px !important; font-family: \"degular-variable\"; font-weight: 500; text-transform: uppercase; font-size: 1.2rem; letter-spacing: 0.1rem; line-height: calc(1 + 0.2 / var(--font-body-scale));}",
       ".jdgm-rev-widg__title {font-size: 45px !important; color: #333333 !important; margin-top: 80px !important; margin-bottom: 50px !important;}"
