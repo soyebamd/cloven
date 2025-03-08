@@ -128,7 +128,7 @@
         "text_QCxfKV": {
           "type": "text",
           "settings": {
-            "text": "<h3>Where?</h3><p>Cloven is perfect for any external area needing some moisture. Face, hands, feet, or as body lotion— we find ourselves reaching for Cloven Tallow Balm. </p><h3>How Much?</h3><p>A little goes a long way! Start small and add more as needed. We recommend a pea sized amount to start.</p><h3>How?</h3><p>Warm the tallow by rubbing it between your fingertips and apply. Depending on your moisture needs, a pea sized amount should be enough for an area about the size of your face or both your hands.</p>",
+            "text": "<h3>Where?</h3><p>Cloven is perfect for any external area needing some moisture. Face, hands, feet, or as body lotion— we find ourselves reaching for Cloven Tallow Balm. </p><h3>How Much?</h3><p>A little goes a long way! Start small and add more as needed. We recommend a pea sized amount to start. </p><h3>How?</h3><p>Warm the tallow by rubbing it between your fingertips and apply. Depending on your moisture needs, a pea sized amount should be enough for an area about the size of your face or both your hands.</p>",
             "text_style": "body"
           }
         },
@@ -428,6 +428,9 @@
       },
       "block_order": [
         "judge_me_reviews_review_widget_fR7JL6"
+      ],
+      "custom_css": [
+        ".jdgm-histogram .jdgm-star {color: #f6d566;}"
       ],
       "settings": {
         "include_margins": true
