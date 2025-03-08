@@ -431,8 +431,12 @@ var elements = document.querySelectorAll('.jdgm-write-rev-link');
 // Loop through all selected elements
 elements.forEach(function(element) {
   // Replace the class 'jdgm-write-rev-link' with 'button button--primary'
- // element.classList.remove('jdgm-write-rev-link');
+ 
   element.classList.add('button', 'button--primary');
+
+
+   element.classList.remove('jdgm-write-rev-link');
+  
 });
 
     </script>
