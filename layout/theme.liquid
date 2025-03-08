@@ -434,8 +434,13 @@ elements.forEach(function(element) {
  
   element.classList.add('button', 'button--primary');
 
+  const button = document.querySelectorAll('.button');
 
-   element.classList.remove('jdgm-write-rev-link');
+  button.foreach(function(rm){
+       rm.classList.remove('jdgm-write-rev-link');
+  })
+
+
   
 });
 
