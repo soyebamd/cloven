@@ -31,7 +31,7 @@
   }
 
   .banner--content-align-left .banner__box {
-    text-align: center;
+    text-align: left;
   }
 
   .banner--content-align-left.banner--desktop-transparent .banner__box,
