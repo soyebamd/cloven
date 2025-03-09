@@ -470,7 +470,8 @@
         ".multicolumn-card__info {padding-top: 10px !important; padding-bottom: 0 !important; line-height: 1; letter-spacing: 0.1px;}",
         "@media (min-width: 750px) {.multicolumn .button {margin-top: calc(8rem + 20px); }}",
         "@media (max-width: 749px) {.multicolumn .button {margin-top: 45px; }}",
-        "p {font-weight: 300; letter-spacing: 0.05rem; font-size: 13px; line-height: 15px;}"
+        "p {font-weight: 300; letter-spacing: 0.05rem; font-size: 13px; line-height: 15px;}",
+        ".multicolumn-list p {margin: -3px;}"
       ],
       "settings": {
         "video": "shopify://files/videos/ctb_web_nature_e2fb1944-a6fc-4ddb-8af9-6b5922f6f1e4.mp4",
