@@ -3987,3 +3987,10 @@ textarea:focus {
     #shopify-section-template--17770191126711__cloven_multicolumn_zCXUc7 {
         padding-top: 75px !important;
 }
+
+@media (min-width: 1024px) {
+    #shopify-section-template--17770191126711__cloven_multicolumn_w_feature_image_qKXwwG {
+        padding-top: 75px !important;
+}
+
+
