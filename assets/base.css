@@ -3982,3 +3982,8 @@ textarea:focus {
   opacity: 0.5 !important;
   margin-top: -120px !important;
 }
+
+@media (min-width: 1024px) {
+    #shopify-section-template--17770191126711__cloven_multicolumn_zCXUc7 {
+        padding-top: 75px !important;
+}
