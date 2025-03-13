@@ -239,7 +239,7 @@ product-info {
 }
 
 .product__text {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 a.product__text {
