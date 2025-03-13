@@ -35,17 +35,25 @@
 
 .rating-star::before {
   content: '★★★★★';
-  background: linear-gradient(90deg, gold var(--percent), rgba(255, 215, 0, 0.3) var(--percent));
-  background-size: 200% 100%;
-  background-position: 0% 50%;
+  background: linear-gradient(
+    90deg,
+    var(--color-rating-star) var(--percent),
+    rgba(var(--color-foreground), 0.15) var(--percent)
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: background-position 0.5s ease-in-out;
+}
+
+@keyframes sparkle {
+  0% { text-shadow: 0 0 5px gold; }
+  50% { text-shadow: 0 0 10px gold, 0 0 20px rgba(255, 215, 0, 0.5); }
+  100% { text-shadow: 0 0 5px gold; }
 }
 
 .rating-star:hover::before {
-  background-position: 100% 50%;
+  animation: sparkle 0.6s ease-in-out infinite;
 }
+
 
 .rating-text {
   display: none;
