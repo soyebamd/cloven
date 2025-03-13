@@ -44,6 +44,10 @@
   -webkit-text-fill-color: transparent;
 }
 
+.rating-star:hover::before {
+  text-shadow: 0px 0px 5px var(--color-rating-star);
+}
+
 .rating-text {
   display: none;
 }
