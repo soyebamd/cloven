@@ -3995,8 +3995,8 @@ textarea:focus {
         padding-top: 50px !important;
 }
 
-#ProductInfo-template--17770190799031__main > div.rating-wrapper {
-  padding-top: 50px !important;
+#ProductInfo-template--17770190799031__main > p.product__text.inline-richtext.small {
+  margin-bottom: 20px !important;
 }
   
 
