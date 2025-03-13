@@ -3999,5 +3999,9 @@ textarea:focus {
   margin-bottom: 20px !important;
 }
   
+@media (min-width: 768px) {
+  #ProductInfo-template--17770190799031__main > p.product__text.inline-richtext.small {
+  margin-bottom: 20px !important;
+}
 
 
