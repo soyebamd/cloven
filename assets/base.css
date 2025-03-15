@@ -3975,14 +3975,12 @@ textarea:focus {
   
 }
 
-/* Net Weight */
-
 #MediaGallery-template--17770190799031__main .net-weight {
   text-align: center !important;
   width: 100% !important;
   position: relative !important;
   opacity: 0.5 !important;
-  margin-bottom: 0px !important;
+  margin-top: -120px !important;
 }
 
 /* Section Padding Homepage */
