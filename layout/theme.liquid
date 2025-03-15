@@ -357,6 +357,13 @@
   }
 </style>
 
+    <style>
+  /* Target only the product page */
+  body.template-product #Slide-template--17770190799031__main-32049502879927 img {
+    content: url('https://cdn.shopify.com/s/files/1/0657/4922/1559/files/ctb_main_detail.jpg?v=1742073350') !important;
+  }
+</style>
+
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
@@ -448,17 +455,6 @@ elements.forEach(function(element) {
     {%- endif -%}
     
   {%- render "ecom_footer"-%}
-
-    <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    if (document.body.classList.contains("template-product")) {
-      let productImage = document.querySelector(".product__media-list img");
-      if (productImage) {
-        productImage.src = "https://cdn.shopify.com/s/files/1/0657/4922/1559/files/ctb_main_detail.jpg?v=1742073350";
-      }
-    }
-  });
-</script>
 
   </body>
 </html>
