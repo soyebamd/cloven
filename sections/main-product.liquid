@@ -479,6 +479,7 @@
               {%- when 'rating' -%}
                 {%- if product.metafields.reviews.rating.value != blank -%}
                   <div class="rating-wrapper">
+  <a href="#shopify-section-template--17770190799031__1736374350f920e1f1" class="rating-link"></a>
                     {% liquid
                       assign rating_decimal = 0
                       assign decimal = product.metafields.reviews.rating.value.rating | modulo: 1
