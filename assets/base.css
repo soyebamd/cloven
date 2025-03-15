@@ -3980,20 +3980,7 @@ textarea:focus {
   width: 100% !important;
   position: relative !important;
   opacity: 0.5 !important;
-  margin-bottom: 50px !important;
-}
-
-.net-weight-container {
-  width: 100%;  /* Make sure it takes full width */
-  display: flex;
-  justify-content: center; /* Center the text */
-  margin-top: 5px; /* Adjust spacing */
-}
-
-.net-weight {
-  text-align: center;
-  font-size: 14px;
-  font-weight: bold; /* Optional */
+  margin-bottom: 0px !important;
 }
 
 
