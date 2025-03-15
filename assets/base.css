@@ -3991,7 +3991,7 @@ textarea:focus {
         margin-bottom: 30px !important;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
     #shopify-section-template--17770191126711__cloven_multicolumn_w_feature_image_qKXwwG {
         margin-bottom: 200px !important;
 }
