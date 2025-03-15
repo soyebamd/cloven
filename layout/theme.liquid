@@ -357,12 +357,21 @@
   }
 </style>
 
-    <style>
-  /* Target only the product page */
-  body.template-product #Slide-template--17770190799031__main-32049502879927 img {
-    content: url('https://cdn.shopify.com/s/files/1/0657/4922/1559/files/ctb_main_detail.jpg?v=1742073350') !important;
-  }
-</style>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Check if we are on a product page
+    if (document.body.classList.contains("template-product")) {
+      // Select the main product image
+      var productImage = document.querySelector("#Slide-template--17770190799031__main-32049502879927 img");
+
+      // Change the image source if the element is found
+      if (productImage) {
+        productImage.src = "https://cdn.shopify.com/s/files/1/0657/4922/1559/files/ctb_main_detail.jpg?v=1742073350";
+        productImage.srcset = "https://cdn.shopify.com/s/files/1/0657/4922/1559/files/ctb_main_detail.jpg?v=1742073350";
+      }
+    }
+  });
+</script>
 
   </head>
 
