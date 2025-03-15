@@ -3986,32 +3986,3 @@ textarea:focus {
     #shopify-section-template--17770191126711__cloven_multicolumn_w_feature_image_qKXwwG {
         padding-top: 50px !important;
 }
-
-.rating-wrapper {
-  position: relative;
-  display: inline-block;
-}
-
-.rating-star {
-  cursor: pointer;
-}
-
-.rating-star::before {
-  content: '★★★★★';
-  background: linear-gradient(
-    90deg,
-    var(--color-rating-star) var(--percent),
-    rgba(var(--color-foreground), 0.15) var(--percent)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.rating-star-link {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 10; /* Ensures it's above everything */
-
