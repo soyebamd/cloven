@@ -1273,3 +1273,23 @@ p:nth-child(2) {
     }
 }
 
+/* Force Yellow Stars for Judge.me Preview Badge */
+#shopify-block-AUUVhR3ZOUlo2VW5zV__judge_me_reviews_preview_badge_yLnzgd .jdgm-preview-badge .jdgm-star {
+    color: yellow !important;
+    fill: yellow !important; /* Ensures SVG stars change */
+}
+
+/* Override Judge.me JavaScript Inline Styles */
+.jdgm-star svg {
+    fill: yellow !important;
+    stroke: yellow !important;
+}
+
+/* If the stars are text-based, enforce yellow */
+.jdgm-preview-badge .jdgm-star::before {
+    content: '★★★★★'; /* Ensure full stars */
+    background: linear-gradient(90deg, yellow 100%, yellow 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: yellow;
+}
+
