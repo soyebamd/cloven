@@ -449,25 +449,7 @@ elements.forEach(function(element) {
     
   {%- render "ecom_footer"-%}
 
- <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    function forceYellowStars() {
-      document.querySelectorAll(".jdgm-preview-badge .jdgm-star svg").forEach(star => {
-        star.style.setProperty("fill", "yellow", "important");
-        star.style.setProperty("stroke", "yellow", "important");
-        star.style.setProperty("color", "yellow", "important");
-      });
-    }
-
-    // Initial application after page loads
-    setTimeout(forceYellowStars, 500);
-
-    // Keep forcing it every time Judge.me modifies the DOM
-    const observer = new MutationObserver(forceYellowStars);
-    observer.observe(document.body, { childList: true, subtree: true });
-  });
-</script>
-   
+    
 
   </body>
 </html>
