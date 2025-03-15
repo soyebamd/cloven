@@ -449,7 +449,20 @@ elements.forEach(function(element) {
     
   {%- render "ecom_footer"-%}
 
-    
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(function () {
+      if (window.location.pathname === "/") {
+        let homepageProductImage = document.querySelector("div.grid__item.product__media-wrapper.mx-auto img");
+        if (homepageProductImage) {
+          homepageProductImage.src = "https://cdn.shopify.com/s/files/1/0657/4922/1559/files/ctb_main.jpg?v=1741202570";
+          homepageProductImage.srcset = "https://cdn.shopify.com/s/files/1/0657/4922/1559/files/ctb_main.jpg?v=1741202570";
+          homepageProductImage.alt = "Cloven Homepage Image";
+        }
+      }
+    }, 500); // Small delay in case image loads late
+  });
+</script>    
   </body>
 </html>
 
