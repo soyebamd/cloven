@@ -3980,6 +3980,7 @@ textarea:focus {
   width: 100% !important;
   position: relative !important;
   opacity: 0.5 !important;
+  margin-bottom: 50px !important;
 }
 
 /* Section Padding Homepage */
