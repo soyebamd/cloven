@@ -1544,9 +1544,3 @@ a.product__text {
     border: none;
   }
 }
-
-/* Target only product pages */
-.template-product .product__media-list img {
-    content: url('https://cdn.shopify.com/s/files/1/0657/4922/1559/files/ctb_main_detail.jpg?v=1742073350');
-}
-
