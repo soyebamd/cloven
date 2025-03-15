@@ -3983,6 +3983,21 @@ textarea:focus {
   margin-bottom: 0px !important;
 }
 
+.net-weight-wrapper {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  clear: both; /* Prevents it from being affected by image layout */
+}
+
+.net-weight {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+}
+
 @media screen and (max-width: 768px) {
   .net-weight-wrapper {
     display: block !important; /* Force it to appear on mobile */
