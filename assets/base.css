@@ -3983,6 +3983,14 @@ textarea:focus {
   margin-bottom: 0px !important;
 }
 
+@media screen and (max-width: 768px) {
+  .net-weight-wrapper {
+    display: block !important; /* Force it to appear on mobile */
+  }
+  .net-weight {
+    font-size: 12px; /* Adjust size if needed */
+    margin-top: 5px;
+  }
 
 /* Section Padding Homepage */
 
