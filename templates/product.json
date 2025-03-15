@@ -53,6 +53,14 @@
           "type": "description",
           "settings": {}
         },
+        "text_xH7fNp": {
+          "type": "text",
+          "settings": {
+            "text": "Net Wt. 1oz (28g)",
+            "text_size": "small",
+            "text_style": "body"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -90,6 +98,7 @@
         "text_Lp3YAD",
         "rating",
         "description",
+        "text_xH7fNp",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
