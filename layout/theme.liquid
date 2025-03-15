@@ -450,4 +450,18 @@ elements.forEach(function(element) {
   {%- render "ecom_footer"-%}</body>
 </html>
 
+document.addEventListener("DOMContentLoaded", function () {
+  // Check if we are on the homepage
+  if (window.location.pathname === "/") {
+    // Select the product image on the homepage
+    let homepageProductImage = document.querySelector("div.grid__item.product__media-wrapper.mx-auto img");
+
+    // If the element exists, change its source
+    if (homepageProductImage) {
+      homepageProductImage.src = "https://cdn.shopify.com/s/files/1/0657/4922/1559/files/Ingredients-WebComp-2_04ea3e48-dc9b-44f6-9efd-c5e5660b0ee9.jpg?v=1740607480";
+      homepageProductImage.srcset = "https://cdn.shopify.com/s/files/1/0657/4922/1559/files/Ingredients-WebComp-2_04ea3e48-dc9b-44f6-9efd-c5e5660b0ee9.jpg?v=1740607480";
+      homepageProductImage.alt = "Cloven Homepage Image"; // Optional: Change alt text
+    }
+  }
+});
 
