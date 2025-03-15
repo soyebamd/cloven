@@ -449,24 +449,7 @@ elements.forEach(function(element) {
     
   {%- render "ecom_footer"-%}
 
-    <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    function updateJudgeMeStars() {
-      document.querySelectorAll(".jdgm-preview-badge .jdgm-star svg").forEach(star => {
-        star.style.fill = "yellow";
-        star.style.stroke = "yellow";
-      });
-    }
-
-    // Run once after page loads
-    setTimeout(updateJudgeMeStars, 1500);
-
-    // Watch for DOM changes (Judge.me re-renders stars dynamically)
-    const observer = new MutationObserver(updateJudgeMeStars);
-    observer.observe(document.body, { childList: true, subtree: true });
-  });
-</script>
-
+    
 
   </body>
 </html>
