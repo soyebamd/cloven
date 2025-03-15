@@ -914,7 +914,7 @@
         "button_xDe7KR"
       ],
       "custom_css": [
-        "{@media (max-width: 768px) {margin-top: 0px !important; height: auto !important;}@media (min-width: 1024px) {margin-bottom: 80px; }"
+        "{@media (max-width: 768px) {margin-top: 0px !important; height: auto !important;}@media (min-width: 1024px) {margin-bottom: 130px; }"
       ],
       "settings": {
         "heading": "",
@@ -939,7 +939,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 16,
-        "padding_bottom": 24
+        "padding_bottom": 0
       }
     },
     "slideshow_mQKPy4": {
