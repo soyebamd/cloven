@@ -3975,6 +3975,8 @@ textarea:focus {
   
 }
 
+/* Net Weight */
+
 #MediaGallery-template--17770190799031__main .net-weight {
   text-align: center !important;
   width: 100% !important;
@@ -3995,5 +3997,34 @@ textarea:focus {
         padding-top: 50px !important;
 }
 
+.net-weight-wrapper {
+  display: block !important; 
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  clear: both;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: relative !important;
+  height: auto !important;
+}
+
+.net-weight {
+  font-size: 14px;
+  font-weight: bold;
+  display: block !important;
+  text-align: center;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Ensure it works on all screen sizes */
+@media screen and (max-width: 768px) {
+  .net-weight-wrapper {
+    display: block !important;
+    position: relative !important;
+    height: auto !important;
+  }
+}
 
 
