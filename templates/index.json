@@ -337,7 +337,7 @@
       ],
       "custom_css": [
         "@media (max-width: 749px) {#ImageWithText--template--17770191126711__cloven_image_with_text_r7xwFW {padding: 4rem 1rem; }}",
-        ".rte > *:first-child {font-family: \"Bookmania\", serif; font-size: 14px; font-weight: 300; letter-spacing: 1.1px; line-height: 1.5; opacity: 0.9;}"
+        ".rte > *:first-child {font-family: \"Bookmania\", serif; font-size: 13px; font-weight: 300; letter-spacing: 1.1px; line-height: 1.5; opacity: 0.9;}"
       ],
       "settings": {
         "video": "shopify://files/videos/ctb_regenerative_overlay.mp4",
