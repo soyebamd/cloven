@@ -198,7 +198,7 @@
             "heading": "",
             "heading_size": "h1",
             "heading_alignment": "center",
-            "heading_2": "Not sure if you're ready to purchase? <a href=\"/products/cloven-free-sample\" title=\"Tallow Balm Free Sample\">Click here to try</a> a sample of our Tallow Balm!",
+            "heading_2": "Not sure if you're ready to purchase? <a href=\"/products/cloven-free-sample\" title=\"Tallow Balm Free Sample\"><strong>Click here to try</strong></a> a sample of our Tallow Balm!",
             "heading_size_2": "h1",
             "heading_alignment_2": "center"
           }
@@ -208,7 +208,7 @@
         "heading_kt9hjp"
       ],
       "custom_css": [
-        "h2 {font-size: 24px; font-weight: 300; letter-spacing: .08rem;}"
+        "h2 {font-size: 24px; font-weight: 300; letter-spacing: 0.08rem;}"
       ],
       "name": "Try Sample",
       "settings": {
