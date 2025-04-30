@@ -1581,8 +1581,8 @@ a.product__text {
 /* Show $36 + smaller free shipping (faked with spacing and tone) */
 #price-template--17770190799031__main > div > div > div.price__regular > span.price-item.price-item--regular > span::after {
   content: "$36";
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 24px;
+  font-weight: 500;
   color: #000;
   display: inline;
   margin-right: 0.25rem;
