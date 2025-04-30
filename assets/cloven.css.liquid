@@ -1181,14 +1181,13 @@ p:nth-child(2) {
 
 /* mothers day sale price */
 
-/* Target ONLY the one-time purchase price */
-.sls-option-container.sls-active:has(label:contains("One-time purchase")) .sls-label-container span {
+/* Target the FIRST purchase option only */
+.sls-purchase-options-container .sls-option-container:first-of-type .sls-label-container span {
   font-size: 0 !important;
   position: relative;
 }
 
-/* Inject updated pricing for one-time only */
-.sls-option-container.sls-active:has(label:contains("One-time purchase")) .sls-label-container span::before {
+.sls-purchase-options-container .sls-option-container:first-of-type .sls-label-container span::before {
   content: "$45 ";
   text-decoration: line-through;
   color: #888;
@@ -1196,12 +1195,13 @@ p:nth-child(2) {
   margin-right: 0.3rem;
 }
 
-.sls-option-container.sls-active:has(label:contains("One-time purchase")) .sls-label-container span::after {
+.sls-purchase-options-container .sls-option-container:first-of-type .sls-label-container span::after {
   content: "$36 + free shipping";
   font-size: 13px;
   font-weight: 500;
   color: #000;
 }
+
 
 
 .sls-more-info-container {
