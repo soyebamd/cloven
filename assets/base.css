@@ -3990,12 +3990,13 @@ textarea:focus {
 #ProductInfo-template--17770191126711__clovent_feature_product_XTAJMh > p.product__text.price__regular.inline-richtext::before {
   content: "$45 ";
   text-decoration: line-through;
-  color: #888;
+  color: #888 !important;
   margin-right: 0.5rem;
   font-size: 0.9rem;
 }
 
 #ProductInfo-template--17770191126711__clovent_feature_product_XTAJMh > p.product__text.price__regular.inline-richtext {
-  font-weight: bold;
-  color: #000;
+  font-weight: bold !important;
+  color: #000 !important;
 }
+
