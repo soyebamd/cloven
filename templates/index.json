@@ -172,7 +172,7 @@
         ".button {margin-top: 20px;}",
         ".product__info-container > * + * {margin: 0.7rem 0;}"
       ],
-      "name": "Cloven feature product",
+      "name": "Cloven Featured Product",
       "settings": {
         "product": "tallow-face-balm",
         "flex_colum": true,
