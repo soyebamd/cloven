@@ -1181,12 +1181,11 @@ p:nth-child(2) {
 
 /* mothers day sale price */
 
-/* Hide original price visually but preserve space */
+/* Hide original price text safely while keeping layout intact */
 .sls-purchase-options-container .sls-option-container:first-of-type .sls-label-container span {
   color: transparent !important;
-  font-size: 1px !important; /* Keeps layout but hides text */
-  letter-spacing: -1px !important;
-  word-spacing: -2px !important;
+  font-size: 0 !important;   /* hide text */
+  line-height: 1.5 !important;  /* restore spacing */
 }
 
 /* Inject strikethrough $45 */
@@ -1199,14 +1198,16 @@ p:nth-child(2) {
   vertical-align: middle;
 }
 
-/* Inject $36 + free shipping inline */
+/* Inject correct price + free shipping */
 .sls-purchase-options-container .sls-option-container:first-of-type .sls-label-container span::after {
   content: "$36 + free shipping";
   font-size: 14px;
   font-weight: 500;
   color: #000;
   vertical-align: middle;
+  margin-left: 0.2rem;
 }
+
 
 .sls-more-info-container {
     display: none !important;
