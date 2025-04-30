@@ -208,7 +208,7 @@
         "heading_kt9hjp"
       ],
       "custom_css": [
-        "h2 {font-size: 24px; font-weight: 300; letter-spacing: 0.08rem;}"
+        "h2 {font-size: 20px; font-weight: 300; letter-spacing: 0.08rem;}"
       ],
       "name": "Try Sample",
       "settings": {
