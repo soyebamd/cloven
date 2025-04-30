@@ -1,0 +1,630 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "text_N3LbdC": {
+          "type": "text",
+          "settings": {
+            "text": "Our five ingredient tallow balm is luxurious skincare, simplified.",
+            "text_size": "large",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Crafted with powerful natural ingredients, this whipped balm soothes, hydrates, and awakens your complexion, infusing skin with vitamins and the ancestral power of tallow. Cloven goes beyond traditional balms with a multi-step refining process that creates an ultra-smooth, silky texture—lightweight and free from any beefy scent. Made without harmful chemicals, dyes, or synthetic fragrances, Cloven nourishes with a simple formula that repairs and enhances, drawing on the gifts of animal and earth to alight your natural glow.",
+            "text_size": "small",
+            "text_style": "body"
+          }
+        },
+        "text_Lp3YAD": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Ingredients: Regenerative Beef Tallow, Yucca Extract, Green Tea Extract, Calendula Extract, Neroli Extract. ",
+            "text_size": "small",
+            "text_style": "uppercase"
+          }
+        },
+        "judge_me_reviews_preview_badge_yLnzgd": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "rating": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "text_xH7fNp": {
+          "type": "text",
+          "settings": {
+            "text": "Net Wt. 1oz (28g)",
+            "text_size": "small",
+            "text_style": "body"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_N3LbdC",
+        "price",
+        "text",
+        "text_Lp3YAD",
+        "judge_me_reviews_preview_badge_yLnzgd",
+        "rating",
+        "description",
+        "text_xH7fNp",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "share"
+      ],
+      "custom_css": [
+        "#Slider-Thumbnails-template--17770190799031__main button {border-radius: 12px !important; overflow: hidden !important;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "hover",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 48,
+        "padding_bottom": 36
+      }
+    },
+    "cloven_image_with_text_76rApD": {
+      "type": "cloven-image-with-text",
+      "blocks": {
+        "heading_8HyAne": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em>Recommended </em>Use",
+            "heading_size": "h1"
+          }
+        },
+        "text_QCxfKV": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Where?</h3><p>Cloven is perfect for any external area needing some moisture. Face, hands, feet, or as body lotion— we find ourselves reaching for Cloven Tallow Balm. </p><h3>How Much?</h3><p>A little goes a long way! Start small and add more as needed. We recommend a pea sized amount to start.</p><h3>How?</h3><p>Warm the tallow by rubbing it between your fingertips and apply. Depending on your moisture needs, a pea sized amount should be enough for an area about the size of your face or both your hands.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_dbDdTd": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_8HyAne",
+        "text_QCxfKV",
+        "button_dbDdTd"
+      ],
+      "custom_css": [
+        "#ImageWithText--template--17770190799031__cloven_image_with_text_76rApD {max-width: 700px;}",
+        "#ImageWithText--template--17770190799031__cloven_image_with_text_76rApD em {font-family: \"bookmania\"; font-style: normal;}",
+        "#ImageWithText--template--17770190799031__cloven_image_with_text_76rApD > div {max-width: 300px;}"
+      ],
+      "settings": {
+        "video": "shopify://files/videos/ctb_web_howto_85b2af9d-ae89-41f1-ba3c-8fcf04db1ad5.mp4",
+        "video_url": "",
+        "enable_video_looping": true,
+        "autoplay": true,
+        "muted": true,
+        "image": "shopify://shop_images/girl.png",
+        "image_style": "small-wrapper",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "right",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
+        "color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 32,
+        "padding_bottom": 12
+      }
+    },
+    "rich_text_UVmpnH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KabFr7": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Power </strong><em><strong>in</strong></em><em> simplicity</em>",
+            "heading_size": "hxl",
+            "heading_alignment": "center",
+            "heading_2": "",
+            "heading_size_2": "h1",
+            "heading_alignment_2": "left"
+          }
+        },
+        "text_gV9eip": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KabFr7",
+        "text_gV9eip"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-e52ac7d6-3393-41bf-93f9-48f28b364730",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "cloven_single_column_BggCjA": {
+      "type": "cloven-single-column",
+      "blocks": {
+        "column_WEVcUU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/detail_frame_bovinefull.svg",
+            "title": "",
+            "title_size": "h3",
+            "text": "<p>Tallow’s fatty acids closely match our skin's natural sebum, making it highly compatible. Tallow supports skin health and elasticity and is a perfect carrier for vitamins in essential oils. Its anti-inflammatory properties soothe irritation and have been know to benefit conditions like eczema and psoriasis. Its non-comedogenic nature allows tallow to provide moisture without greasiness and absorbs deeply into our skin.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_WEVcUU"
+      ],
+      "custom_css": [],
+      "settings": {
+        "page_width_small": true,
+        "title": "REGENERATIVE TALLOW",
+        "heading_size": "h1",
+        "image_width": "thumbnail",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_dcnXFb": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_BfQETh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/detail_frame_calendula.svg",
+            "title": "Calendula",
+            "title_size": "h3",
+            "text": "<p>Calendula has been shown to increase blood circulation and heighten cell turnover, keeping skin smooth and vibrant. Due to its ability to increase oxygen and blood flow to the skin, calendula can speed the healing of redness, wounds, acne and other skin ailments. Calendula contains natural antifungal and antimicrobial properties, making this powerhouse flower more than just pretty petals.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FEkffB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/detail_frame_yucca.svg",
+            "title": "YUCCA ROOT",
+            "title_size": "h3",
+            "text": "<p>Yucca can help the skin retain moisture and its anti-inflammatory properties aid in soothing irritation. High amounts of vitamin C in Yucca  can aid in the production of collagen, our skin’s main protein. Studies have also found that Yucca contains natural photoprotective qualities and may be able to protect against sun damage. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fTaEKe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/detail_frame_greentea.svg",
+            "title": "GREEN TEA",
+            "title_size": "h3",
+            "text": "<p>Green Tea is filled with many beneficial compounds like vitamins A, E, and squalene. Squalene has been compared to hyaluronic acid for its hydrating properties. Green tea is also a  powerful moisturizer that can absorb into skin without causing acne or clogging pores. The antioxidants in green tea have been known to aid in prevention of premature aging and fine lines.<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fCxXjx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/detail_frame_neroli.svg",
+            "title": "NEROLI",
+            "title_size": "h3",
+            "text": "<p>Neroli Oil is rich in antioxidants and natural anti-inflammatory properties which help soothe redness and irritation. Neroli also supports healthy skin cell turnover, prompting a brighter complexion, and reducing the appearance of dark spots or scars. Its delicate floral aroma adds a luxurious sensory experience to any skincare routine</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_BfQETh",
+        "column_FEkffB",
+        "column_fTaEKe",
+        "column_fCxXjx"
+      ],
+      "custom_css": [
+        "h3 {font-size: 20px; letter-spacing: 1px; text-transform: uppercase;}",
+        ".multicolumn-list p {font-family: \"bookmania\"; font-size: 14px;}"
+      ],
+      "settings": {
+        "page_width_small": true,
+        "box_layout": false,
+        "title": "THE EXTRACTS",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-e52ac7d6-3393-41bf-93f9-48f28b364730",
+        "color_scheme_blocks": "scheme-983f992e-3be0-4ccc-9900-8ab3a4e228bb",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 80
+      }
+    },
+    "testimonials_ehW68w": {
+      "type": "testimonials",
+      "blocks": {
+        "slide_FtKaxc": {
+          "type": "slide",
+          "settings": {
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "<h4>The all-natural formula is wonderful. I LOVE smoothing the rich cream around my eyes and lips, nourishing my skin with pure goodness.</h4><p><strong>- Michelle</strong></p>",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-4fd4b036-74ea-40c3-9ab1-f214d54405e2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_cG3zVt": {
+          "type": "slide",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "<h4><strong>Obsessed with Cloven’s silky, fluffy formula. I love to use as a night cream, waking up with the most dewy, hydrated skin</strong></h4><p><strong>- Ellodee</strong></p>",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-4fd4b036-74ea-40c3-9ab1-f214d54405e2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_t8pKWn": {
+          "type": "slide",
+          "settings": {
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "<h4><strong>I love the way Cloven smells and feels so nice on my skin. Other tallow brands have felt heavy but not Cloven. New favorite!</strong></h4><p><em><strong>- Monica</strong></em></p>",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-4fd4b036-74ea-40c3-9ab1-f214d54405e2",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_FtKaxc",
+        "slide_cG3zVt",
+        "slide_t8pKWn"
+      ],
+      "custom_css": [
+        ".slider-button {display: none !important;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-4fd4b036-74ea-40c3-9ab1-f214d54405e2",
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "1736374350f920e1f1": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_fR7JL6": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_fR7JL6"
+      ],
+      "custom_css": [
+        ".jdgm-histogram .jdgm-star {color: #f6d566;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "collapsible_content_9nVpF3": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_BN8nKx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is tallow?",
+            "icon": "flower",
+            "row_content": "<p>Tallow was once the most widely used form of skincare. It's made by rendering fat from ruminant animals to its melting point - where it turns from solid fat to liquid oil. At this stage the melted trimmings are now called tallow, and can be made into soap, skincare items, or even used for cooking.<br/><br/>Our tallow balm is only ever made from regenerative ranch raised beef fat. We source a specific type of fat called suet that is only found around the organs. Suet is the purest, nutrient-dense source of fat; perfect for clean, high-quality skincare.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_kR36AE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are Regenerative Ranch Raised Cattle?",
+            "icon": "flower",
+            "row_content": "<p>Regenerative ranching at its core means leaving the land better than we found it - regenerating, not extracting its nutrients. It refers to the way cattle are raised in open pastures and how ranchers use holistic practices, creating the most natural environment to live and graze. Keeping animals in too small areas contributes to poor health - and destroys the land at the same time. With regenerative ranching, animal health and natural behavior are a top priority, simultaneously contributing to the ecosystem and biodiversity of the land they occupy.<br/><br/>While it takes a little more space and patience, this way of raising animals is better for them, for the land, and for the planet.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_QeJHRL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What can tallow do for your skin?",
+            "icon": "flower",
+            "row_content": "<p>Tallow's high vitamin and fatty acid content provide a multitude of skin-benefiting properties. It helps preserve and repair the skin's natural barrier while providing intense hydration and nourishment. Many people with skin allergies find tallow to be a better alternative due to its similarity to our own sebum and lack of chemicals and synthetic ingredients.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_iMkpp7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will tallow clog my pores?",
+            "icon": "flower",
+            "row_content": "<p>Tallow is generally thought to be non-comedogenic, meaning it is less likely to clog pores. Tallow's makeup is similar to the natural oils our skin produces - called sebum - making it incredibly compatible to our skin. All skin types are different, so it's always a good idea to test a small amount first and see how your skin reacts. Especially if you have sensitive or acne-prone skin.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ETmLzk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is Cloven Tallow Balm only for my face?",
+            "icon": "flower",
+            "row_content": "<p>While we designed Cloven as a replacement for our nighttime face cream, we use it all over and any time of day. It’s excellent for dry hands or feet, on knees, legs, arms and anywhere else that might beg for hydration. Its rich, nourishing properties make it a great all-over moisturizer for maintaining healthy, supple skin.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_mWRiUJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will I smell like beef?!",
+            "icon": "flower",
+            "row_content": "<p>Definitely not! A quality tallow product should never smell strongly of beef. However, as an animal fat it will naturally have some scent. With proper rendering and purification, the smell can be greatly minimized. Depending on a person's nose, some say plain tallow can smell buttery, like pie crust, or warm grass.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_HCptnh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What do I do if my tallow product melts?",
+            "icon": "flower",
+            "row_content": "<p>Since there are no stabilizers or thickeners in Cloven, it can change consistency if exposed to warmer temperatures. If your product melts, (we've all left things in the car) simply place it in the refrigerator and let it chill for a few hours. It will return to a solid state. While the consistency may shift to a harder, more salve-type product, its effectiveness and benefits will remain intact!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ApF9ke": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is tallow Vegan?",
+            "icon": "flower",
+            "row_content": "<p>No, tallow is not vegan. Our tallow is sourced from cattle regeneratively raised for human consumption. By utilizing tallow that might ordinarily be discarded we feel that Cloven contributes to sustainability and honors the ancestral mentality of \"nothing goes to waste.\"</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Pn7JLn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does tallow expire?",
+            "icon": "flower",
+            "row_content": "<p>Yes, tallow can expire. Although it has a relatively long shelf life due to its fatty acid content and natural preservatives, it can eventually go rancid. To ensure you get the most longevity from your Cloven, store in a cool, dark place like a drawer or medicine cabinet and always apply with clean hands. If it develops an off-smell or color change, it's best to discard it. With proper storage and handling Cloven can last up to 12 months... but we use ours much quicker!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ChjwVA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I store my tallow?",
+            "icon": "flower",
+            "row_content": "<p>Cloven can be stored like any other face cream at room temperature. If your bathroom is especially bright and sunny we recommend keeping it in a medicine cabinet or drawer.<br/><br/>For an added luxury you can store it in the fridge for a crisp, skin invigorating experience.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_BN8nKx",
+        "collapsible_row_kR36AE",
+        "collapsible_row_QeJHRL",
+        "collapsible_row_iMkpp7",
+        "collapsible_row_ETmLzk",
+        "collapsible_row_mWRiUJ",
+        "collapsible_row_HCptnh",
+        "collapsible_row_ApF9ke",
+        "collapsible_row_Pn7JLn",
+        "collapsible_row_ChjwVA"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQ",
+        "heading_size": "h0",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
+        "container_color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 60,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_kHCDBf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_66AagQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "We're Here To Help",
+            "heading_size": "h0",
+            "heading_alignment": "center",
+            "heading_2": "",
+            "heading_size_2": "hxl",
+            "heading_alignment_2": "left"
+          }
+        },
+        "text_rg4cHw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Feel free to ask us anything or share your thoughts with us.</p>",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_66AagQ",
+        "text_rg4cHw"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "contact_form_c8KjE3": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "heading_size": "h0",
+        "color_scheme": "scheme-928d13e6-cfe4-4fd8-8e14-6cb4955403a1",
+        "padding_top": 36,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cloven_image_with_text_76rApD",
+    "rich_text_UVmpnH",
+    "related-products",
+    "cloven_single_column_BggCjA",
+    "multicolumn_dcnXFb",
+    "testimonials_ehW68w",
+    "1736374350f920e1f1",
+    "collapsible_content_9nVpF3",
+    "rich_text_kHCDBf",
+    "contact_form_c8KjE3"
+  ]
+}
