@@ -1563,12 +1563,12 @@ a.product__text {
 
 /* Tallow Balm Mothers Day */
 
-/* Hide original price */
+/* Hide original $45 */
 #price-template--17770190799031__main > div > div > div.price__regular > span.price-item.price-item--regular > span {
   font-size: 0;
 }
 
-/* Add the $45 strikethrough */
+/* Strikethrough $45 */
 #price-template--17770190799031__main > div > div > div.price__regular > span.price-item.price-item--regular > span::before {
   content: "$45 ";
   text-decoration: line-through;
@@ -1577,23 +1577,13 @@ a.product__text {
   margin-right: 0.4rem;
 }
 
-/* Add $36 and free shipping separately */
+/* Show new price + free shipping */
 #price-template--17770190799031__main > div > div > div.price__regular > span.price-item.price-item--regular > span::after {
-  content: "$36";
-  font-size: 16px;
-  font-weight: bold;
+  content: "$36 + free shipping";
+  font-size: 14px; /* adjust as needed */
   color: #000;
-  margin-right: 0.4rem;
-  display: inline-block;
+  font-weight: bold;
+  display: inline;
 }
 
-#price-template--17770190799031__main::after {
-  content: "+ free shipping";
-  font-size: 13px;
-  color: #555;
-  margin-left: 0.25rem;
-  display: inline-block;
-  position: relative;
-  top: 1px;
-}
 
