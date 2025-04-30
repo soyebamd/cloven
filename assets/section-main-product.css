@@ -1608,7 +1608,7 @@ a.product__text {
 /* Inject replacement $36 price */
 #product-form-template--17770190799031__main > div.sealsubs-target-element.sealsubs-full > div > div > div.sls-purchase-options-container > div.sls-option-container.seal-table.sls-active > div > div.sls-label-container.seal-col > div > div > div > span::after {
   content: "$36";
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   color: #4d4d4d;
 }
