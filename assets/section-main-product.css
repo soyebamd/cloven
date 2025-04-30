@@ -1560,3 +1560,16 @@ a.product__text {
   font-size: 24px;
   padding-top: 4px;
 }
+
+#price-template--17770190799031__main > div > div > div.price__regular > span.price-item.price-item--regular > span::before {
+  content: "$36";
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Hide the original $45 */
+#price-template--17770190799031__main > div > div > div.price__regular > span.price-item.price-item--regular > span {
+  font-size: 0;
+}
+
