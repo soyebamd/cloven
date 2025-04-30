@@ -308,37 +308,15 @@
 
 <style>
   
-.price-item.price-item--regular {
-  color: #000;
-  font-weight: bold;
-  font-size: 16px;
-  position: relative;
-}
-
-/* Inject strikethrough $45 before */
-.price-item.price-item--regular::before {
-  content: "$45";
-  text-decoration: line-through;
-  color: #888;
-  margin-right: 0.5rem;
-  font-size: 13px;
-}
-
-/* Replace the visible $45 with $36 */
 .price-item.price-item--regular::after {
-  content: " $36 + free shipping";
-  color: black;
-  font-weight: normal;
-  font-size: 13px;
-  margin-left: 0.5rem;
+    content: ' + free shipping' !important;
+    color: black !important;
+    font-weight: normal !important; 
+    display: inline-flex !important;
+    font-size: 11px !important;
+    align-items: center !important;
+    letter-spacing: .1px !important; 
 }
-
-/* Hide the original $45 text */
-.price-item.price-item--regular {
-  font-size: 0px; /* hide original text */
-}
-
-
 </style>
 
 <style>
