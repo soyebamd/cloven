@@ -60,6 +60,7 @@
         },
         "text_xH7fNp": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Net Wt. 1oz (28g)",
             "text_size": "small",
