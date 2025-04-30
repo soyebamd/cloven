@@ -22,7 +22,6 @@
   display: inline-block;
   margin: 0 1rem 0 0;
   font-size: 24px;
-  padding-bottom: 4px; /* adjust as needed */
 }
 
 .price__regular .price-item--regular {
