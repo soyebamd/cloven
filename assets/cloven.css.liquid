@@ -1181,28 +1181,33 @@ p:nth-child(2) {
 
 /* mothers day sale price */
 
-/* Target the FIRST purchase option only */
+/* Instead of font-size: 0, we visually override the original text */
 .sls-purchase-options-container .sls-option-container:first-of-type .sls-label-container span {
-  font-size: 0 !important;
+  color: transparent !important;
   position: relative;
 }
 
+/* Show old price */
 .sls-purchase-options-container .sls-option-container:first-of-type .sls-label-container span::before {
   content: "$45 ";
   text-decoration: line-through;
   color: #888;
   font-size: 12px;
   margin-right: 0.3rem;
+  position: absolute;
+  left: 0;
 }
 
+/* Show new price */
 .sls-purchase-options-container .sls-option-container:first-of-type .sls-label-container span::after {
   content: "$36 + free shipping";
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
-  color: #6d6d6d;
+  color: #000;
+  margin-left: 3.5rem; /* adjust as needed to line up with strikethrough */
+  position: absolute;
+  left: 0;
 }
-
-
 
 .sls-more-info-container {
     display: none !important;
