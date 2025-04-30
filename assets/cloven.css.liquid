@@ -1181,9 +1181,20 @@ p:nth-child(2) {
 
 
 .sls-label-container span {
-    font-family: "Presti-Display", sans-serif !important;
-    font-weight: 500 !important; 
-    text-transform: uppercase !important; 
+  font-family: "Presti-Display", sans-serif !important;
+  font-weight: 500 !important; 
+  text-transform: uppercase !important; 
+
+  /* Price override below */
+  font-size: 0 !important; /* hides original $45 */
+  position: relative;
+}
+
+.sls-label-container span::before {
+  content: "$36 + free shipping";
+  font-size: 13px;
+  color: #000;
+  text-transform: none; /* remove uppercase from price */
 }
 
 .sls-more-info-container {
