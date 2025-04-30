@@ -3653,7 +3653,7 @@ body {
 .price__container {
   font-family: 'presti-display', sans-serif;
   font-size: 18px;
-  margin-top: 5px !important;
+ /* margin-top: 5px !important; */
   margin-bottom: 5px !important;
 }
 
