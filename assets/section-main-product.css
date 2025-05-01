@@ -255,6 +255,7 @@ a.product__text {
 .product__title {
   word-break: break-word;
   margin-bottom: 1.5rem;
+  line-height: 1.1; /* tighten the space between lines */
 }
 
 .product__title > * {
