@@ -17,7 +17,7 @@
         "announcement": {
           "type": "announcement",
           "settings": {
-            "text": "Not sure? Click here to try our tallow balm!",
+            "text": "Samples are available. Click to try our tallow balm!",
             "link": "shopify://products/cloven-sample"
           }
         }
