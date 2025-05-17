@@ -17,8 +17,8 @@
         "announcement": {
           "type": "announcement",
           "settings": {
-            "text": "Mother's Day Sale!  🌸 🩷 💐  Save 20% At Checkout!",
-            "link": ""
+            "text": "Not sure? Click here to try our tallow balm!",
+            "link": "shopify://products/cloven-sample"
           }
         }
       },
