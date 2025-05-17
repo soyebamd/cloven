@@ -1545,21 +1545,6 @@ a.product__text {
     border: none;
   }
 }
-/*
-#ProductInfo-template--17770191126711__clovent_feature_product_XTAJMh > p.product__text.price__regular.inline-richtext::before {
-  content: "$45 ";
-  text-decoration: line-through;
-  color: #888;
-  margin-right: 0.5rem;
-  font-size: 1.2rem;
-}
-
-#ProductInfo-template--17770191126711__clovent_feature_product_XTAJMh > p.product__text.price__regular.inline-richtext {
-  font-weight: 500;
-  color: #000;
-  font-size: 24px;
-  padding-top: 4px;
-}
 
 /* Tallow Balm Mothers Day */
 
